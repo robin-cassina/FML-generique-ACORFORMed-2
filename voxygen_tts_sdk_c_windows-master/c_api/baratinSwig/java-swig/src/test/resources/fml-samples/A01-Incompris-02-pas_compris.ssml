@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/10/synthesis http://www.w3.org/TR/speech-synthesis/synthesis.xsd http://www.w3.org/2005/01/pronunciation-lexicon http://www.w3.org/TR/pronunciation-lexicon/pls.xsd" xmlns:vox="http://www.voxygen.fr/tts" xml:lang="fr-FR">
+<mark name="tm1"/>
+				<voice name="Fabienne_fatigue">J'ai pas compris</voice>
+			<mark name="tm2"/>
+</speak>

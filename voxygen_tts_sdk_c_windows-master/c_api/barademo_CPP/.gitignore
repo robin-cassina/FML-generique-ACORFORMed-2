@@ -1,0 +1,4 @@
+# Ignore Visual Studio compilation element
+*.obj
+*.exp
+*.exe.manifest

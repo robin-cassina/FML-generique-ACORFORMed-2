@@ -1,0 +1,189 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+
+        <groupId>lpl.tts.voxygen</groupId>
+        <artifactId>baratin-swig</artifactId>
+        <packaging>jar</packaging>
+        <version>1.0-SNAPSHOT</version>
+        <name>baratin-swig</name>
+
+        <description>ACORFORMED Project</description>
+        <organization>
+                <name>Laboratoire Parole et Language, UMR 7309 CNRS - Aix-Marseille Université</name>
+                <url>http://www.lpl-aix.fr/</url>
+        </organization>
+        <!--url>TODO<-/url-->
+        <!--licenses>TODO<-/licenses-->
+        <inceptionYear>2017</inceptionYear>
+
+        <properties>
+		<!-- Set the source file encoding -->
+	       	<!-- see FAQ: https://maven.apache.org/general.html#encoding-warning -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- Set the SFL4j version -->
+		<!--slf4jVersion>1.5.8</slf4jVersion-->
+		<slf4jVersion>1.7.25</slf4jVersion>
+        </properties>
+
+        <dependencies>
+                <!-- Commons Lang: System utils -->
+                <dependency>
+                        <groupId>org.apache.commons</groupId>
+                        <artifactId>commons-lang3</artifactId>
+                        <version>3.5</version>
+                </dependency>
+                <dependency>
+                        <groupId>commons-io</groupId>
+                        <artifactId>commons-io</artifactId>
+                        <version>2.5</version>
+                </dependency>
+		<!-- Jackson 2 (<->JSON) -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.6.3</version>
+		</dependency>
+                <!-- SLF4J -->
+                <dependency>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-api</artifactId>
+                        <version>${slf4jVersion}</version>
+                </dependency>
+		<!-- SL4J binding at runtime -->
+		<!-- CHOOSE BETWEEN ONE OF THESE DIFFERENT BINDINGS -->
+		<!-- Binding for NOP, silently discarding all logging. -->
+		<!--dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-nop</artifactId>
+			<version>${slf4jVersion}</version>
+			<scope>runtime</scope>
+		</dependency-->
+		<!-- Binding for System.out -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>${slf4jVersion}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- Binding for Logback-classic -->
+		<!--dependency> 
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.0.13</version>
+			<scope>runtime</scope>
+		</dependency-->
+		<!--Binding for log4j version 1.2.x You also need to 
+				place log4j.jar on your class path. -->
+		<!--dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4jVersion}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+			<scope>runtime</scope>
+		</dependency-->
+		<!--Binding for commons JAVA.UTIL.LOGGING -->
+		<!--dependency> 
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>1.7.14</version>
+			<scope>runtime</scope>
+		</dependency-->
+		<!--Binding for commons logging over slf4j -->
+		<!--dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${slf4jVersion}</version>
+			<scope>runtime</scope>
+		</dependency-->
+
+                <!-- TEST : JUnit -->
+                <dependency>
+                        <groupId>junit</groupId>
+                        <artifactId>junit</artifactId>
+                        <version>4.12</version>
+                        <scope>test</scope>
+                </dependency>
+        </dependencies>
+        <build>
+                <plugins>
+			<!-- Default Compile options -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+                        <!-- Add source code in anther directory -->                        
+                        <plugin>
+                                <groupId>org.codehaus.mojo</groupId>
+                                <artifactId>build-helper-maven-plugin</artifactId>
+                                <version>3.0.0</version>
+                                <executions>
+                                        <execution>
+                                                <id>add-source</id>
+                                                <phase>generate-sources</phase>
+                                                <goals>
+                                                        <goal>add-source</goal>
+                                                </goals>
+                                                <configuration>
+                                                        <sources>
+                                                                <source>generated-src/main/java/</source>
+                                                        </sources>
+                                                </configuration>
+                                        </execution>
+                                </executions>
+                        </plugin>
+
+			<!-- JUnit tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.20</version>
+			</plugin>
+
+			<!-- Build a jar with full dependencies -->
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>build-VoxFMLToSpeech</id>
+						<configuration>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+							<!-- For an executable JAR defined mainClass -->
+							<archive>
+								<manifest>
+									<!--mainClass>lpl.tts.voxygen.VoxSSMLtoSpeech</mainClass-->
+									<mainClass>lpl.tts.fml.FMLSpeechDatas</mainClass>
+								</manifest>
+							</archive>
+							<finalName>VoxFMLToSpeech-${version}</finalName>
+							<appendAssemblyId>false</appendAssemblyId>
+							<!-- don't append jar-with-dependencies -->
+						</configuration>
+						<!-- this is used for inheritance merges -->
+						<phase>package</phase>
+						<!-- bind to the packaging phase -->
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+                </plugins>
+        </build>
+</project>

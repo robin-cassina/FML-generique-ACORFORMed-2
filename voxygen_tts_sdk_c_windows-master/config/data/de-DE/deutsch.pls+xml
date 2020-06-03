@@ -1,0 +1,1926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexicon version="1.0" xmlns="http://www.w3.org/2005/01/pronunciation-lexicon"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon
+                        http://www.w3.org/TR/pronunciation-lexicon/pls.xsd"
+    xmlns:vox="http://www.voxygen.fr/tts"
+    alphabet="ipa" xml:lang="de">
+<!-- expressions comportant au moins un mot dont la prononciation est propre à ce contexte -->
+<lexeme vox:opt="id" role="frites" vox:scope="internal">
+  <grapheme>Pommes</grapheme>
+  <phoneme>pˈɔm</phoneme>
+</lexeme>
+<lexeme vox:opt="id" role="frites" vox:scope="internal">
+  <grapheme>Frites</grapheme>
+  <phoneme>fʀˈɪt</phoneme>
+</lexeme>
+<lexeme role="frites" vox:opt="id">
+  <grapheme>Pommes Frites</grapheme>
+  <alias>Pommes Frites</alias>
+</lexeme> 
+<!-- apostrophes (sloppy solution, but it works) -->
+<lexeme>
+	<grapheme>'s</grapheme> 
+	<phoneme>s</phoneme>
+</lexeme>
+<!-- sigles et acronymes avec point qu'il faut toujours développer -->
+<lexeme>
+	<grapheme>a. Anfr.</grapheme>
+	<grapheme>a.Anfr.</grapheme> 
+	<alias>auf Anfrage</alias>
+</lexeme>
+<lexeme>
+	<grapheme>a. B.</grapheme>
+	<grapheme>a.B.</grapheme> 
+	<alias>am Bodensee</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>a. D.</grapheme>
+	<grapheme>a.D.</grapheme>
+	<alias>außer Dienst</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>A. D.</grapheme>
+	<grapheme>A.D.</grapheme>
+	<alias>anno domini</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>a. d. D.</grapheme>
+	<grapheme>a.d.D.</grapheme>
+	<alias>an der Donau</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>a. d. E.</grapheme>
+	<grapheme>a.d.E.</grapheme>
+	<alias>an der Elbe</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>A. d. Hrsg.</grapheme>
+	<grapheme>A.d.Hrsg.</grapheme>
+	<alias>Anmerkung des Herausgebers</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>a. d. L.</grapheme>
+	<grapheme>a.d.L.</grapheme>
+	<alias>an der Lahn</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>a. d. O.</grapheme>
+	<grapheme>a.d.O.</grapheme>
+	<alias>an der Oder</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>a. d. R.</grapheme>
+	<grapheme>a.d.R.</grapheme>
+	<alias>an der Ruhr</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>A. d. Ü.</grapheme>
+	<grapheme>A.d.Ü.</grapheme>
+	<alias>Anmerkung des Übersetzers</alias>
+</lexeme>
+<lexeme> 
+	<grapheme>a. gl. O.</grapheme>
+	<grapheme>a.gl.O.</grapheme>
+	<alias>am gleichen Ort</alias>
+</lexeme>
+<lexeme>
+	<grapheme>a. M.</grapheme>
+	<grapheme>a.M.</grapheme> 
+	<alias>am Main</alias>
+</lexeme>
+<lexeme>
+	<grapheme>a. N.</grapheme>
+	<grapheme>a.N.</grapheme> 
+	<alias>am Neckar</alias>
+</lexeme>
+<lexeme>
+	<grapheme>a. n. g.</grapheme>
+	<grapheme>a.n.g.</grapheme> 
+	<alias>anderweitig nicht genannt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>a. R.</grapheme>
+	<grapheme>a.R.</grapheme> 
+	<alias>am Rhein</alias>
+</lexeme>
+<lexeme>
+	<grapheme>A. T.</grapheme>
+	<grapheme>A.T.</grapheme> 
+	<alias>Altes Testament</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Abb.</grapheme> 
+	<alias>Abbildung</alias>
+</lexeme>
+<lexeme>
+	<grapheme>adj.</grapheme> 
+	<alias>adjektivisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Adj.</grapheme> 
+	<alias>Adjektif</alias>
+</lexeme>
+<lexeme>
+	<grapheme>adv.</grapheme> 
+	<alias>adverbial</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Adv.</grapheme> 
+	<alias>Adverb</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Afr.</grapheme> 
+	<alias>Afrika</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Ag.</grapheme> 
+	<alias>Agentur</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Aggr.</grapheme> 
+	<alias>Aggregat</alias>
+</lexeme>
+<lexeme>
+	<grapheme>amtl.</grapheme> 
+	<alias>amtlich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Amtsbl.</grapheme> 
+	<alias>Amtsblatt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>anerk.</grapheme> 
+	<alias>anerkannt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Anfr.</grapheme> 
+	<alias>Anfrage</alias>
+</lexeme>
+<lexeme>
+	<grapheme>angekl.</grapheme> 
+	<alias>angeklagt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Anl.</grapheme> 
+	<alias>Anlage</alias>
+</lexeme>
+<lexeme>
+	<grapheme>anl.</grapheme> 
+	<alias>anlässlich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>anon.</grapheme> 
+	<alias>anonym</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Anord.</grapheme> 
+	<alias>Anordnung</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Anp.</grapheme> 
+	<alias>Anpassung</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ANr.</grapheme> 
+	<alias>Aktennummer</alias>
+</lexeme>
+<lexeme>
+	<grapheme>AnschK.</grapheme> 
+	<grapheme>Ansch.K.</grapheme> 
+	<grapheme>Ansch.-K.</grapheme> 
+	<alias>Anschaffungskosten</alias>
+</lexeme>
+<lexeme>
+	<grapheme>anschl.</grapheme> 
+	<alias>anschließend</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Anschr.</grapheme> 
+	<alias>Anschrift</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Antw.</grapheme> 
+	<alias>Antwort</alias>
+</lexeme>
+<lexeme>
+	<grapheme>AnwL.</grapheme> 
+	<grapheme>Anw.L.</grapheme> 
+	<grapheme>Anw.-L.</grapheme> 
+	<alias>Anwesenheitsliste</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Apart.</grapheme> 
+	<alias>Apartment</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Apr.</grapheme> 
+	<alias>April</alias>
+</lexeme>
+<lexeme>
+	<grapheme>apr.</grapheme> 
+	<alias>apropos</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ArbG.</grapheme> 
+	<grapheme>Arbg.</grapheme> 
+	<alias>Arbeitgeber</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ArbN.</grapheme>
+	<grapheme>Arbn.</grapheme> 
+	<alias>Arbeitnehmer</alias>
+</lexeme>
+<lexeme>
+	<grapheme>arr.</grapheme>
+	<alias>arrangieren</alias>
+</lexeme>
+<lexeme>
+<!-- Ambiguous.
+	<grapheme>Art.</grapheme>
+-->
+	<grapheme>Artt.</grapheme>
+	<alias>Artikel</alias>
+</lexeme>
+<lexeme>
+	<grapheme>astron.</grapheme>
+	<alias>astronomisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>asym.</grapheme>
+	<alias>asymmetrisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>asymp.</grapheme>
+	<alias>asymptotisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Aufl.</grapheme>
+	<alias>Auflage</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Ausg.</grapheme>
+	<alias>Ausgabe</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ausschl.</grapheme>
+	<alias>ausschließlich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Az.</grapheme>
+	<alias>Aktenzeichen</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Änd.</grapheme>
+	<alias>Änderung</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ärztl.</grapheme>
+	<alias>ärztlich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>b. w.</grapheme>
+	<alias>bitte wenden</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Ba.</grapheme>
+	<alias>Bachelor</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Bd.</grapheme>
+	<alias>Band</alias>
+</lexeme>
+<lexeme>
+	<grapheme>beil.</grapheme>
+	<alias>beiliegend</alias>
+</lexeme>
+<lexeme>
+	<grapheme>bes.</grapheme>
+	<alias>besonders</alias>
+</lexeme>
+<lexeme>
+	<grapheme>BestNr.</grapheme>
+	<grapheme>Best.Nr.</grapheme>
+	<grapheme>Best.-Nr.</grapheme>
+	<alias>Bestellnummer</alias>
+</lexeme>
+<lexeme>
+	<grapheme>betr.</grapheme>
+	<alias>betreffend</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Betr.</grapheme>
+	<alias>Betreff</alias>
+</lexeme>
+<lexeme>
+	<grapheme>bez.</grapheme>
+	<alias>bezahlt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Bez.</grapheme>
+	<alias>Bezeichnung</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Bhf.</grapheme>
+	<alias>Bahnhof</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Bil.</grapheme>
+	<alias>Billion</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Bl.</grapheme>
+	<alias>Blatt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>brosch.</grapheme>
+	<alias>broschiert</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Bsp.</grapheme>
+	<alias>Beispiel</alias>
+</lexeme>
+<lexeme>
+	<grapheme>bspw.</grapheme>
+	<alias>beispielsweise</alias>
+</lexeme>
+<lexeme>
+	<grapheme>bzgl.</grapheme>
+	<alias>bezüglich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>bzw.</grapheme>
+	<alias>beziehungsweise</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ca.</grapheme>
+	<alias>circa</alias>
+</lexeme>
+<lexeme>
+	<grapheme>d.Ä.</grapheme>
+	<grapheme>d. Ä.</grapheme>
+	<alias>der Ältere</alias>
+</lexeme>
+<lexeme>
+	<grapheme>d.Gr.</grapheme>
+	<grapheme>d. Gr.</grapheme>
+	<alias>der Große</alias>
+</lexeme>
+<lexeme>
+	<grapheme>d.h.</grapheme>
+	<grapheme>d. h.</grapheme>
+	<alias>das heißt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>d.i.</grapheme>
+	<grapheme>d. i.</grapheme>
+	<alias>das ist</alias>
+</lexeme>
+<lexeme>
+	<grapheme>d.M.</grapheme>
+	<grapheme>d. M.</grapheme>
+	<alias>dieses Monats</alias>
+</lexeme>
+<lexeme>
+	<grapheme>d.O.</grapheme>
+	<grapheme>d. O.</grapheme>
+	<alias>der Obige</alias>
+</lexeme>
+<lexeme>
+	<grapheme>d.R.</grapheme>
+	<grapheme>d. R.</grapheme>
+	<alias>der Reserve</alias>
+</lexeme>
+<lexeme>
+	<grapheme>d.Vf.</grapheme>
+	<grapheme>d. Vf.</grapheme>
+	<alias>der Verfasser</alias>
+</lexeme>
+<lexeme>
+	<grapheme>DDr.</grapheme>
+	<alias>Doktor Doktor</alias>
+</lexeme>
+<lexeme>
+	<grapheme>desgl.</grapheme>
+	<alias>desgleichen</alias>
+</lexeme>
+<lexeme>
+	<grapheme>dgl.</grapheme>
+	<alias>dergleichen</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Dipl.</grapheme>
+	<alias>Diplom</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Dr.</grapheme>
+	<alias>Doktor</alias>
+</lexeme>
+<!-- Don't work because the alias has more words than the grapheme...
+<lexeme>
+	<grapheme>Dr.Ing.</grapheme>
+	<grapheme>Dr. Ing.</grapheme>
+	<grapheme>Dr.-Ing.</grapheme>
+	<alias>Doktor der Ingenieurswissenschaft</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Dr.jur.</grapheme>
+	<grapheme>Dr. jur.</grapheme>
+	<grapheme>Dr.-jur.</grapheme>
+	<alias>Doktor der Rechtswissenschaft</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Dr.med.</grapheme>
+	<grapheme>Dr. med.</grapheme>
+	<grapheme>Dr.-med.</grapheme>
+	<alias>Doktor der Medizin</alias>
+</lexeme> 
+-->
+<lexeme>
+	<grapheme>Dr.med.dent.</grapheme>
+	<grapheme>Dr. med. dent.</grapheme>
+	<grapheme>Dr.-med.-dent.</grapheme>
+	<alias>Doktor der Zahnheilkunde</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Dr.med.vet.</grapheme>
+	<grapheme>Dr. med. vet.</grapheme>
+	<grapheme>Dr.-med.-vet.</grapheme>
+	<alias>Doktor der Tierheilkunde</alias>
+</lexeme>
+<!-- Doesn't work because the alias has more words than the grapheme...
+<lexeme>
+	<grapheme>Dr.phil.</grapheme>
+	<grapheme>Dr. phil.</grapheme>
+	<grapheme>Dr.-phil.</grapheme>
+	<alias>Doktor der Philosophie</alias>
+</lexeme>
+-->
+<lexeme>
+	<grapheme>Dr.rer.nat.</grapheme>
+	<grapheme>Dr. rer. nat.</grapheme>
+	<grapheme>Dr.-rer.-nat.</grapheme>
+	<alias>Doktor der Naturwissenschaften</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Dr.rer.pol.</grapheme>
+	<grapheme>Dr. rer. pol.</grapheme>
+	<grapheme>Dr.-rer.-pol.</grapheme>
+	<alias>Doktor der Staatswissenschaften</alias>
+</lexeme>
+<!-- Doesn't work because the alias has more words than the grapheme...
+<lexeme>
+	<grapheme>Dr.theol.</grapheme>
+	<grapheme>Dr. theol.</grapheme>
+	<grapheme>Dr.-theol.</grapheme>
+	<alias>Doktor der Theologie</alias>
+</lexeme>
+-->
+<lexeme>
+	<grapheme>Dres.</grapheme>
+	<alias>Doktoren</alias>
+</lexeme>
+<lexeme>
+	<grapheme>dt.</grapheme>
+	<grapheme>dtsch.</grapheme>
+	<alias>deutsch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>dto.</grapheme>
+	<alias>dito</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Dtz.</grapheme>
+	<grapheme>Dtzd.</grapheme>
+	<alias>Dutzend</alias>
+</lexeme>
+<!-- Doesn't work because the alias has less words than the grapheme...
+
+<lexeme>
+	<grapheme>e.h.</grapheme>
+	<grapheme>e. h.</grapheme>
+	<alias>ehrenhalber</alias>
+</lexeme>
+-->
+<lexeme>
+	<grapheme>e.V.</grapheme>
+	<grapheme>e. V.</grapheme>
+	<phoneme>ʔˌeː fˈaʊ</phoneme>
+</lexeme>
+<lexeme>
+	<grapheme>ebd.</grapheme>
+	<alias>ebenda</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Ed.</grapheme>
+	<alias>Edition</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ehem.</grapheme>
+	<alias>ehemals</alias>
+</lexeme>
+<lexeme>
+	<grapheme>eig.</grapheme>
+	<grapheme>eigtl.</grapheme>
+	<alias>eigentlich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>einsch.</grapheme>
+	<alias>einschließlich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>entspr.</grapheme>
+	<alias>entsprechend</alias>
+</lexeme>
+<lexeme>
+	<grapheme>erg.</grapheme>
+	<alias>ergänze</alias>
+</lexeme>
+<lexeme>
+	<grapheme>et.al.</grapheme>
+	<grapheme>et. al.</grapheme>
+	<alias>et alia</alias>
+</lexeme>
+<lexeme>
+	<grapheme>etc.</grapheme>
+	<grapheme>etc.</grapheme>
+	<alias>et cetera</alias>
+</lexeme>
+<!-- Doesn't work because the alias has more words than the grapheme...
+<lexeme>
+	<grapheme>etc.pp.</grapheme>
+	<grapheme>etc. pp.</grapheme>
+	<alias>et cetera perge perge</alias>
+</lexeme>
+-->
+<lexeme>
+	<grapheme>ev.</grapheme>
+	<alias>evangelisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>evtl.</grapheme>
+	<alias>eventuell</alias>
+</lexeme>
+<lexeme>
+	<grapheme>exkl.</grapheme>
+	<alias>exklusive</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Expl.</grapheme>
+	<alias>Exemplar</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Exz.</grapheme>
+	<alias>Exzellenz</alias>
+</lexeme>
+<lexeme>
+	<grapheme>f.d.R.</grapheme>
+	<grapheme>f. d. R.</grapheme>
+	<alias>für die Richtigkeit</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ff.</grapheme>
+	<alias>folgende Folios</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Forts.</grapheme>
+	<alias>Fortsetzung</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Fr.</grapheme>
+	<alias>Frau</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Frhr.</grapheme>
+	<alias>Freiherr</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Frl.</grapheme>
+	<alias>Fräulein</alias>
+</lexeme>
+<lexeme>
+	<grapheme>frz.</grapheme>
+	<alias>französisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Gbf.</grapheme>
+	<alias>Güterbahnhof</alias>
+</lexeme>
+<lexeme>
+	<grapheme>geb.</grapheme>
+	<alias>geboren</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Gebr.</grapheme>
+	<alias>Gebrüder</alias>
+</lexeme>
+<lexeme>
+	<grapheme>gegr.</grapheme>
+	<alias>gegründet</alias>
+</lexeme>
+<lexeme>
+	<grapheme>geh.</grapheme>
+	<alias>geheftet</alias>
+</lexeme>
+<lexeme>
+	<grapheme>gek.</grapheme>
+	<alias>gekürzt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Ges.</grapheme>
+	<alias>Gesellschaft</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ges.gesch.</grapheme>
+	<grapheme>ges. gesch.</grapheme>
+	<alias>gesetzlich geschützt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>gesch.</grapheme>
+	<alias>geschieden</alias>
+</lexeme>
+<lexeme>
+	<grapheme>gest.</grapheme>
+	<alias>gestorben</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Gew.</grapheme>
+	<alias>Gewicht</alias>
+</lexeme>
+<lexeme>
+	<grapheme>gez.</grapheme>
+	<alias>gezeichnet</alias>
+</lexeme>
+<lexeme>
+	<grapheme>ggf.</grapheme>
+	<alias>gegebenenfalls</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Hbf.</grapheme>
+	<alias>Hauptbahnhof</alias>
+</lexeme>
+<lexeme>
+	<grapheme>hg.</grapheme>
+	<alias>herausgegeben</alias>
+</lexeme>
+<lexeme>
+	<grapheme>hL.</grapheme>
+	<alias>herrschende Lehre</alias>
+</lexeme>
+<lexeme>
+	<grapheme>hl.</grapheme>
+	<alias>heilig</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Hr.</grapheme>
+	<alias>Herr</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Hrn.</grapheme>
+	<alias>Herrn</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Hrsg.</grapheme>
+	<alias>Herausgeber</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Hs.</grapheme>
+	<alias>Handschrift</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.A.</grapheme>
+	<grapheme>i. A.</grapheme>
+	<alias>im Auftrag</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.d.R.</grapheme>
+	<grapheme>i. d. R.</grapheme>
+	<alias>in der Regel</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.e.</grapheme>
+	<grapheme>i. e.</grapheme>
+	<alias>id est</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.H.v.</grapheme>
+	<grapheme>i. H. v.</grapheme>
+	<alias>in Höhe von</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.J.</grapheme>
+	<grapheme>i. J.</grapheme>
+	<alias>im Jahre</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.S.</grapheme>
+	<grapheme>i. S.</grapheme>
+	<alias>im Sinne</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.V.</grapheme>
+	<grapheme>i. V.</grapheme>
+	<alias>in Vollmacht</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.W.</grapheme>
+	<grapheme>i. W.</grapheme>
+	<alias>in Worten</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.w.S.</grapheme>
+	<grapheme>i. w. S.</grapheme>
+	<alias>im weitesten Sinne</alias>
+</lexeme>
+<lexeme>
+	<grapheme>i.Z.m.</grapheme>
+	<grapheme>i. Z. m.</grapheme>
+	<alias>in Zusammenarbeit mit</alias>
+</lexeme>
+<lexeme>
+	<grapheme>id.</grapheme>
+	<alias>idem</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Ing.</grapheme>
+	<alias>Ingenieur</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Inh.</grapheme>
+	<alias>Inhaber</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Inkl.</grapheme>
+	<alias>Inklusive</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Jb.</grapheme>
+	<alias>Jahrbuch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Jg.</grapheme>
+	<alias>Jahrgang</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Jh.</grapheme>
+	<alias>Jahrhundert</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Jkr.</grapheme>
+	<alias>Junker</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Jr.</grapheme>
+	<grapheme>jr.</grapheme>
+	<alias>Junior</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Kap.</grapheme>
+	<alias>Kapitel</alias>
+</lexeme>
+<lexeme>
+	<grapheme>kart.</grapheme>
+	<alias>kartoniert</alias>
+</lexeme>
+<lexeme>
+	<grapheme>kath.</grapheme>
+	<alias>katholisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Kfm.</grapheme>
+	<alias>Kaufmann</alias>
+</lexeme>
+<lexeme>
+	<grapheme>kfm.</grapheme>
+	<alias>kaufmännisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>kgl.</grapheme>
+	<alias>königlich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Kl.</grapheme>
+	<alias>Klasse</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Komp.</grapheme>
+	<alias>Kompanie</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Kr.</grapheme>
+	<alias>Kreis</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Kto.</grapheme>
+	<alias>Konto</alias>
+</lexeme>
+<lexeme>
+	<grapheme>led.</grapheme>
+	<alias>ledig</alias>
+</lexeme>
+<lexeme>
+	<grapheme>lfd.</grapheme>
+	<alias>laufend</alias>
+</lexeme>
+<lexeme>
+	<grapheme>lfd.m.</grapheme>
+	<grapheme>lfd. m.</grapheme>
+	<alias>laufende Meter</alias>
+</lexeme>
+<lexeme>
+	<grapheme>lfd.Nr.</grapheme>
+	<grapheme>lfd. Nr.</grapheme>
+	<alias>laufende Nummer</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Lfg.</grapheme>
+	<grapheme>Lfrg.</grapheme>
+	<alias>Lieferung</alias>
+</lexeme>
+<lexeme>
+	<grapheme>lt.</grapheme>
+	<alias>laut</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Ltn.</grapheme>
+	<alias>Leutnant</alias>
+</lexeme>
+<lexeme>
+	<grapheme>luth.</grapheme>
+	<alias>lutherisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>m.A.n.</grapheme>
+	<grapheme>m. A. n.</grapheme>
+	<alias>meiner Ansicht nach</alias>
+</lexeme>
+<lexeme>
+	<grapheme>m.a.W.</grapheme>
+	<grapheme>m. a. W.</grapheme>
+	<alias>mit anderen Worten</alias>
+</lexeme>
+<lexeme>
+	<grapheme>m.E.</grapheme>
+	<grapheme>m. E.</grapheme>
+	<alias>meines Erachtens</alias>
+</lexeme>
+<lexeme>
+	<grapheme>m.W.</grapheme>
+	<grapheme>m. W.</grapheme>
+	<alias>meines Wissens</alias>
+</lexeme>
+<lexeme>
+	<grapheme>math.</grapheme>
+	<alias>mathematisch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>m.d.B.</grapheme>
+	<grapheme>m. d. B.</grapheme>
+	<alias>mit der Bitte</alias>
+</lexeme>
+<lexeme>
+	<grapheme>MdB</grapheme>
+	<grapheme>M.d.B.</grapheme>
+	<grapheme>M. d. B.</grapheme>
+	<alias>Mitglied des Bundestages</alias>
+</lexeme>
+<lexeme>
+	<grapheme>MdL</grapheme>
+	<grapheme>M.d.L.</grapheme>
+	<grapheme>M. d. L.</grapheme>
+	<alias>Mitglied des Landtages</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Min.</grapheme>
+	<alias>Minute</alias>
+</lexeme>
+<lexeme>
+	<grapheme>möbl.</grapheme>
+	<alias>möbliert</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Ms.</grapheme>
+	<grapheme>Mskr.</grapheme>
+	<alias>Manuskript</alias>
+</lexeme>
+<lexeme>
+	<grapheme>mtl.</grapheme>
+	<alias>monatlich</alias>
+</lexeme>
+<lexeme>
+	<grapheme>MwSt.</grapheme>
+	<alias>Mehrwertsteuer</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Mz.</grapheme>
+	<alias>Mehrzahl</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Nchf.</grapheme>
+	<grapheme>Nachf.</grapheme>
+	<alias>Nachfolger</alias>
+</lexeme>
+<lexeme>
+	<grapheme>n.Chr.</grapheme>
+	<grapheme>n. Chr.</grapheme>
+	<alias>nach Christus</alias>
+</lexeme>
+<lexeme>
+	<grapheme>n.J.</grapheme>
+	<grapheme>n. J.</grapheme>
+	<alias>nächsten Jahres</alias>
+</lexeme>
+<lexeme>
+	<grapheme>N.N.</grapheme>
+	<grapheme>N. N.</grapheme>
+	<alias>nomen nescio</alias>
+</lexeme>
+<lexeme>
+	<grapheme>nachm.</grapheme>
+	<alias>nachmittags</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Nds.</grapheme>
+	<alias>Niedersachsen</alias>
+</lexeme>
+<lexeme>
+	<grapheme>No.</grapheme>
+	<grapheme>Nr.</grapheme>
+	<alias>Nummer</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Nos.</grapheme>
+	<grapheme>Nrn.</grapheme>
+	<alias>Nummern</alias>
+</lexeme>
+<lexeme>
+	<grapheme>o.</grapheme>
+	<alias>oben</alias>
+</lexeme>
+<lexeme>
+	<grapheme>o.ä.</grapheme>
+	<grapheme>o. ä.</grapheme>
+	<alias>oder ähnliches</alias>
+</lexeme>
+<lexeme>
+	<grapheme>oBdA.</grapheme>
+	<grapheme>o.B.d.A.</grapheme>
+	<grapheme>o. B. d. A.</grapheme>
+	<alias>ohne Beschränkung der Allgemeinheit</alias>
+</lexeme>
+<lexeme>
+	<grapheme>o.J.</grapheme>
+	<grapheme>o. J.</grapheme>
+	<alias>ohne Jahr</alias>
+</lexeme>
+<lexeme>
+	<grapheme>o.P.</grapheme>
+	<grapheme>o. P.</grapheme>
+	<alias>ordentlicher Professor</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Obb.</grapheme>
+	<alias>Oberbayern</alias>
+</lexeme>
+<lexeme>
+	<grapheme>op.</grapheme>
+	<alias>Opus</alias>
+</lexeme>
+<lexeme>
+	<grapheme>p.A.</grapheme>
+	<grapheme>p. A.</grapheme>
+	<alias>per Adresse</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Pfd.</grapheme>
+	<alias>Pfund</alias>
+</lexeme>
+<lexeme>
+	<grapheme>pp.</grapheme>
+	<grapheme>ppa.</grapheme>
+	<alias>per procura</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Pfr.</grapheme>
+	<alias>Pfarrer</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Pkt.</grapheme>
+	<alias>Punkt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Prof.</grapheme>
+	<alias>Professor</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Prov.</grapheme>
+	<alias>Provinz</alias>
+</lexeme>
+<lexeme>
+	<grapheme>q.e.d.</grapheme>
+	<grapheme>q. e. d.</grapheme>
+	<alias>quod erat demonstrandum</alias>
+</lexeme>
+<lexeme>
+	<grapheme>r.k.</grapheme>
+	<grapheme>r. k.</grapheme>
+	<grapheme>r.-k.</grapheme>
+	<!-- Doesn't work
+	<grapheme>rk.</grapheme>
+	-->
+	<alias>römisch katholisch</alias>
+	<!-- Correct form, the above is a workaround
+	<alias>römisch-katholisch</alias>
+	-->
+</lexeme>
+<lexeme>
+	<grapheme>rd.</grapheme>
+	<alias>rund</alias>
+</lexeme>
+<!-- Doesn't work
+<lexeme>
+	<grapheme>Reg.Bez.</grapheme>
+	<grapheme>Reg. Bez.</grapheme>
+	<grapheme>Reg.-Bez.</grapheme>
+	<alias>Regierungsbezirk</alias>
+</lexeme>
+-->
+<lexeme>
+	<grapheme>Rel.</grapheme>
+	<alias>Religion</alias>
+</lexeme>
+<lexeme>
+	<grapheme>resp.</grapheme>
+	<alias>respektive</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Rhld.</grapheme>
+	<alias>Rheinland</alias>
+</lexeme>
+<lexeme>
+	<grapheme>s.a.</grapheme>
+	<grapheme>s. a.</grapheme>
+	<alias>siehe auch</alias>
+</lexeme>
+<lexeme>
+	<grapheme>s.d.</grapheme>
+	<grapheme>s. d.</grapheme>
+	<alias>siehe dies</alias>
+</lexeme>
+<lexeme>
+	<grapheme>s.o.</grapheme>
+	<grapheme>s. o.</grapheme>
+	<alias>siehe oben</alias>
+</lexeme>
+<lexeme>
+	<grapheme>s.u.</grapheme>
+	<grapheme>s. u.</grapheme>
+	<alias>siehe unten</alias>
+</lexeme>
+<!-- Doesn't work
+<lexeme>
+	<grapheme>s.Z.</grapheme>
+	<grapheme>s. Z.</grapheme>
+	<alias>seinerzeit</alias>
+</lexeme>
+-->
+<lexeme>
+	<grapheme>Sa.</grapheme>
+	<alias>Summe</alias>
+</lexeme>
+<lexeme>
+	<grapheme>sen.</grapheme>
+	<alias>senior</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Spk.</grapheme>
+	<alias>Sparkasse</alias>
+</lexeme>
+<lexeme>
+	<grapheme>sog.</grapheme>
+	<alias>sogenannt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>spec.</grapheme>
+	<alias>Species</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Skt.</grapheme>
+	<alias>Sankt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Std.</grapheme>
+	<alias>Stunde</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Str.</grapheme>
+	<alias>Straße</alias>
+</lexeme>
+<lexeme>
+	<grapheme>stud.</grapheme>
+	<alias>studiosus</alias>
+</lexeme>
+<lexeme>
+	<grapheme>s.v.w.</grapheme>
+	<grapheme>s. v. w.</grapheme>
+	<alias>so viel wie</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Tel.</grapheme>
+	<alias>Telefon</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Tsd.</grapheme>
+	<alias>Tausend</alias>
+</lexeme>
+<lexeme>
+	<grapheme>u. a.</grapheme>
+	<grapheme>u.a.</grapheme> 
+	<alias>unter anderem</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.a.m.</grapheme>
+	<grapheme>u. a. m.</grapheme> 
+	<alias>und anderes mehr</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.A.w.g.</grapheme> 
+	<grapheme>u. A. w. g.</grapheme> 
+	<alias>um Antwort wird gebeten</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.Ä.</grapheme> 
+	<grapheme>u. Ä.</grapheme> 
+	<alias>und Ähnliches</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.d.M.</grapheme> 
+	<grapheme>u. d. M.</grapheme> 
+	<alias>unter dem Meeresspiegel</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.dgl.</grapheme> 
+	<grapheme>u. dgl.</grapheme> 
+	<alias>und dergleichen</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.dgl.m.</grapheme> 
+	<grapheme>u. dgl. m.</grapheme> 
+	<alias>und dergleichen mehr</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.E.</grapheme> 
+	<grapheme>u. E.</grapheme> 
+	<alias>unseres Erachtens</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.U.</grapheme> 
+	<grapheme>u. U.</grapheme> 
+	<alias>unter Umständen</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.ü.V.</grapheme> 
+	<grapheme>u. ü. V.</grapheme> 
+	<alias>unter üblichem Vorbehalt</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.v.a.</grapheme> 
+	<grapheme>u. v. a.</grapheme> 
+	<alias>unter vielem anderen</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.v.m.</grapheme> 
+	<grapheme>u. v. m.</grapheme> 
+	<alias>und vieles mehr</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>u.W.</grapheme> 
+	<grapheme>u. W.</grapheme> 
+	<alias>unseres Wissens</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>ü.d.M.</grapheme> 
+	<grapheme>ü. d. M.</grapheme> 
+	<alias>über dem Meeresspiegel</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Univ.</grapheme> 
+	<alias>Universität</alias>
+</lexeme> 
+<!-- Doesn't work
+<lexeme>
+	<grapheme>Univ.Prof.</grapheme> 
+	<grapheme>Univ. Prof.</grapheme> 
+	<grapheme>Univ.-Prof.</grapheme> 
+	<alias>Universitätsprofessor</alias>
+</lexeme> 
+-->
+<lexeme>
+	<grapheme>urspr.</grapheme> 
+	<alias>ursprünglich</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>usf.</grapheme> 
+	<grapheme>u.s.f.</grapheme> 
+	<grapheme>u. s. f.</grapheme> 
+	<alias>und so fort</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>usw.</grapheme> 
+	<grapheme>u.s.w.</grapheme> 
+	<grapheme>u. s. w.</grapheme> 
+	<alias>und so weiter</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>v.</grapheme> 
+	<alias>von</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>v.a.</grapheme> 
+	<grapheme>v. a.</grapheme> 
+	<alias>vor allem</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>v.Chr.</grapheme> 
+	<grapheme>v. Chr.</grapheme> 
+	<alias>vor Christus</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>v.g.u.</grapheme> 
+	<grapheme>v. g. u.</grapheme>
+	<alias>vorgelesen, genehmigt, unterschrieben</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>v.H.</grapheme> 
+	<grapheme>v. H.</grapheme>
+	<alias>vom Hundert</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>v.J.</grapheme> 
+	<grapheme>v. J.</grapheme>
+	<alias>vorherigen Jahres</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>v.M.</grapheme> 
+	<grapheme>v. M.</grapheme>
+	<alias>vorherigen Monats</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>v.T.</grapheme> 
+	<grapheme>v. T.</grapheme>
+	<alias>vom Tausend</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Vf.</grapheme> 
+	<grapheme>Verf.</grapheme>
+	<alias>Verfasser</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>verh.</grapheme>
+	<alias>verheiratet</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Verl.</grapheme>
+	<alias>Verlag</alias>
+</lexeme> 
+<!-- Ambiguous (could be a sentence ending with the word "Vers")
+<lexeme>
+	<grapheme>Vers.</grapheme>
+	<alias>Versicherung</alias>
+</lexeme>
+--> 
+<lexeme>
+	<grapheme>vers.</grapheme>
+	<alias>versichert</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>verw.</grapheme>
+	<alias>verwitwet</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>vgl.</grapheme>
+	<alias>vergleiche</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>vorm.</grapheme>
+	<alias>vormittags</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Vors.</grapheme>
+	<alias>Vorsitzender</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>w.o.</grapheme>
+	<grapheme>w. o.</grapheme>
+	<alias>wie oben</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Wwe.</grapheme>
+	<alias>Witwe</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Wz.</grapheme>
+	<alias>Warenzeichen</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>z.B.</grapheme>
+	<grapheme>z. B.</grapheme> 
+	<alias>zum Beispiel</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>z.d.A.</grapheme>
+	<grapheme>z. d. A.</grapheme> 
+	<alias>zu den Akten</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>z.H.</grapheme>
+	<grapheme>z.Hd.</grapheme>
+	<grapheme>z. H.</grapheme>
+	<grapheme>z. Hd.</grapheme> 
+	<alias>zu Händen</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>z.K.</grapheme>
+	<grapheme>z.Kts.</grapheme>
+	<grapheme>z. K.</grapheme>
+	<grapheme>z. Kts.</grapheme> 
+	<alias>zu Kenntnis</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>z.S.</grapheme>
+	<grapheme>z. S.</grapheme> 
+	<alias>zur See</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>z.T.</grapheme>
+	<grapheme>z. T.</grapheme> 
+	<alias>zum Teil</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>zzt.</grapheme> 
+	<alias>zurzeit</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>z.Z.</grapheme> 
+	<grapheme>z.Zt.</grapheme> 
+	<grapheme>z. Z.</grapheme> 
+	<grapheme>z. Zt.</grapheme> 
+	<alias>zur Zeit</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Ztg.</grapheme> 
+	<alias>Zeitung</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Ztr.</grapheme> 
+	<alias>Zentner</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>Ztschr.</grapheme> 
+	<alias>Zeitschrift</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>zus.</grapheme> 
+	<alias>zusammen</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>zw.</grapheme> 
+	<alias>zwischen</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>zzgl.</grapheme> 
+	<alias>zuzüglich</alias>
+</lexeme> 
+<!--Sigles et Abréviations sans point qu'il faut toujours développer -->
+<lexeme>
+	<grapheme>AA</grapheme> 
+	<alias>Auswärtiges Amt</alias>
+</lexeme>
+<lexeme>
+	<grapheme>Abez</grapheme> 
+	<alias>Amtsbezirk</alias>
+</lexeme>
+<lexeme>
+	<grapheme>AE</grapheme> 
+	<alias>Astronomische Einheit</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>AfA</grapheme> 
+	<alias>Absetzung für Abnutzung</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>AFeB</grapheme> 
+	<alias>Amtliches Fernsprechbuch</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>AGBz</grapheme> 
+	<alias>Amtsgerichtsbezirk</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>AktZ</grapheme> 
+	<alias>Aktenzeichen</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>AnwK</grapheme> 
+	<alias>Anwaltskammer</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>AT</grapheme> 
+	<alias>Altes Testament</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>Bf</grapheme> 
+	<alias>Bahnhof</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>BGSt</grapheme> 
+	<alias>Bundesgeschäftsstelle</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>BLZ</grapheme> 
+	<alias>Bankleitzahl</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>BND</grapheme> 
+	<alias>Bundesnachrichtendienst</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>BR</grapheme> 
+	<alias>Bayerischer Rundfunk</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>BRD</grapheme> 
+	<alias>Bundesrepublik Deutschland</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>DAAD</grapheme> 
+	<alias>Deutscher Akademischer Austauschdienst</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>DANN</grapheme> 
+	<alias>Deutscher Normenausschuss</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>DB</grapheme> 
+	<alias>Deutsche Bundesbahn</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>DM</grapheme> 
+	<alias>Deutsche Mark</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>dpa</grapheme> 
+	<alias>Deutsche Presse-Agentur</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>EG</grapheme> 
+	<alias>Europäische Gemeinschaft</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>EURATOM</grapheme> 
+	<alias>Europäische Atomgemeinschaft</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>EZB</grapheme> 
+	<alias>Europäische Zentralbank</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>EZU</grapheme> 
+	<alias>Europäische Zahlungsunion</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>EZÜ</grapheme> 
+	<alias>Einzel-Zahlungs-Überweisung</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>FOS</grapheme> 
+	<alias>Fachoberschule</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>FU</grapheme> 
+	<alias>Freie Universität</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>GewO</grapheme> 
+	<alias>Gewerbeordnung</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>ha</grapheme> 
+	<alias>hektar</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>Hptm</grapheme> 
+	<alias>Hauptmann</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>HR</grapheme> 
+	<alias>Hessischer Rundfunk</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>HS</grapheme> 
+	<alias>Hochschule</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>HWK</grapheme> 
+	<alias>Handwerkskammer</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>IC</grapheme> 
+	<alias>Inter-City</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>ICE</grapheme> 
+	<alias>Inter-City-Express</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>IG</grapheme> 
+	<alias>Industriegewerkschaft</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>IHK</grapheme> 
+	<alias>Industrie- und Handelskammer</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>IOK</grapheme> 
+	<alias>Internationales Olympisches Komitee</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>IWF</grapheme> 
+	<alias>Internationaler Währungsfonds</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>JH</grapheme> 
+	<alias>Jugendherberge</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>Juso</grapheme> 
+	<alias>Jungsozialist</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>KP</grapheme> 
+	<alias>Kommunistische Partei</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>Krad</grapheme> 
+	<alias>Kraftrad</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>MAD</grapheme> 
+	<alias>Militärischer Abschirmdienst</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>MEZ</grapheme> 
+	<alias>Mitteleuropäische Zeit</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>mfg</grapheme> 
+	<grapheme>MfG</grapheme> 
+	<alias>mit freundlichen Grüßen</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>NO</grapheme> 
+	<alias>Nordosten</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>NW</grapheme> 
+	<alias>Nordwesten</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>OB</grapheme> 
+	<alias>Oberbürgermeister</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>ÖBB</grapheme> 
+	<alias>Österreichische Bundesbahnen</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>OEZ</grapheme> 
+	<alias>Osteuropäische Zeit</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>ÖPNV</grapheme> 
+	<alias>Öffentlicher Personennahverkehr</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>ORG</grapheme> 
+	<alias>Organisation</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>PD</grapheme> 
+	<alias>Privatdozent</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>Pf</grapheme> 
+	<alias>Pfennig</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>PGA</grapheme> 
+	<phoneme>pˌɔstʒˈiːʀoʔˌamt</phoneme>
+</lexeme>  
+<lexeme>
+	<grapheme>PSchA</grapheme> 
+	<phoneme>pˌɔstʃˈɛkʔˌamt</phoneme>
+</lexeme>  
+<lexeme>
+	<grapheme>PH</grapheme> 
+	<alias>Pädagogische Hochschule</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>rh</grapheme> 
+	<grapheme>Rh</grapheme> 
+	<alias>Rhesusfaktor</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>rh</grapheme> 
+	<grapheme>Rh</grapheme> 
+	<alias>Rhesusfaktor</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>SaZ</grapheme> 
+	<alias>Soldat auf Zeit</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>SBB</grapheme> 
+	<alias>Schweizerische Bundesbahnen</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>SW</grapheme> 
+	<alias>Südwesten</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>Tb</grapheme> 
+	<grapheme>Tbc</grapheme> 
+	<alias>Tuberkulose</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>TEE</grapheme>  
+	<alias>Trans-Europa-Express</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>TH</grapheme>  
+	<alias>Technische Hochschule</alias>
+</lexeme>  
+<lexeme>
+	<grapheme>TU</grapheme>  
+	<alias>Technische Universität</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>UA</grapheme>  
+	<alias>Überwachungsanordnung</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>ver.di</grapheme>  
+	<phoneme>vˈɛɐ̩diː</phoneme>
+</lexeme>  
+<lexeme>
+	<grapheme>vH</grapheme>  
+	<alias>vom Hundert</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>VVaG</grapheme>  
+	<alias>Versicherungsverein auf Gegenseitigkeit</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>WAP</grapheme>  
+	<phoneme>wˈɔp</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>WEZ</grapheme>  
+	<alias>Westeuropäische Zeit</alias>
+</lexeme> 
+<lexeme>
+	<grapheme>ZE</grapheme>  
+	<alias>zentrale Eröffnung</alias>
+</lexeme> 
+<!--Sigles et Abréviations qui comportent des voyelles mais doivent être épelés  -->
+<lexeme>
+	<grapheme>ABGB</grapheme> 
+	<phoneme>ʔˌaːbˌeːgˌeːbˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ADAC</grapheme> 
+	<phoneme>ʔˌaːdˌeːʔˌaːʦˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ADHGB</grapheme> 
+	<phoneme>ʔˌaːdˌeːhˌaːgˌeːbˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AEG</grapheme> 
+	<phoneme>ʔˌaːʔˌeːgˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AFB</grapheme> 
+	<phoneme>ʔˌaːʔˌɛfbˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AFG</grapheme> 
+	<phoneme>ʔˌaːʔˌɛfgˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AG</grapheme> 
+	<phoneme>ʔˌaːgˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AGB</grapheme> 
+	<phoneme>ʔˌaːgˌeːbˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AK</grapheme> 
+	<phoneme>ʔˌaːkˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AL</grapheme> 
+	<phoneme>ʔˌaːʔˈɛl</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AOK</grapheme> 
+	<phoneme>ʔˌaːʔˌoːkˈaː</phoneme>
+</lexeme>
+<lexeme>
+	<grapheme>APA</grapheme> 
+	<phoneme>ʔˌaːpˌeːʔˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AR</grapheme> 
+	<phoneme>ʔˌaːʔˈɛɐ̩</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ARD</grapheme> 
+	<phoneme>ʔˌaːʔˌɛɐ̩dˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ASV</grapheme> 
+	<phoneme>ʔˌaːʔˌɛsfˈaʊ</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ASVÖ</grapheme> 
+	<phoneme>ʔˌaːʔˌɛsfˌaʊʔˈøː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ATM</grapheme> 
+	<phoneme>ʔˌaːtˌeːʔˈɛm</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>AUA</grapheme> 
+	<phoneme>ʔˌaːʔˌuːʔˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>BAT</grapheme> 
+	<phoneme>bˌeːʔˌaːtˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>BDI</grapheme> 
+	<phoneme>bˌeːdˌeːʔˈiː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>CDU</grapheme> 
+	<phoneme>ʦˌeːdˌeːʔˈuː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>CPU</grapheme> 
+	<phoneme>ʦˌeːpˌeːʔˈuː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>CSU</grapheme> 
+	<phoneme>ʦˌeːʔˌɛsʔˈuː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>DACH</grapheme> 
+	<phoneme>dˌeːʔˌaːʦˌeːhˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>DAG</grapheme> 
+	<phoneme>dˌeːʔˌaːgˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>EDV</grapheme> 
+	<phoneme>ʔˌeːdˌeːfˈaʊ</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>eG</grapheme> 
+	<phoneme>ʔˌeːgˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>eGmbH</grapheme> 
+	<phoneme>ʔˌeːgˌeːʔˌɛmbˌeːhˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>EKD</grapheme> 
+	<phoneme>ʔˌeːkˌaːdˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>EKG</grapheme> 
+	<phoneme>ʔˌeːkˌaːgˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>EVG</grapheme> 
+	<phoneme>ʔˌeːfˌaʊgˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>EVU</grapheme> 
+	<phoneme>ʔˌeːfˌaʊʔˈuː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>FC</grapheme> 
+	<phoneme>ʔˌɛfʦˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>HLA</grapheme> 
+	<phoneme>hˌaːʔˌɛlʔˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>IAA</grapheme> 
+	<phoneme>ʔˌiːʔˌaːʔˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>MOQ</grapheme> 
+	<phoneme>ʔˌɛmʔˌoːkˈuː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>OAS</grapheme> 
+	<phoneme>ʔˌoːʔˌaːʔˈɛs</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>OHG</grapheme> 
+	<phoneme>ʔˌoːhˌaːgˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>OP</grapheme> 
+	<phoneme>ʔˌoːpˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ORF</grapheme> 
+	<phoneme>ʔˌoːʔˌɛɐ̩ʔˈɛf</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ÖTV</grapheme> 
+	<phoneme>ʔˌøːtˌeːfˈaʊ</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>StPO</grapheme> 
+	<phoneme>ʔˌɛstˌeːpˌeːʔˈoː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>StVO</grapheme> 
+	<phoneme>ʔˌɛstˌeːfˌaʊʔˈoː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>UKW</grapheme> 
+	<phoneme>ʔˌuːkˌaːvˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>USA</grapheme> 
+	<phoneme>ʔˌuːʔˌɛsʔˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>USV</grapheme> 
+	<phoneme>ʔˌuːʔˌɛsfˈaʊ</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>USW</grapheme> 
+	<phoneme>ʔˌuːʔˌɛsvˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>VDE</grapheme> 
+	<phoneme>fˌaʊdˌeːʔˈeː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>WMA</grapheme> 
+	<phoneme>vˌeːʔˌɛmʔˈaː</phoneme>
+</lexeme> 
+<lexeme>
+	<grapheme>ZPO</grapheme> 
+	<phoneme>ʦˌɛtpˌeːʔˈoː</phoneme>
+</lexeme> 
+<!--
+<lexeme vox:say-as="weekday">
+  <grapheme>0</grapheme>
+  <alias>Sonntag</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>1</grapheme>
+  <alias>Montag</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>2</grapheme>
+  <alias>Dienstag</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>3</grapheme>
+  <alias>Mittwoch</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>4</grapheme>
+  <alias>Donnerstag</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>5</grapheme>
+  <alias>Freitag</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>6</grapheme>
+  <alias>Samstag</alias>
+</lexeme>
+-->
+</lexicon>

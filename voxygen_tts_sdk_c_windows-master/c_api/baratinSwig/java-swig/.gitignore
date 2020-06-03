@@ -1,0 +1,8 @@
+# Maven target file
+/target/
+# Swig generated soyrce
+/generated-src/
+# Eclipse files (Java)
+/.project
+/.settings/
+/.classpath

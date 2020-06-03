@@ -1,0 +1,51 @@
+// PHONEMES de l'espagnol -*- coding: utf-8-unix -*-
+// Ordre des champs : phoneme type trait voisement viseme
+#       SI      LO      0	0
+
+A       VO      OR      1	1	// a
+E       VO      OR      1	4	// e
+I       VO      OR      1	6	// i
+O       VO      OR      1	3	// o
+U       VO      OR      1	7	// u
+AA      VO      OR      1	1	// aˈ
+EE      VO      OR      1	4	// eˈ
+II      VO      OR      1	6	// iˈ
+OO      VO      OR      1	3	// oˈ
+UU      VO      OR      1	7	// uˈ
+
+W       CO      SV      1	7	// w
+J       CO      SV      1	6	// j
+
+P       CO      PS      0	21	// p
+B       CO      PV      1	21	// b
+T       CO      PS      0	19	// t
+D       CO      PV      1	19	// d
+K       CO      PS      0	20	// k
+G       CO      PV      1	20	// ɡ
+F       CO      FS      0	18	// f
+Z       CO      FS      0	17	// θ
+S       CO      FS      0	15	// s
+Y       CO      FV      1	6	// ʝ
+X       CO      FS      0	20	// x
+CH      CO      FS      0	16	// ʃ
+M       CO      NA      1	21	// m
+N       CO      NA      1	19	// n
+NN      CO      NA      1	6	// ɲ
+L       CO      LI      1	14	// l
+LL      CO      LI      1	14	// ʎ
+R       CO      LI      1	19	// ɾ
+RR      CO      LI      1	13	// r
+
+
+//For the moment, I leave this apart because it is not clear 
+//(i) if they represent the phoneme or the allophone
+BB      CO      PV      1	21	// β We have changed this from FV to PV because there is no trait approximant defined and in phonsyl.cpp we need to check for them.
+DD      CO      PV      1	17	// ð --ditto--
+GG      CO      PV      1	20	// ɣ --ditto--
+V       CO      FV      1	18	// f̬ 
+ZZ      CO      FV      1	17	// θ̬
+SS      CO      FV      1	15	// s̬
+YY      CO      PV      1	6	// ʝ̬
+NG      CO      NA      1	20	// ŋ
+
+%       CO      GS      0	12	// ʔ

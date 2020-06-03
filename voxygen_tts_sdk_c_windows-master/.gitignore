@@ -1,0 +1,27 @@
+# Ignore (G)Vim temp files
+*~
+.*.sw[pq]
+
+# Ignore log, tmp, etc
+*.log
+*.tmp
+
+# Ignore DLL, EXE & Co. except original ones
+# (a) DLL/Lib
+*.dll
+*.lib
+# - baratinoo DLLs/Libs
+!bin/win*/libbaratinoo.dll
+!bin/win*/libbaratinoo.lib
+# (b) EXE
+*.exe
+# - licence id generator
+!bin/win*/lic_id.exe
+# - licences list
+!bin/win*/lic_list.exe
+# - MS Visual Studio 2015 C/C++ Redistribuable DLLs install
+!bin/win32/vcredist_x86_2015.exe
+!bin/win64/vcredist_x64_2015.exe
+# (d) WAV
+*.wav
+!config/data/fr-FR/*.wav

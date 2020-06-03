@@ -1,0 +1,56 @@
+// Censorship configuration file -*- coding: windows-1252-unix -*-
+
+CP1252		// character codepage
+
+// *lemma*		// matchs all words with specified lemma
+// "word"		// matchs the word with specified orthography only
+// "word" /i		// matchs words with specified case-insensitive orthography
+// "word" /d		// matchs words with specified diacritic-insensitive orthography
+// [PRONUNSIACH"EU"N]	// matchs all words with specified pronunciation
+
+// following words are not censored
+// GOOD
+
+// following words have their phonemes scrambled randomly
+SCRAMBLE
+*bagascia*
+*cagare*
+*cazzata*
+[kats":a'ta]
+*cazzo*
+[ka'ts":o]
+*coglione*
+*culo*
+[ku'li]
+[ku'lo]
+[di'o] [maja'le]
+[di'o] [pO'rko]
+[fanku'lo]
+"fica"
+"fiche"
+[fi'ka]
+[fi'ke]
+"figa"
+"fighe"
+"fregna"
+*incazzare*
+*incazzarsi*
+*puttana*
+[put:a'na]
+*merda*
+*merdata*
+*merdoso*
+*minchia*
+[mi'nkja]
+[mi'nkje]
+*minchione*
+[minkjo'ne]
+[pO'rka] [madO'n:a]
+[pO'rko] [di'o]
+[rompika'ts":o]
+"scassaminchia"
+*sfigato*
+[stika'ts":i]
+*stronzata*
+*stronzo*
+"vaffanculo"
