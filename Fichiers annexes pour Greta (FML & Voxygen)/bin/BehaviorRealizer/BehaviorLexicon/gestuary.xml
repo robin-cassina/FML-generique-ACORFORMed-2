@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gestuary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Common/Data/xml/gestuary.xsd">
+    <gesture category="deictic" id="Belly_Pos_B">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="-0.47582247853279114" z="0.13708457350730896"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="deictic" id="Belly_Pos_L">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="deictic" id="Belly_Pos_R">
+        <phase>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="-0.47582247853279114" z="0.13708457350730896"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="deictic" id="UnderRibs_Pos_B">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.960293710231781"
+                    x="0.0" y="0.27899110317230225" z="0.0"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.960293710231781"
+                    x="0.0" y="-0.27899110317230225" z="0.0"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="deictic" id="UnderRibs_Pos_L">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.960293710231781"
+                    x="0.0" y="0.27899110317230225" z="0.0"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XCC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="FORM_OPENAPART"/>
+                <wristOrientation global="false" w="0.9354440569877625"
+                    x="0.0" y="-0.35347485542297363" z="0.0"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="deictic" id="UnderRibs_Pos_R">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XCC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="FORM_OPENAPART"/>
+                <wristOrientation global="false" w="0.9354440569877625"
+                    x="0.0" y="0.35347485542297363" z="0.0"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.960293710231781"
+                    x="0.0" y="-0.27899110317230225" z="0.0"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="iconic" id="ThoraxIncision_Ges_B">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YCC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="FORM_POINT1"/>
+                <wristOrientation global="false" w="0.7822721600532532"
+                    x="0.08635935932397842" y="0.6067925095558167" z="-0.11133381724357605"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.9001823663711548"
+                    x="0.06437502801418304" y="-0.4064479470252991" z="0.14257489144802094"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="FORM_POINT1"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.9001823663711548"
+                    x="0.06437502801418304" y="-0.4064479470252991" z="0.14257489144802094"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="FORM_POINT1"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.9001823663711548"
+                    x="0.06437502801418304" y="-0.4064479470252991" z="0.14257489144802094"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YCC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="FORM_POINT1"/>
+                <wristOrientation global="false" w="0.7822721600532532"
+                    x="0.08635935932397842" y="0.6067925095558167" z="-0.11133381724357605"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.9001823663711548"
+                    x="0.06437502801418304" y="-0.4064479470252991" z="0.14257489144802094"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="metaphoric" id="PainOnBelly_Ges_B">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="-0.47582247853279114" z="0.13708457350730896"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XP"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XP"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="-0.47582247853279114" z="0.13708457350730896"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="-0.47582247853279114" z="0.13708457350730896"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="rest" id="OnBelly_Pos_B">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="-0.47582247853279114" z="0.13708457350730896"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="rest" id="OnBelly_Pos_L">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="0.47582247853279114" z="-0.13708457350730896"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="rest" id="OnBelly_Pos_R">
+        <phase>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="THUMB_DEFAULT"/>
+                <wristOrientation global="false" w="0.8655179142951965"
+                    x="0.07536287605762482" y="-0.47582247853279114" z="0.13708457350730896"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="rest" id="OnUmbilicus">
+        <phase>
+            <hand openness="0.5" side="LEFT">
+                <uniformPosition>
+                    <horizontalLocation fixed="true" value="0.20000000298023224"/>
+                    <verticalLocation fixed="true" value="-0.20000000298023224"/>
+                    <frontalLocation fixed="true" value="0.30000001192092896"/>
+                </uniformPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.8763066800438636"
+                    x="0.0" y="0.0" z="-0.4817536741017153"/>
+            </hand>
+            <hand openness="0.5" side="RIGHT">
+                <uniformPosition>
+                    <horizontalLocation fixed="true" value="0.20000000298023224"/>
+                    <verticalLocation fixed="true" value="-0.20000000298023224"/>
+                    <frontalLocation fixed="true" value="0.30000001192092896"/>
+                </uniformPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.9685831611286311"
+                    x="0.0" y="0.0" z="0.2486898871648548"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="rest" id="rest_Ges_B_Belly">
+        <phase>
+            <hand openness="2.1399999999999997" side="LEFT">
+                <uniformPosition>
+                    <horizontalLocation fixed="true" value="0.019999999552965164"/>
+                    <verticalLocation fixed="true" value="-0.14000000059604645"/>
+                    <frontalLocation fixed="true" value="0.4099999964237213"/>
+                </uniformPosition>
+                <handShape value="BEND_ANGLED"/>
+                <wristOrientation global="false" w="0.9969173073768616"
+                    x="0.0" y="0.0" z="-0.07845909893512726"/>
+            </hand>
+            <hand openness="1.8200000000000003" side="RIGHT">
+                <uniformPosition>
+                    <horizontalLocation fixed="true" value="0.03999999910593033"/>
+                    <verticalLocation fixed="true" value="-0.12999999523162842"/>
+                    <frontalLocation fixed="true" value="0.41999998688697815"/>
+                </uniformPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="1.0" x="0.0" y="0.0" z="0.0"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="2.1399999999999997" side="LEFT">
+                <uniformPosition>
+                    <horizontalLocation fixed="true" value="0.019999999552965164"/>
+                    <verticalLocation fixed="true" value="-0.14000000059604645"/>
+                    <frontalLocation fixed="true" value="0.4099999964237213"/>
+                </uniformPosition>
+                <handShape value="BEND_ANGLED"/>
+                <wristOrientation global="false" w="0.9969173073768616"
+                    x="0.0" y="0.0" z="-0.07845909893512726"/>
+            </hand>
+            <hand openness="1.8200000000000003" side="RIGHT">
+                <uniformPosition>
+                    <horizontalLocation fixed="true" value="0.03999999910593033"/>
+                    <verticalLocation fixed="true" value="-0.12999999523162842"/>
+                    <frontalLocation fixed="true" value="0.41999998688697815"/>
+                </uniformPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="1.0" x="0.0" y="0.0" z="0.0"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="rest" id="UnderRibs_Pos_B">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.960293710231781"
+                    x="0.0" y="0.27899110317230225" z="0.0"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.960293710231781"
+                    x="0.0" y="-0.27899110317230225" z="0.0"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="rest" id="UnderRibs_Pos_L">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.960293710231781"
+                    x="0.0" y="0.27899110317230225" z="0.0"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XCC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="FORM_OPENAPART"/>
+                <wristOrientation global="false" w="0.9354440569877625"
+                    x="0.0" y="-0.35347485542297363" z="0.0"/>
+            </hand>
+        </phase>
+    </gesture>
+    <gesture category="rest" id="UnderRibs_Pos_R">
+        <phase>
+            <hand openness="5.0" side="LEFT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XCC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="FORM_OPENAPART"/>
+                <wristOrientation global="false" w="0.9354440569877625"
+                    x="0.0" y="0.35347485542297363" z="0.0"/>
+            </hand>
+            <hand openness="5.0" side="RIGHT">
+                <symbolicPosition>
+                    <horizontalLocation fixed="false" value="XC"/>
+                    <verticalLocation fixed="false" value="YLowerC"/>
+                    <frontalLocation fixed="false" value="ZNear"/>
+                </symbolicPosition>
+                <handShape value="BEND_CURVED"/>
+                <wristOrientation global="false" w="0.960293710231781"
+                    x="0.0" y="-0.27899110317230225" z="0.0"/>
+            </hand>
+        </phase>
+    </gesture>
+</gestuary>

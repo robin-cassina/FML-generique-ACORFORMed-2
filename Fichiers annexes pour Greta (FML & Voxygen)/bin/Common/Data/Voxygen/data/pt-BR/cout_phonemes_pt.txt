@@ -1,0 +1,56 @@
+// Cout de concaténation des phonemes du portugais
+#  	1
+a  	10   
+@  	10      
+9  	10      
+e  	10      
+E  	10      
+i  	10
+I       10     
+o  	10    
+O  	10     
+u  	10    
+9n 	10     
+en 	10     
+in 	10     
+on 	10    
+un 	10     
+w  	5     
+j  	5     
+p  	1     
+b  	1     
+f  	1     
+v  	1     
+t 	1     
+d  	1     
+k  	1     
+g  	1     
+s  	1     
+z  	1    
+S  	1    
+G  	1     
+tS 	1
+dZ      1	
+m  	1     
+n  	1        
+J  	1        
+l 	5      
+L 	5      
+r 	5            
+X 	5 
+R       5     
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

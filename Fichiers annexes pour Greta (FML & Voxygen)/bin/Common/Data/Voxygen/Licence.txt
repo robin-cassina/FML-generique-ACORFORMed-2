@@ -1,0 +1,7 @@
+Le fichier de licence (ex: V8.1_2928.lic) est à placer dans le répertoire Common/Data/Voxygen, dans le même répertoire que le fichier baratinoo.cfg
+
+
+Expiration le 9 mars 2022.
+Voix autorisées : Fabienne_2.0 / Fabienne_fatigue_2.0 / Fabienne_tendu_2.0
+
+V8.1_2928.lic uniquement valble pour le pc de ROBIN

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				<voice emotion='calm'>C'est pas possible !</voice>
+			<tm id="tm2"/>
+				<voice emotion='sad'>Vous avez prévenu mon mari ?</voice>
+			<tm id="tm3"/>
+		</speech>
+	</bml>
+	<fml>
+		<emotion id="e1" type="sadness" start="s1:tm1" end="s1:tm3" importance="1.0"/>
+		<emotion id="e2" type="questioning" start="s1:tm1" end="s1:tm3" importance="1.0"/>
+		<emotion id="e3" type="despair" start="s1:tm3" end="s1:tm3+3" importance="1.0"/>
+	</fml>
+</fml-apml>

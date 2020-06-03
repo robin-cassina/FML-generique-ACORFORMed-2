@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Non docteur,
+			<tm id="tm2"/>
+				<voice emotion='calm'>J'ai</voice>
+			<tm id="tm3"/>
+				<voice emotion='calm'>J'ai toujours très mal.</voice>
+			<tm id="tm4"/>
+				Ici.
+			<tm id="tm5"/>
+		</speech>
+	</bml>
+	<fml>
+		<restpose id="rp1" type="under_table" start="s1:tm1" end="s1:tm2" importance="1.0"/>
+		<restpose id="rp2" type="under_ribs" start="s1:tm3" end="s1:tm5+1" importance="1.0"/>
+
+		<emotion id="e1" type="sadness" start="s1:tm1" end="s1:tm5" importance="1.0"/>
+		<emotion id="e2" type="despair" start="s1:tm5" end="s1:tm5+3" importance="1.0"/>
+	</fml>
+</fml-apml>

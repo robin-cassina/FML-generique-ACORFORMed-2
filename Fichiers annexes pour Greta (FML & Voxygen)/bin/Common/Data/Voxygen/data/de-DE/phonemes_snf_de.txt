@@ -1,0 +1,59 @@
+// PHONEMES de l'allemand -*- coding: utf-8-unix -*-
+// Ordre des champs : phoneme type trait voisement viseme
+#       SI      LO      0     0
+
+i.   VO OR 1 6	// dIenstag     :       iː [i]	voyelle longue quand accentuée, courte sinon
+I.   VO OR 1 6	// die mIlch    :       ɪ 	voyelle courte
+e.   VO OR 1 4	// derkaffEE    :       eː [e]	voyelle longue quand accentuée, courte sinon
+E.   VO OR 1 4	// Essen        :       ɛ 	voyelle courte
+ae   VO OR 1 4	// die nA"he    :       ɛː	voyelle longue
+y.   VO OR 1 7	// frU"h        :       yː [y] voyelle longue quand accentuée, courte sinon
+Y.   VO OR 1 7	// flU"stern    :       ʏ 	voyelle courte
+oe   VO OR 1 3	// hO"ren       :       øː [ø]	voyelle longue quand accentuée, courte sinon
+OE   VO OR 1 3	// die gO"tter  :       œ 	voyelle courte
+u.   VO OR 1 7	// der mUt      :       uː [u]	voyelle longue quand accentuée, courte sinon
+U.   VO OR 1 4	// die bUtter   :       ʊ 	voyelle courte
+o.   VO OR 1 3	// das Ohr      :       oː [o]	voyelle longue quand accentuée, courte sinon
+O.   VO OR 1 3	// dOrt         :       ɔ 	voyelle courte
+a.   VO OR 1 1	// nAch         :       aː	voyelle longue
+A.   VO OR 1 1	// die stAdt    :       a	voyelle courte
+@.   VO OR 1 1	// die ebEne    :       ə	voyelle schwa
+AI   VO OR 1 9	// glEIch       :       aɪ	diphtongue (+ ou - équivalent de A.j.)
+AU   VO OR 1 9	// das AUto     :       aʊ	diphtongue  (+ ou - équivalent de A.w.)
+OY   VO OR 1 10	// das fEUer    :       ɔʏ	diphtongue   (+ ou - équivalent de O.j.)
+an   VO NA 1 1	// ENgagieren   :       ã	voyelle nasale
+on   VO NA 1 3	// das chansON  :       ɔ̃	voyelle nasale
+en   VO NA 1 4	// das ParfUM   :       ɛ̃	voyelle nasale
+M.   CO CS 1 21	// keinEM       :       m̩	Consonne syllabique nasale (se trouve generalement en lieu et place de schwa + m)
+N.   CO CS 1 19	// wollEN       :       n̩	Consonne Syllabique nasale (se trouve generalement en lieu et place de schwa + n)
+R.   CO CS 1 2	// diesER       :       ɐ [ʀ̩]	Consonne Syllabique liquide (se trouve generalement en lieu et place de schwa + r)
+L.   CO CS 1 14	// der apfEL    :       l̩	Consonne Syllabique liquide (se trouve generalement en lieu et place de schwa + l)
+AR   CO SV 1 2	// das Ohr      :       ɐ̯	Équivalent non-syllabique de R. (correspond à une approximation de r. et se comporte comme une diphtongue avec la voyelle qui précède)
+p.   CO PS 0 21	// der Platz    :       p	occlusive labiale sourde
+b.   CO PV 1 21	// der Ball     :       b	occlusive labiale voisee
+m.   CO NA 1 21	// die laMpe    :       m	consonne nasale labiale
+t.   CO PS 0 19	// der Tisch    :       t	occlusive alveolaire sourde
+d.   CO PV 1 19	// Dann         :       d	occlusive alveolaire voisee
+n.   CO NA 1 19	// die sahNe    :       n	consonne nasale alveolaire
+k.   CO PS 0 20	// Kalt         :       k	occlusive palato-velaire sourde
+g.   CO PV 1 20	// der Gast     :       g [ɡ]	occlusive palato-velaire voisee
+ng   CO NA 1 20	// siNGen       :       ŋ	consonne nasale palato-velaire
+f.   CO FS 0 18	// der Feier    :       f	fricative labio-dentale sourde
+v.   CO FV 1 18	// der Wagen    :       v	fricative labio-dentale voisee
+s.   CO FS 0 15	// die laSt     :       s	fricative alveolaire sourde
+z.   CO FV 1 15	// der haSe     :       z	fricative alveolaire voisee
+sh   CO FS 0 16	// die Sta"rke  :       ʃ	fricative palatoalveolaire sourde
+jj   CO FV 1 16	// das Genie    :       ʒ	fricative palatoalveolaire voisee
+ch   CO FS 0 6	// die milCH    :       ç	fricative palatale sourde
+j.   CO SV 1 6	// das Jahr     :       j	semi-voyelle (également utilisé en lieu et place de i. non-syllabique)
+w.   CO SV 1 7	// die Soirée   :       w	semi-voyelle (également utilisé en lieu et place de U. et O. non-syllabique)
+X.   CO FS 0 20	// das daCH     :       χ [x]	frivative uvulaire ou velaire sourde (réalisation selon la voyelle qui précède, uvulaire en début de mot)
+h.   CO FS 0 12	// der Hut      :       h	fricative glottale sourde
+r.   CO LI 1 20	// die Ratte    :       ʀ [ʁ]	consonne liquide vibrante ou fricative uvulaire voisee. Allophones librement interchangeables.
+l.   CO LI 1 14	// die Laterne  :       l	consonne liquide laterale
+pf   CO FS 0 18	// die PFlicht  :       pf	affriquee labiodentale sourde
+ts   CO FS 0 15	// die Zahl     :       ʦ	affriquee alveolaire sourde
+%    CO GS 0 12	// :       ʔ	coup de glotte. Se trouve toujours devant une voyelle en debut de lemme
+^    EX N/A 0 0
+,    EX N/A 0 0
+7    PF N/A 0 8

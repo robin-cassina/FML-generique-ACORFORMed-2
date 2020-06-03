@@ -1,0 +1,57 @@
+// PHONEMES de l'anglais -*- coding: utf-8-unix -*-
+// Ordre des champs : phoneme type trait voisement viseme
+#	SI	LO	0	0
+@	VO	OR	1	1	// ə
+@@	VO	OR	1	5	// ɝ
+^	SI	HI	0	0
+a	VO	OR	1	1	// æ
+aa	VO	OR	1	2	// ɑr
+ai	VO	OR	1	11	// aɪ
+au	VO	OR	1	9	// aʊ
+b	CO	PV	1	21	// b
+ch	CO	FS	0	16	// ʧ
+d	CO	PV	1	19	// d
+d^	CO	PV	1	19	// ɾ
+dh	CO	FV	1	17	// ð
+e	VO	OR	1	4	// ɛ
+ei	VO	OR	1	4	// eɪ
+f	CO	FS	0	18	// f
+g	CO	PV	1	20	// ɡ
+h	CO	FS	0	12	// h
+i	VO	OR	1	6	// ɪ
+ii	VO	OR	1	6	// i
+jh	CO	FV	1	16	// ʤ
+k	CO	PS	0	20	// k
+l	CO	LI	1	14	// l
+l=	CO	CS	1	14	// l̩
+m	CO	NA	1	21	// m
+m=	CO	CS	1	21	// m̩
+n	CO	NA	1	19	// n
+n=	CO	CS	1	19	// n̩
+ng	CO	NA	1	20	// ŋ
+o	VO	OR	1	2	// ɑ
+oi	VO	OR	1	10	// ɔɪ
+oo	VO	OR	1	3	// ɔ
+ou	VO	OR	1	8	// əʊ
+p	CO	PS	0	21	// p
+r	CO	LI	1	13	// ɹ
+s	CO	FS	0	15	// s
+sh	CO	FS	0	16	// ʃ
+t	CO	PS	0	19	// t
+th	CO	FS	0	17	// θ
+u	VO	OR	1	4	// ʊ
+uh	VO	OR	1	1	// ʌ
+uu	VO	OR	1	7	// u
+v	CO	FV	1	18	// v
+w	CO	SV	1	7	// w
+y	CO	SV	1	6	// j
+z	CO	FV	1	15	// z
+zh	CO	FV	1	16	// ʒ
+%	CO	GS	0	12	// ʔ
+|	EX	N/A	0	0	// word boundary
++	EX	N/A	0	0	// free-morpheme boundary
+.	EX	N/A	0	0	// syllable boundary
+*	EX	N/A	0	0	// primary lexical stress
+~	EX	N/A	0	0	// secondary lexical stress
+-	EX	N/A	0	0	// 'tertiary' lexical stress
+7	PF	N/A	0	8

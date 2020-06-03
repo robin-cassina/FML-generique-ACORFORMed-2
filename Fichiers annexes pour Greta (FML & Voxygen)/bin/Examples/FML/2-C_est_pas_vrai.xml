@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				<voice emotion='calm'>C'est pas vrai ?</voice>
+			<tm id="tm2"/>
+				Comment ça, un petit trou ?
+			<tm id="tm3"/>
+				C'est pas possible !
+			<tm id="tm4"/>
+				<voice emotion='calm'>Comment ça peut arriver ?</voice>
+			<tm id="tm5"/>
+		</speech>
+	</bml>
+	<fml>
+		<restpose id="rp1" type="along" start="s1:tm1" end="s1:tm2" importance="1.0"/>
+
+		<emotion id="e1" type="worried" start="s1:tm1" end="s1:tm5+3" importance="1.0"/>
+		<emotion id="e2" type="questioning" start="s1:tm2" end="s1:tm3" importance="1.0"/>
+		<emotion id="e3" type="questioning" start="s1:tm4" end="s1:tm5" importance="1.0"/>
+		
+		<backchannel id="bc1" type="refusal" start="s1:tm3" end="s1:tm5" importance="1.0"/>
+	</fml>
+</fml-apml>

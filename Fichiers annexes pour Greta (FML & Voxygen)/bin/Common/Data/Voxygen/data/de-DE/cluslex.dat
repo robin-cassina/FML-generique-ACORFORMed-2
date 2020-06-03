@@ -1,0 +1,991 @@
+# $Id: cluslex.dat 22202 2013-12-04 10:48:45Z sean.kuhnberger $ -*- coding: cp1252-unix -*-
+
+# Consonant and vowel cluster lexcion for analysis of unknown stems
+# =================================================================
+
+# the clusters contain the archi-phonemes C.", CH" and HH"
+# which are later-on converted to k."/ts" and ch"/X." and
+# to vowels including glottal stops by the segmental phonetic 
+# two-level rules 
+
+
+#####################################
+# Clusters for German stem analysis #
+#####################################
+
+# uses archi-phonemes CH" and HH" which are converted to ch"/X." 
+# and vowels including glottal stops by phonetic two-level rules
+
+# gicc: German initial consonant clusters
+gicc % -HH" 5
+gicc b -b."
+gicc bl -b."l."
+gicc br -b."r."
+gicc ch -k."
+gicc d -d."
+gicc dr -d."r."
+gicc f -f."
+gicc fl -f."l."
+gicc fr -f."r."
+gicc g -g."
+gicc gl -g."l."
+gicc gn -g."n."
+gicc gr -g."r."
+gicc h -h."
+gicc j -j."
+gicc k -k."
+gicc kl -k."l."
+gicc kn -k."n."
+gicc kr -k."r."
+gicc l -l."
+gicc m -m."
+gicc n -n."
+gicc p -p."
+gicc pf -pf"
+gicc pfl -pf"l."
+gicc pfr -pf"r."
+gicc pl -p."l."
+gicc pr -p."r."
+gicc qu -k."v."
+gicc r -r."
+gicc s -z."
+gicc sch -sh"
+gicc schl -sh"l."
+gicc schm -sh"m."
+gicc schn -sh"n."
+gicc schr -sh"r."
+gicc schw -sh"v."
+gicc sp -sh"p."
+gicc spl -sh"p."l."
+gicc spr -sh"p."r."
+gicc st -sh"t."
+gicc str -sh"t."r."
+gicc t -t."
+gicc tr -t."r."
+gicc v -f."
+gicc w -v."
+gicc x -k."s."
+gicc z -ts"
+gicc zw -ts"v."
+
+# gnucl: German stressed nuclei, long variant 
+gnucl ä ^ae"
+gnucl ö ^oe"
+gnucl ü ^y."
+gnucl a ^a."
+gnucl e ^e."
+gnucl i ^i."
+gnucl o ^o."
+gnucl u ^u."
+
+# gnucs: German stressed nuclei, short variant
+gnucs ä ^E."
+gnucs ö ^OE"
+gnucs ü ^Y."
+gnucs a ^A."
+gnucs e ^E."
+gnucs i ^I."
+gnucs o ^O."
+gnucs u ^U."
+
+# gnuc: German stressed nuclei with only one possible pronunciation 
+gnuc äh ^ae"
+gnuc äu ^OY"
+gnuc öh ^oe"
+gnuc üh ^y."
+gnuc aa ^a."
+gnuc ah ^a."
+gnuc ai ^AI"
+gnuc au ^AU"
+gnuc ay ^AI"
+gnuc ee ^e."
+gnuc eh ^e."
+gnuc ei ^AI"
+gnuc eu ^OY"
+gnuc ey ^AI"
+gnuc ie ^i."
+gnuc ieh ^i."
+gnuc ih ^i."
+gnuc oh ^o."
+gnuc oo ^o."
+gnuc uh ^u."
+
+
+# gspec: special German nucleus/final consonant clusters
+gspec achs ^A."k."s."+
+gspec erd ^E."AR"d."+
+gspec ert ^E."AR"t."+
+gspec ochs ^O."k."s."+
+gspec uchs ^U."k."s."+
+
+
+# gfccl: German final consonant clusters following a long nucleus
+gfccl ß s."+
+gfccl b b."+
+gfccl d d."+
+gfccl f f."+
+gfccl g g."+
+gfccl k k."+
+gfccl l l."+
+gfccl m m."+
+gfccl n n."+
+gfccl p p."+
+gfccl pst p."s."t."+
+gfccl r AR"+
+gfccl s z."+
+gfccl t t."+
+gfccl ts t."s."+
+gfccl z ts"+
+
+# gfccs: German final consonant clusters following a short nucleus
+gfccs bb b."+
+gfccs bt p."t."+
+gfccs ch CH"+
+gfccs cht CH"t."+
+gfccs chz CH"ts"+
+gfccs ck k."+
+gfccs ckt k."t."+
+gfccs dd d."+
+gfccs dt t."+
+gfccs ff f."+
+gfccs ft f."t."+
+gfccs fz f."ts"+
+gfccs gd k."d."+
+gfccs gg g."+
+gfccs kt k."t."+
+gfccs lb l."b."+
+gfccs lch l."ch"+
+gfccs ld l."d."+
+gfccs lf l."f."+
+gfccs lft l."f."t."+
+gfccs lg l."g."+
+gfccs lk l."k."+
+gfccs ll l."+
+gfccs lm l."m."+
+gfccs lp l."p."+
+gfccs ls l."z."+
+gfccs lsch l."sh"+
+gfccs lst l."s."t."+
+gfccs lt l."t."+
+gfccs lz l."ts"+
+gfccs mb m."b."+
+gfccs md m."d."+
+gfccs mm m."+
+gfccs mp m."p."+
+gfccs mpf m."pf"+
+gfccs mps m."p."s."+
+gfccs ms m."z."+
+gfccs msch m."sh"+
+gfccs mt m."t."+
+gfccs nch n."ch"+
+gfccs nd n."d."+
+gfccs ndt n."t."+
+gfccs nf n."f."+
+gfccs nft n."f."t."+
+gfccs ng ng"+
+gfccs ngst ng"s."t."+
+gfccs nk ng"k."+
+gfccs nkt ng"k."t."+
+gfccs nn n."+
+gfccs nnt n."t."+
+gfccs ns n."z."+
+gfccs nsch n."sh"+
+gfccs nst n."s."t."+
+gfccs nt n."t."+
+gfccs nz n."ts"+
+gfccs pf pf"+
+gfccs pp p."+
+gfccs ps p."s."+
+gfccs rb AR"b."+
+gfccs rch AR"ch"+
+gfccs rd AR"d."+
+gfccs rf AR"f."+
+gfccs rg AR"g."+
+gfccs rk AR"k."+
+gfccs rl AR"l."+
+gfccs rm AR"m."+
+gfccs rn AR"n."+
+gfccs rr r."+
+gfccs rs AR"z."+
+gfccs rsch AR"sh"+
+gfccs rst AR"s."t."+
+gfccs rt AR"t."+
+gfccs rz AR"ts"+
+gfccs sch sh"+
+gfccs sk s."k."+
+gfccs sp s."p."+
+gfccs ss s."+
+gfccs st s."t."+
+gfccs tsch t."sh"+
+gfccs tt t."+
+gfccs tz ts"+
+gfccs x k."s."+
+
+
+#######################################
+# Clusters for foreign lemma analysis #
+#######################################
+
+# uses archi-phonemes C." and HH" which are converted to ts"/k." 
+# and vowels including glottal stops by phonetic two-level rules
+
+# fnucc: foreign unstressed nucleus of closed syllables
+
+fnucc œ OE"
+fnucc à A."
+fnucc á A."
+fnucc â A."
+fnucc ã A."
+fnucc ä E."
+fnucc äu OY"
+fnucc å O." # Swedish
+fnucc æ E."
+fnucc è E."
+fnucc é E."
+fnucc ê E."
+fnucc ë E."
+fnucc ì I."
+fnucc í I."
+fnucc î I."
+fnucc ï I."
+fnucc ò O."
+fnucc ó O."
+fnucc ô O."
+fnucc õ O."
+fnucc ö OE"
+fnucc ø OE"
+fnucc ù U."
+fnucc ú U."
+fnucc û U."
+fnucc ü Y."
+fnucc ý Y."
+fnucc ÿ Y."
+fnucc a A."
+fnucc au AU"
+fnucc e E."
+fnucc eu OY"
+fnucc i I."
+fnucc ia TS"j."A."
+fnucc ie TS"j."E."
+fnucc o O."
+fnucc oa w."A."
+fnucc oi w."A."
+fnucc oin w."en"
+fnucc ou u."
+fnucc oua u."A."
+fnucc u U."
+fnucc ua w."A."
+fnucc y Y."
+
+
+# fnuco: foreign unstressed nucleus of open syllables
+
+fnuco œ oe"
+fnuco à a."
+fnuco á a."
+fnuco â a."
+fnuco ã a."
+fnuco ä ae"
+fnuco äu OY"
+fnuco å o." # Swedish
+fnuco æ ae"
+fnuco è e."
+fnuco é e."
+fnuco ê e."
+fnuco ë e."
+fnuco ì i."
+fnuco í i."
+fnuco î i."
+fnuco ï i."
+fnuco ò o."
+fnuco ó o."
+fnuco ô o."
+fnuco õ o."
+fnuco ö oe"
+fnuco ø oe"
+fnuco ù u."
+fnuco ú u."
+fnuco û u."
+fnuco ü y."
+fnuco ý y."
+fnuco ÿ y."
+fnuco a a."
+fnuco au AU"
+fnuco ay E."j."
+fnuco e e."
+fnuco eau o."
+fnuco eu OY"
+fnuco ey E."j."
+fnuco i i."
+fnuco ia TS"j."a."
+fnuco ie TS"j."e."
+fnuco o o."
+fnuco oa w."a."
+fnuco oi w."a."
+fnuco oin w."en"
+fnuco ou u."
+fnuco oua u."a."
+fnuco u u."
+fnuco ua w."a."
+fnuco y y."
+
+# fsnucs: foreign short stressed nucleus
+
+fsnucs œ ^OE"
+fsnucs à ^A."
+fsnucs á ^A."
+fsnucs â ^A."
+fsnucs ã ^A."
+fsnucs ä ^E."
+fsnucs äu ^OY"
+fsnucs å ^O." # Swedish
+fsnucs æ ^E."
+fsnucs è ^E."
+fsnucs é ^E."
+fsnucs ê ^E."
+fsnucs ë ^E."
+fsnucs ì ^I."
+fsnucs í ^I."
+fsnucs î ^I."
+fsnucs ï ^I."
+fsnucs ò ^O."
+fsnucs ó ^O."
+fsnucs ô ^O."
+fsnucs õ ^O."
+fsnucs ö ^OE"
+fsnucs ø ^OE"
+fsnucs ù ^U."
+fsnucs ú ^U."
+fsnucs û ^U."
+fsnucs ü ^Y."
+fsnucs ý ^Y."
+fsnucs ÿ ^Y."
+fsnucs a ^A."
+fsnucs au ^AU"
+fsnucs e ^E."
+fsnucs eu ^OY"
+fsnucs i ^I."
+fsnucs ia TS"j."^A."
+fsnucs ie TS"j."^E."
+fsnucs o ^O."
+fsnucs oa w."^A."
+fsnucs oi w."^A."
+fsnucs oin w."^en"
+fsnucs ou ^u."
+fsnucs oua u."^A."
+fsnucs u ^U."
+fsnucs ua w."^A."
+fsnucs y ^Y."
+
+
+# fsnucl: foreign long stressed nucleus 
+
+fsnucl œ ^oe"
+fsnucl à ^a."
+fsnucl á ^a."
+fsnucl â ^a."
+fsnucl ã ^a."
+fsnucl ä ^ae"
+fsnucl äu ^OY"
+fsnucl å ^o." # Swedish
+fsnucl æ ^ae"
+fsnucl è ^e."
+fsnucl é ^e."
+fsnucl ê ^e."
+fsnucl ë ^e."
+fsnucl ì ^i."
+fsnucl í ^i."
+fsnucl î ^i."
+fsnucl ï ^i."
+fsnucl ò ^o."
+fsnucl ó ^o."
+fsnucl ô ^o."
+fsnucl õ ^o."
+fsnucl ö ^oe"
+fsnucl ø ^oe"
+fsnucl ù ^u."
+fsnucl ú ^u."
+fsnucl û ^u."
+fsnucl ü ^y."
+fsnucl ý ^y."
+fsnucl ÿ ^y."
+fsnucl a ^a."
+fsnucl au ^AU"
+fsnucl ay ^E."j."
+fsnucl e ^e."
+fsnucl eau ^o."
+fsnucl eu ^OY"
+fsnucl ey ^E."j."
+fsnucl i ^i."
+fsnucl ia TS"j."^a."
+fsnucl ie TS"j."^e."
+fsnucl o ^o."
+fsnucl oa w."^a."
+fsnucl oi w."^a."
+fsnucl oin w."^en"
+fsnucl ou ^u."
+fsnucl oua u."^a."
+fsnucl u ^u."
+fsnucl ua w."^a."
+fsnucl y ^y."
+
+
+# ficc: foreign-stem initial consonants
+# which are not yet included in fsyi
+
+ficc % -HH" 5 # <glottal stop>
+ficc bl -b."l." # blasphemie
+ficc cr -k."r." # credo
+ficc kl -k."l." # klinik
+ficc phr -f."r." # phrase
+ficc phth -f."t." # phthalein
+ficc pt -p."t." # ptolemaeus
+ficc sc -s."C." # scandium
+ficc skl -s."k."l." # sklerose
+ficc sp -sh"p." # spagat
+ficc sph -s."f." # sphäre
+ficc st -sh"t." # stabil
+ficc str -sh"t."r." # struktur
+ficc sz -s."ts" # szene
+ficc wh -w." # whirlpool
+ficc x -k."s." # xenon
+
+
+# fsyi: syllable-initial consonants 
+# (do not close preceding syllable)
+
+fsyi š sh"
+fsyi ž jj"
+fsyi ç s."
+fsyi ð z."
+fsyi ñ n."j."
+fsyi þ s."
+fsyi b b."
+fsyi bl b."l."
+fsyi br b."r." # mem-bran
+fsyi c C."
+fsyi ch CH"
+fsyi d d."
+fsyi dr d."r." # a-drenalin
+fsyi f f."
+fsyi fl f."l." # in-fluenza
+fsyi g g." 
+fsyi gh g." # spaghetti
+fsyi gl g."l." # tri-glyzerid
+fsyi gn g."n." # si-gnal
+fsyi gr g."r." # typo-graph
+fsyi h h."
+fsyi j j."
+fsyi k k."
+fsyi kr k."r." # demo-kratie
+fsyi l l."
+fsyi m m."
+fsyi n n."
+fsyi p p."
+fsyi ph f."
+fsyi phr f."r." # aphrodite
+fsyi pl p."l."
+fsyi pr p."r." # re-pression
+fsyi ps p."s."
+fsyi qu k."v."
+fsyi r r."
+fsyi rh r."
+fsyi s z."
+fsyi sk s."k."
+fsyi sl s."l."
+fsyi t t."
+fsyi t t."
+fsyi th t." # a-theismus
+fsyi thr t."r." 
+fsyi tr t."r." # zi-trone
+fsyi v v."
+fsyi w v." 
+fsyi y j." # ayatollah
+fsyi z ts"
+
+# fsyf: syllable-final consonants (closed syllables)
+
+fsyf b b." # ab-solut, ab-norm
+fsyf d d." # ad-ministration
+fsyf g g." # mag-ma
+fsyf k k." # ak-zeptanz
+fsyf l l." # al-bumin
+fsyf m m." # exem-plar
+fsyf n n." # pan-dora
+fsyf ns n."z." # trans-lation
+fsyf p p." # lep-ton
+fsyf r AR" # kaser-ne
+fsyf s z." # plas-moid
+fsyf t t." # ??
+fsyf th t." # ??
+fsyf x k."s." # ex-traktion
+
+
+# fscc: special syllable-connecting consonant clusters
+
+fscc bb b." # a-bberation
+fscc cc k." # sta-ccato
+fscc chn CH"n." # technologie
+fscc cr k."r." # sacramento
+fscc dd d." # a-dduktor
+fscc ff f." # a-fferent
+fscc ffl f."l." # a-ffluenz
+fscc ffr f."r." # ??
+fscc gg g." # ??
+fscc ggl g."l." # a-gglutinieren
+fscc ggr g."r." # a-ggravieren
+fscc kk k." # a-kkumulator, stu-kkatur
+fscc kkl k."l." # a-kklamation 
+fscc ll l." # a-llograph
+fscc mm m." # mammographie
+fscc ng ng"g." # fango
+fscc ngl ng"g."l." # anglizist
+fscc nk ng"k." # ???
+fscc nkr ng"k."r." # bankrott, pankreas
+fscc nn n." # sta-nniol
+fscc pp p." # a-ppetit
+fscc ppl p."l." # a-pplaus
+fscc rr r." # a-rrest
+fscc sch sh" # pascha 
+fscc sh sh"
+fscc sph s."f." # asphalt
+fscc ss s." # meli-sse
+fscc thr t."r." # erythrozyten
+fscc tt t." # zigare-tte
+fscc ttr t."r." # a-ttraktion
+fscc x k."s." # exemplar
+fscc zz ts" # ra-zzia
+
+
+# ffin: special unstressed lemma-final elements (the many ffin ending in "y" were necessary to avoid false phonetizations as "j")
+
+ffin ø oe" # in danish foreign words
+ffin a a." # fauna
+ffin as a."s." # pankreas
+ffin ary E."r."i." # in english foreign words
+ffin ay E."j." # in english foreign words (way)
+ffin bby b."i." # in english foreign words
+ffin by b."i." # in english foreign words
+ffin chy sh"i." # in english foreign words
+ffin cky k."i." # in english foreign words (Nancy)
+ffin ccy k."i." # in english foreign words (Nancy)
+ffin cy s."i." # in english foreign words (Nancy)
+ffin ddy d."i." # in english foreign words (birdy)
+ffin dy d."i." # in english foreign words (birdy)
+ffin erry E."r."i." # in english foreign words
+ffin ery e."r."i." # in english foreign words
+ffin ey E."j." # in english foreign words
+ffin ffy f."i." # in english foreign words
+ffin fy f."i." # in english foreign words
+ffin gy d."jj"i." # in english foreign words (energy)
+ffin ggy g."i." # in english foreign words (buggy, groggy)
+ffin i i." # konti
+ffin ia TS"j."a." # sozia
+ffin ien TS"j."@."n." # gallien
+ffin ight AI"t." # in english foreign words
+ffin ik I."k." # gotik
+ffin io TS"j."o." 15 # 
+ffin irry I."r."i." # in english foreign words
+ffin iry i."r."i." # in english foreign words
+ffin is I."s." # basis
+ffin isch I."sh" # pathetisch etc.
+ffin ische I."sh"@." # pathetisch etc.
+ffin ischen I."sh"N." # pathetisch etc.
+ffin itty I."t."i." # in english foreign words
+ffin ity I."t."i." # in english foreign words
+ffin ium TS"j."U."m." # kalium
+ffin ius TS"j."U."s." # genius
+ffin iusse TS"j."U."s."@." 
+ffin kky k."i." # in english foreign words (milky)
+ffin ky k."i." # in english foreign words (milky)
+ffin lly l."i." # in english foreign words
+ffin ly l."i." # in english foreign words
+ffin mmy m."i." # in english foreign words
+ffin my m."i." # in english foreign words
+ffin nny n."i." # in english foreign words
+ffin ny n."i." # in english foreign words
+ffin o o." # fango, konto
+ffin on O."n." # elektron
+ffin or O."AR" # senator
+ffin orry O."r."i." # in english foreign words
+ffin ory O."r."i." # in english foreign words
+ffin oy OY" # in english foreign words
+ffin ppy p."i." # in english foreign words
+ffin py p."i." # in english foreign words
+ffin quy k."i." # just in case
+ffin qy k."i." # just in case
+ffin rry r."i." # in english foreign words
+ffin ry r."i." # in english foreign words
+ffin schy sh"i." # in slavic foreign words and russian transcriptions
+ffin shy sh"i." # in english foreign words
+ffin sky s."k."i." # mostly in polish last names
+ffin ssy s."i." # in english foreign words
+ffin sy s."i." # in english foreign words
+ffin tchy t."sh"i." # in english foreign words
+ffin tshy t."sh"i." # in english foreign words
+ffin tschy t."sh"i." # in slavic foreign words and russian transcriptions
+ffin tty t."i." # in english foreign words
+ffin ty t."i." # in english foreign words
+ffin u u." # zulu, bantu
+ffin uli u."l."i." 10 # tubuli
+ffin ulum u."l."U."m." # retikulum
+ffin ulus u."l."U."s." # tubulus
+ffin um U."m." # plenum
+ffin urry OE"r."i." # in english foreign words
+ffin ury u."r."i." # in english foreign words
+ffin us U."s." # kasus
+ffin usse U."s."@." 
+ffin vvy v."i."  # in english foreign words
+ffin vy v."i."  # in english foreign words
+ffin wwy w."i."  # in english foreign words
+ffin wy w."i."  # in english foreign words
+ffin xxy k."s."i."  # in english foreign words
+ffin xy k."s."i."  # in english foreign words
+ffin y i." # in english foreign words
+ffin zy z."i." # in english foreign words
+ffin zzy z."i." # in english foreign words
+
+# fsfin: special stressed lemma-final elements
+
+fsfin é ^e." # in French foreign words
+fsfin ée ^e." # in French foreign words
+fsfin éri e."r."^i." # in French foreign words
+fsfin érie e."r."^i." # in French foreign words
+fsfin éry e."r."^i." # in French foreign words
+fsfin ø ^oe"
+fsfin and ^A."n."d." 
+fsfin andin ^A."n."d."I."n." 
+fsfin andinnen ^A."n."d."I."n."@."n." 
+fsfin ant ^A."n."t." 
+fsfin antin ^A."n."t."I."n." 
+fsfin antinnen ^A."n."t."I."n."@."n." 
+fsfin iös TS"j."^oe"z."
+fsfin ie ^i." # aphasie
+fsfin ien ^i."@."n." # kolonien
+fsfin ier ^i."AR" # -ier
+fsfin iertheit ^i."AR"t."h."AI"t." # 
+fsfin ierung ^i."r."U."ng" # 
+fsfin ion TS"j."^o."n." # fusion
+fsfin ismen ^I."s."m."N."
+fsfin ismus ^I."s."m."U."s."
+fsfin ist ^I."s."t." # 
+fsfin isten ^I."s."t."N." # 
+fsfin istin ^I."s."t."I."n." # 
+fsfin istinnen ^I."s."t."I."n."@."n." # 
+fsfin istisch ^I."s."t."I."sh" # ballistisch
+fsfin loge l."^o."g."@." 
+fsfin logie l."o."g."^i."
+fsfin logien l."o."g."^i."@."n."
+fsfin login l."^o."g."I."n." 
+fsfin loginnen l."^o."g."I."n."@."n." 
+fsfin oir w."^a."AR" # boudoir
+fsfin ois w."^a." # bourgeois
+fsfin oise w."^a."z."@." # bourgeoise
+fsfin oisie w."a."z."^i." # bourgeoisie
+fsfin one ^o."n."@." # toblerone
+fsfin onen ^o."n."@."n." # elektronen
+fsfin op ^o."p." # biotop
+fsfin oren ^o."r."@."n." # generatoren
+fsfin orin ^o."r."I."n." # senatorin
+fsfin orinnen ^o."r."I."n."@."n." # senatorinnen
+fsfin tion ts"j."^o."n." # station
+fsfin tional ts"j."o."n."^a."l." # rational
+fsfin uell u."^E."l."
+fsfin yse ^y."z."@."
+
+ # temporarily, generic verbs on -ier should be treated separatly
+fsfin ieren ^i."r."@."n."
+fsfin ierend ^i."r."N."d."+
+fsfin ierst ^i."AR"s."t."
+fsfin iert ^i."AR"t." 
+
+
+#####################################
+# Clusters for catch-all rule #
+#####################################
+
+# xxini = special lemma-initial consonant clusters (possibly empty)
+# xxsvcl = cluster containing a stressed vowel
+# xxuvcl = cluster containing an unstressed vowel
+# xxccl = a consonant cluster
+
+xxini % HH" 5 # glottal stop
+xxini sp sh"p."
+xxini st sh"t."
+
+xxsvcl œ ^OE"
+xxsvcl à ^A."
+xxsvcl á ^A."
+xxsvcl â ^A."
+xxsvcl ã ^A."
+xxsvcl ä ^E."
+xxsvcl äh ^ae"
+xxsvcl äu ^OY"
+xxsvcl å ^O." # Swedish
+xxsvcl æ ^E."
+xxsvcl è ^E."
+xxsvcl é ^e."
+xxsvcl ée ^e."
+xxsvcl ê ^E."
+xxsvcl ë ^E."
+xxsvcl ì ^I."
+xxsvcl í ^I."
+xxsvcl î ^I."
+xxsvcl ï ^I."
+xxsvcl ò ^O."
+xxsvcl ó ^O."
+xxsvcl ô ^O."
+xxsvcl õ ^O."
+xxsvcl ö ^OE"
+xxsvcl öh ^oe"
+xxsvcl ø ^OE"
+xxsvcl ù ^U."
+xxsvcl ú ^U."
+xxsvcl û ^U."
+xxsvcl ü ^Y."
+xxsvcl üh ^y."
+xxsvcl ý ^Y."
+xxsvcl ÿ ^Y."
+xxsvcl a ^A."
+xxsvcl aa ^a."
+xxsvcl ah ^a."
+xxsvcl ai ^AI"
+xxsvcl au ^AU"
+xxsvcl ay ^AI"
+xxsvcl e ^E."
+xxsvcl ee ^e."
+xxsvcl eh ^e."
+xxsvcl ei ^AI"
+xxsvcl eu ^OY"
+xxsvcl ey ^AI"
+xxsvcl i ^I."
+xxsvcl ie ^i."
+xxsvcl ieh ^i."
+xxsvcl ih ^i."
+xxsvcl o ^O."
+xxsvcl oh ^o."
+xxsvcl oo ^o."
+xxsvcl ou ^u."
+xxsvcl oy ^OY"
+xxsvcl u ^U."
+xxsvcl uh ^u."
+xxsvcl y ^Y."
+
+xxsvcl ê E."
+xxuvcl œ OE"
+xxuvcl à A."
+xxuvcl á A."
+xxuvcl â A."
+xxuvcl ã A."
+xxuvcl ä E."
+xxuvcl äh ae"
+xxuvcl äu OY"
+xxuvcl å O." # Swedish
+xxuvcl æ E."
+xxuvcl è E."
+xxuvcl é ,e."
+xxuvcl ée ,e."
+xxuvcl ë E."
+xxuvcl ì I."
+xxuvcl í I."
+xxuvcl î I."
+xxuvcl ï I."
+xxuvcl ò O."
+xxuvcl ó O."
+xxuvcl ô O."
+xxuvcl õ O."
+xxuvcl ö OE"
+xxuvcl öh oe"
+xxuvcl ø OE"
+xxuvcl ù U."
+xxuvcl ú U."
+xxuvcl û U."
+xxuvcl ü Y."
+xxuvcl üh y."
+xxuvcl ý ^Y."
+xxuvcl ÿ ^Y."
+xxuvcl a A."
+xxuvcl aa a."
+xxuvcl ah a."
+xxuvcl ai AI"
+xxuvcl au AU"
+xxuvcl ay AI"
+xxuvcl e E."
+xxuvcl ee e."
+xxuvcl eh e."
+xxuvcl ei AI"
+xxuvcl eu OY"
+xxuvcl ey AI"
+xxuvcl i I."
+xxuvcl ia TS"j."A."
+xxuvcl ie i."
+###xxuvcl ie TS"j."E."
+xxuvcl ieh i."
+xxuvcl ien TS"j."E."n."
+xxuvcl ih i."
+xxuvcl o O."
+xxuvcl oh o."
+xxuvcl oo o."
+xxuvcl ou u."
+xxuvcl oy OY"
+xxuvcl u U."
+xxuvcl uh u."
+xxuvcl y ^Y."
+
+xxccl šš sh"
+xxccl š sh"
+xxccl žž jj"
+xxccl ž jj"
+xxccl ß s."
+xxccl ç s."
+xxccl ð z."
+xxccl ñ n."j."
+xxccl þ s."
+xxccl b b."
+xxccl bb b."
+xxccl c C."
+xxccl cc k."
+xxccl ch CH"
+xxccl ck k."
+xxccl d d."
+xxccl dd d."
+xxccl dt t."
+xxccl f f."
+xxccl ff f."
+xxccl g g."
+xxccl gg g."
+xxccl gh g."
+xxccl h h."
+xxccl j j."
+xxccl j j."
+xxccl k k."
+xxccl kk k."
+xxccl l l."
+xxccl ll l."
+xxccl m m."
+xxccl mm m."
+xxccl n n."
+xxccl nn n."
+xxccl p p."
+xxccl pf pf"
+xxccl ph f."
+xxccl pp p."
+xxccl q k."
+xxccl qu k."v."
+xxccl r AR"
+xxccl rh r."
+xxccl rr r."
+xxccl s z."
+xxccl sch sh"
+xxccl sh sh"
+xxccl ss s."
+xxccl t t."
+xxccl th t."
+xxccl tt t."
+xxccl tz ts"
+xxccl v v."
+xxccl vv v."
+xxccl w v."
+xxccl x k."s."
+xxccl y j."
+xxccl z ts"
+xxccl zz ts"
+
+#####################################
+# Spelled characters #
+#####################################
+
+# usspcons = unstressed version, ssspcons = stressed version
+# ==========================================================
+
+sspcons š ^HE"s."-m."I."t."-h.",A."t."sh"E."k."
+sspcons ž ts"^E."t."-m."I."t."-h.",A."t."sh"E."k."
+sspcons ß HE"s."ts"^E."t." 10 # penalty must by high, otherwise kkss is translated to kkß !!!
+sspcons ç ts"^e."-s."e."d."i."j."@."
+sspcons ð ^E."t."
+sspcons ñ ^HE"n."-m."I."t."-t.",I."l."d."@."
+sspcons þ s."^O."AR"n."
+sspcons b b."^e."
+sspcons c ts"^e."
+sspcons d d."^e."
+sspcons f ^HE"f."
+sspcons g g."^e."
+sspcons h h."^a."
+sspcons j j."^O."t."
+sspcons k k."^a."
+sspcons l ^HE"l."
+sspcons m ^HE"m."
+sspcons n ^HE"n."
+sspcons p p."^e."
+sspcons q k."^u."
+sspcons r ^HE"AR"
+sspcons s ^HE"s."
+sspcons t t."^e."
+sspcons v f."^AU"
+sspcons w v."^e."
+sspcons x ^HI"k."s."
+sspcons z ts"^E."t."
+
+# Symbols
+
+sspcons € ^oy"r."o."
+sspcons £ pf"^U."n."d."
+sspcons ¥ j."^e."n."
+sspcons × m."U."l."t."i."p."l."i."k."a."ts"j."^o."n."s."ts",AI"ch"N."
+sspcons ÷ d."i."v."i."s."j."^o."n."s."ts",AI"ch"N."
+sspcons $ d."^O."l."a."AR"
+sspcons + p."l."^U."s."
+sspcons - m."^i."n."U."s."
+sspcons . p."^U."ng"k."t."
+sspcons / sh"r."^ae"k."sh"t."r."I."ch"
+sspcons = g."l."^AI"ch"
+sspcons @ ^HE"t."
+sspcons \ ^HU"m."g."@."k."e."AR"t."R."-sh"r."^ae"k."sh"t."r."I."ch"
+sspcons _ ^HU"n."t."R."sh"t."r."I."ch"
+sspcons ~ t."^I."l."d."@."
+
+uspcons š ,HE"s."-m."I."t."-h.",A."t."sh"E."k."
+uspcons ž ts",E."t."-m."I."t."-h.",A."t."sh"E."k."
+uspcons ß HE"s."ts",E."t." 10 # penalty must by high, otherwise kkss is translated to kkß !!!
+uspcons ç ts",e."-s."e."d."i."j."@."
+uspcons ð ,E."t."
+uspcons ñ ,HE"n."-m."I."t."-t.",I."l."d."@."
+uspcons þ s.",O."AR"n."
+uspcons b b.",e."
+uspcons c ts",e."
+uspcons d d.",e."
+uspcons f ,HE"f."
+uspcons g g.",e."
+uspcons h h.",a."
+uspcons j j.",O."t."
+uspcons k k.",a."
+uspcons l ,HE"l."
+uspcons m ,HE"m."
+uspcons n ,HE"n."
+uspcons p p.",e."
+uspcons q k.",u."
+uspcons r ,HE"AR"
+uspcons s ,HE"s."
+uspcons t t.",e."
+uspcons v f.",AU"
+uspcons w v.",e."
+uspcons x ,HI"k."s."
+uspcons z ts",E."t."
+
+# Symbols
+
+uspcons € ,oy"r."o."
+uspcons £ pf",U."n."d."
+uspcons ¥ j.",e."n."
+uspcons × m."U."l."t."i."p."l."i."k."a."ts"j.",o."n."s."ts",AI"ch"N."
+uspcons ÷ d."i."v."i."s."j.",o."n."s."ts",AI"ch"N."
+uspcons $ d.",O."l."a."AR"
+uspcons + p."l.",U."s."
+uspcons - m.",i."n."U."s."
+uspcons . p.",U."ng"k."t."
+uspcons / sh"r.",ae"g."sh"t."r."I."ch"
+uspcons = g."l.",AI"ch"
+uspcons @ ,HE"t."
+uspcons \ ,HU"m."g."@."k."e."AR"t."R."-sh"r.",ae"g."sh"t."r."I."ch"
+uspcons _ ,HU"n."t."R."sh"t."r."I."ch"
+uspcons ~ t.",I."l."d."@."

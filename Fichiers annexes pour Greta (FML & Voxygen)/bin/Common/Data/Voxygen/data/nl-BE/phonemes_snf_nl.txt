@@ -1,0 +1,45 @@
+// PHONEMES du néerlandais -*- coding: utf-8-unix -*-
+// Ordre des champs : phoneme type trait voisement viseme
+#       SI      LO      0	0
+I	VO	OR	1	6	// ɪ [I]
+Y	VO	OR	1	7	// ʏ [Y]
+E	VO	OR	1	4	// ɛ	may be long in loan words
+@	VO	OR	1	1	// ə
+O	VO	OR	1	3	// ɔ	may be long in loan words
+A	VO	OR	1	2	// ɑ
+i	VO	OR	1	6	// i
+y	VO	OR	1	7	// y
+u	VO	OR	1	7	// u
+e	VO	OR	1	4	// e
+EU	VO	OR	1	3	// ø
+OE	VO	OR	1	3	// œ	may be long in loan words
+o	VO	OR	1	3	// o
+a	VO	OR	1	1	// a
+p	CO	PS	0	21	// p
+b	CO	PV	1	21	// b
+t	CO	PS	0	19	// t
+d	CO	PV	1	19	// d
+k	CO	PS	0	20	// k
+g	CO	PV	1	20	// ɡ [g]	loan words "goal"
+f	CO	FS	0	18	// f
+v	CO	FV	1	18	// v
+s	CO	FS	0	15	// s
+z	CO	FV	1	15	// z
+S	CO	FS	0	16	// ʃ	loan words
+Z	CO	FV	1	16	// ʒ	load words "energie"
+x	CO	FS	0	20	// x
+X	CO	FV	1	20	// ɣ [ʁ]
+h	CO	FV	1	12	// ɦ [h]
+m	CO	NA	1	21	// m
+n	CO	NA	1	19	// n
+NG	CO	NA	1	20	// ŋ
+r	CO	TR	1	13	// r [ʀ]
+l	CO	LI	1	14	// l
+w	CO	SV	1	18	// ʋ [β] [w]
+j	CO	SV	1	6	// j
+%	CO	GS	0	12	// ʔ
+7	PF	N/A	0	8	//		slot'n'fill polyfiller
+:	EX	N/A	0	0	// ː [:]	long vowel
+'	EX	N/A	0	0	//		primary lexical stress
+,	EX	N/A	0	0	//		secondary lexical stress
+.	EX	N/A	0	0	//		syllable boundary

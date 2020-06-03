@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml xmlns="http://www.mindmakers.org/projects/BML" character="Greta"
+    composition="replace" id="bml1">
+    <face amount="1.000" end="1.000" id="e1_0" start="0.000">
+        <lexeme lexeme="smile_big_open"/>
+    </face>
+	<torso id="sd" lexeme="BackwardSagittalDownward" start="0.000" end="1.000">
+        <description priority="1" type="gretabml">
+            <reference>BackwardSagittalDownward</reference>
+            <intensity>0.200</intensity>
+            <SPC.value>0.000</SPC.value>
+            <TMP.value>0.000</TMP.value>
+            <FLD.value>0.000</FLD.value>
+            <PWR.value>0.000</PWR.value>
+            <REP.value>0.000</REP.value>
+            <OPN.value>0.000</OPN.value>
+            <TEN.value>0.000</TEN.value>
+        </description>
+    </torso>
+</bml>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<fml>
+		<backchannel id="bc1" type="no_interest" start="0" end="5" importance="1.0"/>
+	</fml>
+</fml-apml>

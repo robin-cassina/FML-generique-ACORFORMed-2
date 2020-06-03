@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Voici la liste des dysfluences :
+				<spurt audio="g0001_001">tut</spurt>
+				<spurt audio="g0001_002">tut tut</spurt>
+				<spurt audio="g0001_003">cough</spurt>
+				<spurt audio="g0001_004">cough</spurt>
+				<spurt audio="g0001_005">cough</spurt>
+				<spurt audio="g0001_006">clear throat</spurt>
+				<spurt audio="g0001_007">breath in</spurt>
+				<spurt audio="g0001_008">sharp intake of breath</spurt>
+				<spurt audio="g0001_009">breath in through teeth</spurt>
+				<spurt audio="g0001_010">sigh happy</spurt>
+				<spurt audio="g0001_011">sigh sad</spurt>
+				<spurt audio="g0001_012">hmm question</spurt>
+				<spurt audio="g0001_013">hmm yes</spurt>
+				<spurt audio="g0001_014">hmm thinking</spurt>
+				<spurt audio="g0001_015">umm</spurt>
+				<spurt audio="g0001_016">umm</spurt>
+				<spurt audio="g0001_017">err</spurt>
+				<spurt audio="g0001_018">err</spurt>
+				<spurt audio="g0001_019">giggle</spurt>
+				<spurt audio="g0001_020">giggle</spurt>
+				<spurt audio="g0001_021">laugh</spurt>
+				<spurt audio="g0001_022">laugh</spurt>
+				<spurt audio="g0001_023">laugh</spurt>
+				<spurt audio="g0001_024">laugh</spurt>
+				<spurt audio="g0001_025">ah positive</spurt>
+				<spurt audio="g0001_026">ah negative</spurt>
+				<spurt audio="g0001_027">yeah question</spurt>
+				<spurt audio="g0001_028">yeah positive</spurt>
+				<spurt audio="g0001_029">yeah resigned</spurt>
+				<spurt audio="g0001_030">sniff</spurt>
+				<spurt audio="g0001_031">sniff</spurt>
+				<spurt audio="g0001_032">argh</spurt>
+				<spurt audio="g0001_033">argh</spurt>
+				<spurt audio="g0001_034">ugh</spurt>
+				<spurt audio="g0001_035">ocht</spurt>
+				<spurt audio="g0001_036">yay</spurt>
+				<spurt audio="g0001_037">oh positive</spurt>
+				<spurt audio="g0001_038">oh negative</spurt>
+				<spurt audio="g0001_039">sarcastic noise</spurt>
+				<spurt audio="g0001_040">yawn</spurt>
+				<spurt audio="g0001_041">yawn</spurt>
+				<spurt audio="g0001_042">snore</spurt>
+				<spurt audio="g0001_043">snore phew</spurt>
+				<spurt audio="g0001_044">zzz</spurt>
+				<spurt audio="g0001_045">raspberry</spurt>
+				<spurt audio="g0001_046">raspberry</spurt>
+				<spurt audio="g0001_047">brrr cold</spurt>
+				<spurt audio="g0001_048">snort</spurt>
+				<spurt audio="g0001_050">ha ha (sarcastic)</spurt>
+				<spurt audio="g0001_051">doh</spurt>
+				<spurt audio="g0001_052">gasp</spurt>
+			<tm id="tm2"/>
+		</speech>
+	</bml>
+	<fml>
+	</fml>
+</fml-apml>

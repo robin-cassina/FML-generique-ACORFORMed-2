@@ -1,0 +1,46 @@
+// PHONEMES de l'arabe -*- coding: utf-8-unix -*-
+// Ordre des champs : phoneme type trait voisement viseme
+g	CO	PS	0	12	// ʔ
+b	CO	PV	1	21	// b
+t	CO	PS	0	19	// t
+T	CO	FS	0	17	// θ
+Z	CO	FS	0	16	// ʒ
+X	CO	FS	0	12	// ħ
+x	CO	FS	0	20	// x
+d	CO	PV	1	19	// d
+D	CO	FV	1	17	// ð
+r	CO	LI	1	13	// r
+z	CO	FV	1	15	// z
+s	CO	FS	0	15	// s
+S	CO	FS	0	16	// ʃ
+v	CO	FS	0	15	// sˤ
+p	CO	PV	1	19	// dˤ
+P	CO	PS	0	19	// tˤ
+V	CO	FV	1	17	// ðˤ
+H	CO	FV	1	12	// ʕ
+G	CO	FV	1	20	// ɣ
+f	CO	FS	0	18	// f
+q	CO	PS	0	20	// q
+k	CO	PS	0	20	// k
+l	CO	LI	1	14	// l
+m	CO	NA	1	21	// m
+n	CO	NA	1	19	// n
+h	CO	FS	0	12	// h
+w	CO	SV	1	7	// w
+j	CO	SV	1	6	// j
+a	VO	OR	1	1	// a
+u	VO	OR	1	7	// u
+i	VO	OR	1	6	// i
+A	VO	OR	1	1	// aː
+U	VO	OR	1	7	// uː
+I	VO	OR	1	6	// iː
+C	VO	OR	1	1	// aːˈ
+#	SI	LO	0	0
+^	SI	HI	0	0
+%	CO	GS	0	12	// ʔ
+Q	CO	PV	1	20	// ɡ
+B	CO	PS	0	21	// p
+F	CO	FV	1	18	// v
+.	EX	N/A	0	0
+*	EX	N/A	0	0
+~	EX	N/A	0	0

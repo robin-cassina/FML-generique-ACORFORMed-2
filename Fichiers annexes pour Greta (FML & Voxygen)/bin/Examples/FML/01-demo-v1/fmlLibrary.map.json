@@ -1,0 +1,40 @@
+// Nota: Comment aren't JSON standard, but C/C++ comment are accepted by the Jackson parser (JsonParser.Feature.ALLOW_COMMENTS)
+{
+	// Phase 1
+	"Non, docteur, j'ai toujours très mal ici":[
+		"phase01/P01-02_Etat-01-Non_docteur.xml"
+		,"phase01/dys/P01-02_Etat-01a-Non_docteur.xml"
+		,"phase01/dys/P01-02_Etat-01b-Non_docteur.xml"
+		,"phase01/dys/P01-02_Etat-01c-Non_docteur.xml"
+	],
+	"C'est pas vrai! comment ça un petit trou ? C'est pas possible, comment ça peut arriver ?":[
+		"phase01/P01-03_Resultats-01-C_est_pas_vrai.xml"
+		,"phase01/dys/P01-03_Resultats-01a-C_est_pas_vrai.xml"
+		,"phase01/dys/P01-03_Resultats-01b-C_est_pas_vrai.xml"
+	],
+	"Compliquée ? je vois pas en quoi ça change de l'autre fois ?":[
+		"phase01/P01-04_Complication-01-Compliquée.xml"
+		,"phase01/dys/P01-04_Complication-01a-Compliquée.xml"
+	],
+	// Phase 2
+	"on fait quoi maintenant, j'vais avoir mal longtemps ? ça se rebouche en combien de temps ?":[
+		"phase02/P02-03_Terrain-01-On_fait_quoi_maintenant.xml"
+		, "phase02/dys/P02-03_Terrain-01b-On_fait_quoi_maintenant.xml"
+	],
+	"C'est pas possible et mon mari ?":[
+		"phase02/P02-04_Solution-01-C_est_pas_possible.xml"
+		, "phase02/dys/P02-04_Solution-01b-C_est_pas_possible.xml"
+	],
+	"Oui docteur.":[
+		"phase02/P02-05_Synthese-01-Oui_docteur.xml"
+	],
+	// Incompris
+	"<p>incompris</p>":[
+		"A01-Incompris-01-silent.xml"
+		//TMP, "A01-Incompris-02-pas_compris.xml"
+		, "A01-Incompris-03-Disagreement.xml"
+		, "A01-Incompris-04-No_understanding.xml"
+		, "A01-Incompris-05-No_understanding-pas_compris.xml"
+		, "A01-Incompris-06-No_understanding-comprends_pas.xml"
+	]
+}

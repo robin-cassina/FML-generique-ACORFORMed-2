@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml xmlns="http://www.mindmakers.org/projects/BML" character="Greta"
+    composition="blend" id="bml1">
+    <gesture end="2.0189176549624372" id="rp1_0" lexeme="along" start="-0.3849900774812185">
+        <description priority="1" type="gretabml">
+            <reference>rest=along</reference>
+            <intensity>1.000</intensity>
+            <SPC.value>0.000</SPC.value>
+            <TMP.value>0.050</TMP.value>
+            <FLD.value>-0.050</FLD.value>
+            <PWR.value>0.100</PWR.value>
+            <REP.value>-0.100</REP.value>
+            <OPN.value>0.000</OPN.value>
+            <TEN.value>0.000</TEN.value>
+        </description>
+    </gesture>
+    <gesture end="3" id="e2_0" lexeme="Question_Pos_B" start="1">
+        <description priority="1" type="gretabml">
+            <reference>adjectival=Question_Pos_B</reference>
+            <intensity>1.000</intensity>
+            <SPC.value>0.000</SPC.value>
+            <TMP.value>0.050</TMP.value>
+            <FLD.value>-0.050</FLD.value>
+            <PWR.value>0.100</PWR.value>
+            <REP.value>-0.100</REP.value>
+            <OPN.value>0.000</OPN.value>
+            <TEN.value>0.000</TEN.value>
+        </description>
+    </gesture>
+    <gesture end="7" id="e3_0" lexeme="Question_Pos_B" start="5">
+        <description priority="1" type="gretabml">
+            <reference>adjectival=Question_Pos_B</reference>
+            <intensity>1.000</intensity>
+            <SPC.value>0.000</SPC.value>
+            <TMP.value>0.050</TMP.value>
+            <FLD.value>-0.050</FLD.value>
+            <PWR.value>0.100</PWR.value>
+            <REP.value>-0.100</REP.value>
+            <OPN.value>0.000</OPN.value>
+            <TEN.value>0.000</TEN.value>
+        </description>
+    </gesture>
+	<shoulder id="shoulder1" start="5" end="7" lexeme="Up" side="left" amount="1"/>
+    <shoulder id="shoulder2" start="5" end="7" lexeme="Up" side="right" amount="1"/>
+    <face amount="1.000" end="9.7355623" id="e1_0" start="-0.58">
+        <lexeme lexeme="worry"/>
+    </face>
+    <speech xmlns="" id="s1" language="english" start="0.0" text=""
+        type="SAPI4" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>
+        <tm id="tm1"/>
+        <voice emotion="calm">C'est pas vrai ?</voice>
+        <tm id="tm2"/>
+				Comment ça, un petit trou ?
+			<tm
+            id="tm3"/>
+				C'est pas possible !
+			<tm id="tm4"/>
+        <voice emotion="calm">Comment ça peut arriver ?</voice>
+        <tm id="tm5"/>
+    </speech>
+    <head end="7" id="bc1_0" lexeme="SHAKE" start="3">
+        <description priority="1" type="gretabml">
+            <reference>Shake_Small</reference>
+            <intensity>1.000</intensity>
+            <SPC.value>0.000</SPC.value>
+            <TMP.value>0.050</TMP.value>
+            <FLD.value>-0.050</FLD.value>
+            <PWR.value>0.100</PWR.value>
+            <REP.value>-0.100</REP.value>
+            <OPN.value>0.000</OPN.value>
+            <TEN.value>0.000</TEN.value>
+        </description>
+    </head>
+    <face amount="1.000" end="3.8989998999999997" id="bc1_1" start="-0.58">
+        <lexeme lexeme="Eyebrows_Frown"/>
+    </face>
+    <gaze end="6.736" id="bc1_2" influence="EYES" offsetAngle="0.0"
+        offsetDirection="FRONT"
+        origin="MPEG4Animatable_1467824455717_365_-6322929896772743687"
+        ready="4.136" relax="5.436" start="2.837" target=""/>
+</bml>
