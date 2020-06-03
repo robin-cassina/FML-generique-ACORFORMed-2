@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				<voice emotion='calm'>À quel moment vous avez dit qu'il risquait d'y avoir une complication ?.</voice>
+			<tm id="tm2"/>
+		</speech>
+	</bml>
+	<fml>
+		<emotion id="e1" type="disappointment" start="s1:tm1" end="s1:tm2+3" importance="1.0"/>
+		<emotion id="e2" type="questioning" start="s1:tm1" end="s1:tm2" importance="1.0"/>
+
+		<restpose id="rp1" type="arms_crossed" start="s1:tm2+1" end="s1:tm2+1" importance="1.0"/>
+	</fml>
+</fml-apml>

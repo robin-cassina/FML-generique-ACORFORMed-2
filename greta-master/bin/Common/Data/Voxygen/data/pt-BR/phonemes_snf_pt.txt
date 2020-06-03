@@ -1,0 +1,47 @@
+// PHONEMES du portugais -*- coding: utf-8-unix -*-
+// Ordre des champs : phoneme type trait voisement viseme
+#       SI      LO      0	0
+a       VO      OR      1	1	// a
+@       VO      OR      1	1	// ə
+9       VO      OR      1	2	// ɐ
+e       VO      OR      1	4	// e
+E       VO      OR      1	4	// ɛ
+i       VO      OR      1	6	// i
+I       VO      OR      1       6	// I      
+o       VO      OR      1	3	// o
+O       VO      OR      1	3	// ɔ
+u       VO      OR      1	7	// u
+9n      VO      NA      1	2	// ɐ̃
+en      VO      NA      1	4	// ẽ
+in      VO      NA      1	6	// ĩ
+on      VO      NA      1	3	// õ
+un      VO      NA      1	7	// ũ 
+w       CO      SV      1	7	// w
+j       CO      SV      1	6	// j
+p       CO      PS      0	21	// p
+b       CO      PV      1	21	// b
+f       CO      FS      0	18	// f
+v       CO      FV      1	18	// v
+t       CO      PS      0	19	// t
+d       CO      PV      1	19	// d
+k       CO      PS      0	20	// k
+g       CO      PV      1	20	// ɡ 
+s       CO      FS      0	15	// s
+z       CO      FV      1	15	// z
+S       CO      FS      0	16	// ʃ
+G       CO      FV      1	16	// ʒ
+tS	CO	AS	0	16	// ʧ
+dZ      CO      AV      1       16	// ʤ
+m       CO      NA      1	21	// m
+n       CO      NA      1	19	// n   
+J       CO      NA      1	6	// ɲ   
+l       CO      LI      1   	14	// l
+L       CO      LI      1  	14	// ʎ
+r       CO      TR      1   	13	// ɾ       
+X       CO      FS      0	20	// X
+R       CO      TR      1       20	// R
+°       EX      N/A     0   	0	// °
+.       EX      N/A     0   	0	// .
+'       EX      N/A     0   	0	// '
+,       EX      N/A     0   	0	// ,
+7       PF      N/A     0	8

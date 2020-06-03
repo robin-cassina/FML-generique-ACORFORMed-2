@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexicon version="1.0" xmlns="http://www.w3.org/2005/01/pronunciation-lexicon"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon
+                        http://www.w3.org/TR/pronunciation-lexicon/pls.xsd"
+    xmlns:vox="http://www.voxygen.fr/tts"
+    alphabet="ipa" xml:lang="it">
+<lexeme vox:opt="i" role="vox:CC">
+  <grapheme>e/o</grapheme>
+  <phoneme>e o</phoneme>
+</lexeme>
+<!--
+<lexeme vox:say-as="weekday">
+  <grapheme>0</grapheme>
+  <alias>domenica</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>1</grapheme>
+  <alias>lunedì</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>2</grapheme>
+  <alias>martedì</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>3</grapheme>
+  <alias>mercoledì</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>4</grapheme>
+  <alias>giovedì</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>5</grapheme>
+  <alias>venerdì</alias>
+</lexeme>
+<lexeme vox:say-as="weekday">
+  <grapheme>6</grapheme>
+  <alias>sabato</alias>
+</lexeme>
+-->
+</lexicon>

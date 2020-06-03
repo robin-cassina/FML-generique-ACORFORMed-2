@@ -1,0 +1,6 @@
+Expiration le 9 mars 2022.
+Voix autorisées : Fabienne_2.0 / Fabienne_fatigue_2.0 / Fabienne_tendu_2.0
+
+Le fichier d'activation est à placer dans le répertoire Common/Data/Voxygen, dans le même répertoire que le fichier baratinoo.cfg
+
+V8.1_2928.lic uniquement valble pour le pc de ROBIN

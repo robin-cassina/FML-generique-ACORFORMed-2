@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Mais la chirurgie,
+			<tm id="tm2"/>
+				ça consiste en quoi ?
+			<tm id="tm3"/>
+		</speech>
+	</bml>
+	<fml>
+		<emotion id="e1" type="worried" start="s1:tm1" end="s1:tm3" importance="1.0"/>
+		<emotion id="e2" type="questioning" start="s1:tm1" end="s1:tm3" importance="1.0"/>
+
+		<restpose id="rp1" type="along" start="s1:tm3" end="s1:tm3+1" importance="1.0"/>
+	</fml>
+</fml-apml>

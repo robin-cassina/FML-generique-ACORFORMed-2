@@ -1,0 +1,147 @@
+# ----- DURATIONS -----
+
+:start products_model_durations
+:number_of_derived_phonetic_parameters 21
+
+1
+  1,   2,   3,   1,   2,   2, 
+   unstressed    final    non-final    l=    n=    m=    nucleus    no_consonant    consonant    consonant    no_consonant 
+   4.65743338,    -0.2523480421,    -0.06714964576,    -0.1343576551,    0.09617862444,    -0.1223759815, 
+   37.1201524
+
+2
+  2,   2,   14,   2,   1,   1, 
+   unstressed    stressed    final    non-final    dh    v    l    n    m    r    w    z    d    jh    b    ng    g    zh    onset    coda    no_consonant    no_consonant 
+   4.019830691,    0.08498260391,    -0.02211598118,    -0.2437432598,    -0.1486228021,    -0.2362929519,    -0.3208846095,    -0.01671495203,    0.2850055678,    0.4891866997,    0.1899385977,    -0.2973386791,    0.3673399777,    -0.1116480616,    0.1537921864,    -0.287118059,    -0.09713999471, 
+   17.64756858
+
+7
+  2,   2,   9,   2,   1,   1, 
+   unstressed    stressed    final    non-final    t    p    f    k    sh    s    ch    th    h    onset    coda    no_consonant    no_consonant 
+   4.476394789,    0.1220530729,    -0.0767491299,    0.02686033853,    0.02364264199,    0.02224787174,    0.04619960056,    0.2864954352,    0.1701968795,    0.3025671565,    0.1701108937,    -0.0620023265, 
+   21.09401943
+
+10
+  2,   2,   2,   1,   2,   2, 
+   stressed    unstressed    non-final    final    m    n    onset    no_consonant    consonant    no_consonant    consonant 
+   3.955593349,    -0.1278699926,    -0.06714384393,    0.01128882919,    -0.204375252,    0.02915163921, 
+   21.49643333
+
+11
+  2,   2,   2,   1,   2,   2, 
+   stressed    unstressed    final    non-final    r    l    onset    no_consonant    consonant    no_consonant    consonant 
+   3.744699701,    -0.1135144884,    -0.04264937222,    -0.1034333449,    -0.2003080217,    -0.2717222494, 
+   21.85601564
+
+12
+  2,   2,   2,   1,   2,   1, 
+   stressed    unstressed    final    non-final    w    y    onset    no_consonant    consonant    no_consonant 
+   3.946380252,    -0.04322784089,    0.07055838413,    -0.1619714435,    -0.204537669, 
+   29.21633349
+
+13
+  2,   2,   3,   1,   1,   2, 
+   stressed    unstressed    final    non-final    g    d    b    onset    no_consonant    no_consonant    consonant 
+   4.056736312,    -0.1323710486,    -0.02150634532,    -0.03013905898,    -0.0715881064,    0.09719563811, 
+   26.20510493
+
+14
+  2,   2,   5,   1,   1,   2, 
+   unstressed    stressed    final    non-final    dh    v    jh    z    zh    onset    no_consonant    no_consonant    consonant 
+   4.306934197,    0.07489219862,    -0.008292535829,    -0.4620939671,    -0.1803022437,    0.2564164356,    0.1259170737,    0.08178081063, 
+   14.93662204
+
+15
+  2,   2,   3,   1,   2,   2, 
+   stressed    unstressed    non-final    final    t    k    p    onset    no_consonant    consonant    no_consonant    consonant 
+   4.342643409,    -0.1511443082,    -0.003587502838,    -0.06946348615,    0.03302841584,    -0.2461663868,    0.03360051972, 
+   27.18364049
+
+16
+  2,   2,   1,   1,   1,   2, 
+   stressed    unstressed    non-final    final    h    onset    no_consonant    no_consonant    consonant 
+   4.70314009,    0.06665603396,    -0.07295867675,    0.2822617484, 
+   29.79880414
+
+17
+  2,   2,   5,   1,   2,   2, 
+   stressed    unstressed    non-final    final    th    sh    f    s    ch    onset    no_consonant    consonant    no_consonant    consonant 
+   4.374285163,    -0.08238077938,    0.003127815094,    -0.04755850339,    0.07025431126,    -0.1295982522,    0.01275294791,    -0.3243622257,    -0.02577393971, 
+   28.41632779
+
+18
+  2,   2,   3,   1,   2,   2, 
+   stressed    unstressed    final    non-final    n    ng    m    coda    no_consonant    consonant    no_consonant    consonant 
+   4.494340575,    0.005506434619,    -0.06558953118,    -0.1439722982,    0.133721687,    0.1332566971,    0.03239542702, 
+   32.71244677
+
+19
+  2,   2,   2,   1,   1,   2, 
+   stressed    unstressed    final    non-final    l    r    coda    no_consonant    consonant    no_consonant 
+   4.286895412,    -0.01035292392,    0.006509038763,    -0.1890281748,    -0.1275779286, 
+   45.85430423
+
+21
+  2,   2,   3,   1,   2,   2, 
+   stressed    unstressed    final    non-final    d    g    b    coda    consonant    no_consonant    no_consonant    consonant 
+   3.791336682,    -0.003445250457,    -0.1984048346,    -0.3382337867,    0.1511111543,    0.3177121476,    -0.007288977103, 
+   27.19145872
+
+22
+  2,   2,   5,   1,   2,   2, 
+   stressed    unstressed    final    non-final    z    dh    v    jh    zh    coda    no_consonant    consonant    no_consonant    consonant 
+   4.321376812,    0.07562029231,    -0.03144546844,    0.03077554607,    -0.4390296796,    -0.4745282372,    0.3157765811,    0.007222978247,    -0.1346794696, 
+   40.60875011
+
+23
+  2,   2,   3,   1,   2,   2, 
+   stressed    unstressed    non-final    final    k    t    p    coda    no_consonant    consonant    no_consonant    consonant 
+   4.099906786,    -0.07764553364,    0.08675085507,    0.1461628321,    -0.1787423476,    -0.09244637469,    -0.1157439987, 
+   37.60193475
+
+25
+  2,   2,   5,   1,   2,   2, 
+   stressed    unstressed    final    non-final    ch    s    f    sh    th    coda    no_consonant    consonant    no_consonant    consonant 
+   4.478027617,    0.01859353288,    -0.1186719955,    0.08587906279,    -0.0007662958748,    -0.1586410571,    0.0847907351,    -0.06413352655,    -0.1648395873, 
+   44.63917122
+
+26
+  2,   2,   1,   2,   3,   4, 
+   unstressed    stressed    non-final    final    @    nucleus    coda    other    consonant_liquid    voiced_stop    other    no_coda    all_voiced_coda    silence 
+   4.10262688,    -0.06994922862,    0.04735943834,    0.1602349606,    0.03327353209,    -0.2385537887,    -0.1377350212,    -0.221535131,    -0.09128985276, 
+   25.61246611
+
+27
+  2,   2,   10,   1,   3,   1, 
+   stressed    unstressed    non-final    final    e    u@    i@    oo    aa    e@    @@    o    a    ai    nucleus    other    voiced_stop    consonant_liquid    all_voiced_coda 
+   4.600627066,    0.1287714471,    0.0416919782,    -0.4302035409,    0.3319365526,    0.3964749104,    -0.3445105132,    -0.8500599178,    0.4018782214,    -0.4426510158,    -0.0407378745,    0.26294364,    0.02539148918,    0.7663773008, 
+   24.15065498
+
+28
+  2,   2,   11,   1,   3,   4, 
+   stressed    unstressed    final    non-final    i    @@    uh    uu    e    ii    o    aa    oo    a    u    nucleus    other    voiced_stop    consonant_liquid    other    no_coda    all_voiced_coda    silence 
+   4.606139226,    -0.05283095971,    0.01161501347,    -0.4843643905,    0.2922340939,    -0.1136640041,    0.1177647948,    -0.1811095277,    0.12949191,    0.01771372661,    0.4573190886,    0.3929111064,    -0.03890331695,    0.002575380464,    0.1575508038,    -0.01035411753,    -0.2363802131,    -0.003555118907, 
+   37.84275855
+
+29
+  2,   2,   8,   1,   3,   4, 
+   stressed    unstressed    non-final    final    i@    ou    ai    oi    u@    ei    e@    au    nucleus    other    voiced_stop    consonant_liquid    no_coda    all_voiced_coda    other    silence 
+   4.95064165,    -0.06264604317,    0.02360618431,    0.06636487092,    -0.1303911613,    0.1701648582,    0.2642771134,    -0.2180127631,    -0.0758653546,    -0.07588346223,    0.04877611656,    0.07479542965,    -0.1223120522,    -0.04862814427,    -0.1870127136, 
+   44.24854425
+
+:end
+
+# ----- WEIGHTS ------
+
+:start duration_weights
+2
+final
+	          cnO          cNo          Cno           nO           No           cN           Cn            N
+0	    0.5122835    0.6375595    1.8501570    0.5400700    1.4599300    0.1121099    1.8878901    1.0000000
+1	    0.4564041    2.0167395    0.5268564    1.6432061    0.3567939    1.7333313    0.2666687    1.0000000
+non-final
+	          cnO          cNo          Cno           nO           No           cN           Cn            N
+0	    0.0074648    1.1665239    1.8260113    1.3365369    0.6634631    1.4129061    0.5870939    1.0000000
+1	    1.5872220    0.2068510    1.2059270    0.2740586    1.7259414    0.7413625    1.2586375    1.0000000
+:end
+

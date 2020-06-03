@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<normaliser version="1.0"  xmlns="http://www.voxygen.fr/tts"
+	    pattern_syntax="ECMAScript" pattern_options="" replacement_syntax="ECMAScript">
+<!--
+<replace>
+  <pattern syntax="ECMAScript" options="">r(egular expression)</pattern>
+  <replacement syntax="ECMAScript">R$1</replacement>
+</replace>
+-->
+</normaliser>

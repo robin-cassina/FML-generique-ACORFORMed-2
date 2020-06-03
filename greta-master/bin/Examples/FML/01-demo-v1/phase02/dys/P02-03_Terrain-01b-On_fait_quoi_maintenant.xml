@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				<spurt audio="g0001_018">err</spurt>
+				<voice emotion='calm'>On fait quoi maintenant ?</voice>
+			<tm id="tm2"/>
+				<voice emotion='calm'>J'vais avoir mal longtemps ?</voice>
+			<tm id="tm3"/>
+				<voice emotion='sad'>Ça peut se reboucher tout seul ?</voice>
+			<tm id="tm4"/>
+				<voice emotion='calm'>Et en combien de temps ?</voice>
+			<tm id="tm5"/>
+		</speech>
+	</bml>
+	<fml>
+		<restpose id="rp1" type="under_ribs" start="s1:tm2" end="s1:tm3" importance="1.0"/>
+		
+		<emotion id="e1" type="questioning" start="s1:tm1" end="s1:tm1+0.5" importance="1.0"/>
+		<emotion id="e2" type="sadness" start="s1:tm1" end="s1:tm4" importance="1.0"/>
+		<emotion id="e3" type="despair" start="s1:tm4" end="s1:tm4+3" importance="1.0"/>
+		<emotion id="e4" type="wondering" start="s1:tm4" end="s1:tm5" importance="1.0"/>
+	</fml>
+</fml-apml>
