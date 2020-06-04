@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/ActiveMQ/ActiveMQ.iml" filepath="$PROJECT_DIR$/auxiliary/ActiveMQ/ActiveMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/AnimationCore/AnimationCore.iml" filepath="$PROJECT_DIR$/core/AnimationCore/AnimationCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/AnimationDynamics/AnimationDynamics.iml" filepath="$PROJECT_DIR$/auxiliary/AnimationDynamics/AnimationDynamics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/AnimationDynamics/src/AnimationDynamics1.iml" filepath="$PROJECT_DIR$/auxiliary/AnimationDynamics/src/AnimationDynamics1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/BVHMocap/BVHMocap.iml" filepath="$PROJECT_DIR$/auxiliary/BVHMocap/BVHMocap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/BehaviorPlanner/BehaviorPlanner.iml" filepath="$PROJECT_DIR$/core/BehaviorPlanner/BehaviorPlanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/BehaviorRealizer/BehaviorRealizer.iml" filepath="$PROJECT_DIR$/core/BehaviorRealizer/BehaviorRealizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/BodyAnimationPerformer/BodyAnimationPerformer.iml" filepath="$PROJECT_DIR$/core/BodyAnimationPerformer/BodyAnimationPerformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/TTS/CereProc/CereProc.iml" filepath="$PROJECT_DIR$/auxiliary/TTS/CereProc/CereProc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/ConversationalGaze/ConversationalGaze.iml" filepath="$PROJECT_DIR$/auxiliary/ConversationalGaze/ConversationalGaze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/CorrectionMesh/CorrectionMesh.iml" filepath="$PROJECT_DIR$/tools/CorrectionMesh/CorrectionMesh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/Editors/Editors.iml" filepath="$PROJECT_DIR$/tools/Editors/Editors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/EmotionML/EmotionML.iml" filepath="$PROJECT_DIR$/auxiliary/EmotionML/EmotionML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/EnvironmentManager/EnvironmentManager.iml" filepath="$PROJECT_DIR$/auxiliary/EnvironmentManager/EnvironmentManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/FMLAnnotator/FMLAnnotator.iml" filepath="$PROJECT_DIR$/auxiliary/FMLAnnotator/FMLAnnotator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/Feedbacks/Feedbacks.iml" filepath="$PROJECT_DIR$/core/Feedbacks/Feedbacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/GestureAnimation/GestureAnimation.iml" filepath="$PROJECT_DIR$/core/GestureAnimation/GestureAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/GestureAnimationEditor/GestureAnimationEditor.iml" filepath="$PROJECT_DIR$/tools/GestureAnimationEditor/GestureAnimationEditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/GroupBehavior/GroupBehavior.iml" filepath="$PROJECT_DIR$/auxiliary/GroupBehavior/GroupBehavior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/Intentions/Intentions.iml" filepath="$PROJECT_DIR$/core/Intentions/Intentions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/Interruptions/Interruptions.iml" filepath="$PROJECT_DIR$/core/Interruptions/Interruptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/LipModel/LipModel.iml" filepath="$PROJECT_DIR$/core/LipModel/LipModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/ListenerIntentPlanner/ListenerIntentPlanner.iml" filepath="$PROJECT_DIR$/core/ListenerIntentPlanner/ListenerIntentPlanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/MPEG4/MPEG4.iml" filepath="$PROJECT_DIR$/core/MPEG4/MPEG4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/TTS/MaryTTS/MaryTTS.iml" filepath="$PROJECT_DIR$/auxiliary/TTS/MaryTTS/MaryTTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/OgrePlayer/OgrePlayer.iml" filepath="$PROJECT_DIR$/auxiliary/OgrePlayer/OgrePlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/PlanCapture/PlanCapture.iml" filepath="$PROJECT_DIR$/auxiliary/PlanCapture/PlanCapture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/SSI/SSI.iml" filepath="$PROJECT_DIR$/auxiliary/SSI/SSI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/Signals/Signals.iml" filepath="$PROJECT_DIR$/core/Signals/Signals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/SocialParameters/SocialParameters.iml" filepath="$PROJECT_DIR$/auxiliary/SocialParameters/SocialParameters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/SubjectPlanner/SubjectPlanner.iml" filepath="$PROJECT_DIR$/core/SubjectPlanner/SubjectPlanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/Thrift/Thrift.iml" filepath="$PROJECT_DIR$/auxiliary/Thrift/Thrift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/Util/Util.iml" filepath="$PROJECT_DIR$/core/Util/Util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/Utilx/Utilx.iml" filepath="$PROJECT_DIR$/core/Utilx/Utilx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliary/TTS/Voxygen/Voxygen.iml" filepath="$PROJECT_DIR$/auxiliary/TTS/Voxygen/Voxygen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/application.iml" filepath="$PROJECT_DIR$/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/greta-master.iml" filepath="$PROJECT_DIR$/.idea/greta-master.iml" />
+    </modules>
+  </component>
+</project>

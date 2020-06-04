@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Modular">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/Modular.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

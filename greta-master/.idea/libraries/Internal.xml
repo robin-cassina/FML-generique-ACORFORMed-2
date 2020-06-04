@@ -1,0 +1,40 @@
+<component name="libraryTable">
+  <library name="Internal">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/GestureAnimation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/AnimationCore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/FMLAnnotator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Voxygen.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/AnimationDynamics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/MPEG4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/ConversationalGaze.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Utilx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Signals.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/BehaviorPlanner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Intentions.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/ListenerIntentPlanner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/CereProc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Interruptions.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/SubjectPlanner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Feedbacks.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/EmotionML.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Editors.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/PlanCapture.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/SSI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/BehaviorRealizer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/Thrift.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/SocialParameters.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/GestureAnimationEditor.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/GroupBehavior.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/BVHMocap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/MaryTTS.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/ActiveMQ.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/LipModel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/BodyAnimationPerformer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/Common/Lib/Internal/EnvironmentManager.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
