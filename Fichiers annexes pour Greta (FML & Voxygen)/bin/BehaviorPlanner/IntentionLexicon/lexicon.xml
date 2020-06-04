@@ -16,7 +16,7 @@
 	
 	<behaviorset name="other-culture">
 		<signals>
-			<signal id="1" name="adjectival=culture3" modality="gesture"/>
+			<signal id="1" name="ADJECTIVAL=culture3" modality="gesture"/>
 		</signals>
 		<constraints>
 			<core>
@@ -24,78 +24,9 @@
 			</core>
 		</constraints>
 	</behaviorset>
-	
 	<behaviorset name="performative-restpose">
 		<signals>
 			<signal id="1" name="rest=rest_Ges_B_Belly" modality="gesture"/>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-			</core>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="performative-raiseHand_R">
-		<signals>
-			<signal id="1" name="performative=raiseHand_R" modality="gesture">
-			</signal>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-			</core>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="performative-GoodThumbup">
-		<signals>
-			<signal id="1" name="performative=good" modality="gesture">
-			</signal>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-			</core>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="rest-restpose">
-		<signals>
-			<signal id="1" name="rest=Belly_Ges_B" modality="gesture"/>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-			</core>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="rest-akimbo">
-		<signals>
-			<signal id="1" name="rest=Akimbo" modality="gesture"/>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-			</core>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="rest-along_big">
-		<signals>
-			<signal id="1" name="rest=Along_big" modality="gesture"/>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-			</core>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="rest-armscrossed">
-		<signals>
-			<signal id="1" name="rest=ArmsCrossed" modality="gesture"/>
 		</signals>
 		<constraints>
 			<core>
@@ -174,6 +105,7 @@
 		<signals>
 			<signal id="1" name="head=head_infront" modality="head"/>
 			<signal id="2" name="emotion=anger_signal_5" modality="gesture" />
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 			<signal id="4" name="faceexp=anger" modality="face"/>
 			<!--<signal id="5" name="anger" modality="torso"/>-->
 		</signals>
@@ -292,7 +224,7 @@
 		<signals>
 			<signal id="1" name="faceexp=pride_signal_10" modality="face"/>
 			<signal id="2" name="UP" modality="head"/>
-			<!--<signal id="3" name="pride_signal_3" modality="torso"/>-->
+			<signal id="3" name="pride_signal_3" modality="torso"/>
 		</signals>
 		<constraints>
 			<core>
@@ -422,64 +354,6 @@
 		</constraints>
 	</behaviorset>
 	
-	<!-- TURN -->
-	
-	<behaviorset name="turntaking-takethefloor">
-		<signals>
-			<signal id="1" name="gaze=take" modality="gaze">
-				<alternative name="faceexp=neutral" probability="0.3"/>
-			</signal>
-			<signal id="2" name="raise" modality="torso">
-				<alternative name="none" probability="0.3"/>
-			</signal>
-		</signals>
-		<constraints/>
-	</behaviorset>
-	
-	<behaviorset name="turntaking-givethefloor">
-		<signals>
-			<signal id="1" name="gaze=give" modality="gaze" >
-			</signal>
-			<signal id="2" name="raise" modality="torso">
-				<alternative name="none" probability="0.3"/>
-			</signal>
-			<signal id="4" name="adjectival=OPEN_MOVING_HAND2" modality="gesture">
-				<alternative name="rest=legs" probability="0.3"/>
-			</signal>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-			</core>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="turntaking-*">
-		<signals>
-			<signal id="1" name="NOD" modality="head"/>
-			<signal id="3" name="faceexp=raise_eyebrows" modality="face"/>
-		</signals>
-		<constraints>
-			<rules>
-				<implication>
-					<ifpresent id="1"/>
-					<thennotpresent id="2"/>
-					<thennotpresent id="3"/>
-				</implication>
-				<implication>
-					<ifpresent id="2"/>
-					<thennotpresent id="1"/>
-					<thennotpresent id="3"/>
-				</implication>
-				<implication>
-					<ifpresent id="3"/>
-					<thennotpresent id="1"/>
-					<thennotpresent id="2"/>
-				</implication>
-			</rules>
-		</constraints>
-	</behaviorset>
-	
 	<!-- ICONIC        -->
 	<behaviorset name="iconic-chop">
 		<signals>
@@ -605,16 +479,17 @@
 		<signals>
 			<signal id="1" name="faceexp=greet" modality="face"/>
 			<signal id="2" name="performative=greetnew_Ges_R" modality="gesture"/>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 			<signal id="4" name="NOD" modality="head"/>
-			<!--<signal id="5" name="LinearNeutralFrontalSwing" modality="torso"/>
-			 Doesn't work anymore in the GRETA platform. -->
+			<signal id="5" name="LinearNeutralFrontalSwing" modality="torso"/>
+			<!-- Doesn't work anymore in the GRETA platform. -->
 			<!-- <signal id="5" name="bow" modality="torso"/> -->
 		</signals>
 		<constraints>
 			<rules>
 				<implication>
-					<ifpresent id="4"/>
-					<thenpresent id="3"/>
+					<ifpresent id="5"/>
+					<thenpresent id="4"/>
 				</implication>
 			</rules>
 		</constraints>
@@ -645,6 +520,7 @@
 			<signal id="1" name="faceexp=propose" modality="face"/>
 			<signal id="2" name="adjectival=OPEN_MOVING_HAND" modality="gesture"/>
 			<signal id="3" name="NOD" modality="head"/>
+			<signal id="4" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints/>
 	</behaviorset>
@@ -700,6 +576,7 @@
 		<signals>
 			<signal id="1" name="NOD" modality="head"/>
 			<signal id="2" name="adjectival=ShowHand_Pos_L_Low" modality="gesture"/>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 			<signal id="4" name="faceexp=certain" modality="face"/>
 		</signals>
 		<constraints/>
@@ -723,6 +600,7 @@
 	<behaviorset name="turntaking-givethefloor">
 		<signals>
 			<signal id="1" name="gaze=give" modality="gaze" >
+				<alternative name="gaze=look_at" probability="0.2"/>
 			</signal>
 			<signal id="2" name="raise" modality="torso">
 				<alternative name="none" probability="0.3"/>
@@ -741,6 +619,7 @@
 	<behaviorset name="turntaking-*">
 		<signals>
 			<signal id="1" name="NOD" modality="head"/>
+			<signal id="2" name="gaze=look_at" modality="gaze"/>
 			<signal id="3" name="faceexp=raise_eyebrows" modality="face"/>
 		</signals>
 		<constraints>
@@ -969,6 +848,7 @@
 				<alternative name="faceexp=Smile_Small_Closed" probability="0.2"/>
 				<alternative name="faceexp=Smile_Small_Open" probability="0.2"/>
 			</signal>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints>
 			<core>
@@ -993,6 +873,7 @@
 				<alternative name="faceexp=Eyebrows_Frown" probability="0.5"/>
 				<alternative name="faceexp=tension" probability="0.3"/>
 			</signal>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints>
 			<core>
@@ -1017,6 +898,7 @@
 				<alternative name="faceexp=Smile_Small_Closed" probability="0.4"/>
 				<alternative name="faceexp=Smile_Small_Open" probability="0.2"/>
 			</signal>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints>
 			<rules>
@@ -1037,6 +919,7 @@
 			<signal id="2" name="faceexp=Eyebrows_Frown" modality="face">
 				<alternative name="faceexp=tension" probability="0.5"/>
 			</signal>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints>
 			<core>
@@ -1058,6 +941,7 @@
 				<!--<alternative name="faceexp=little_smile_open" probability="0.2"/>-->
 				<!--<alternative name="faceexp=liking_open" probability="0.2"/>-->
 			<!--</signal>-->
+			<signal id="2" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints>
 			<core>
@@ -1220,6 +1104,7 @@
 		<signals>
 			<signal id="1" name="NOD" modality="head"/>
 			<signal id="2" name="faceexp=frown" modality="face"/>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints>
 			<rules>
@@ -1245,6 +1130,7 @@
 				<alternative name="DOWN_ASIDE_RIGHT" probability="0.2"/>
 				<alternative name="NeutralPosition" probability="0.1"/><!-- head_none -->
 			</signal>
+			<signal id="2" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints/>
 	</behaviorset>
@@ -1258,6 +1144,7 @@
 				<alternative name="DOWN_ASIDE_RIGHT" probability="0.1"/>
 				<alternative name="head=NeutralPosition" probability="0.1"/><!-- head_none -->
 			</signal>
+			<signal id="2" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints/>
 	</behaviorset>
@@ -1270,6 +1157,7 @@
 				<alternative name="UP_ASIDE_RIGHT" probability="0.2"/>
 				<alternative name="head=NeutralPosition" probability="0.1"/><!-- head_none -->
 			</signal>
+			<signal id="2" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints/>
 	</behaviorset>
@@ -1285,6 +1173,7 @@
 			<signal id="2" name="faceexp=raise_eyebrows" modality="face">
 				<alternative name="faceexp=neutral" probability="0.2"/>
 			</signal>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints/>
 	</behaviorset>
@@ -1300,6 +1189,7 @@
 			<signal id="2" name="faceexp=frown" modality="face">
 				<alternative name="faceexp=neutral" probability="0.3"/>
 			</signal>
+			<signal id="3" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints/>
 	</behaviorset>
@@ -1312,6 +1202,7 @@
 				<alternative name="UP_ASIDE_RIGHT" probability="0.1"/>
 				<alternative name="head=NeutralPosition" probability="0.1"/><!-- head_none -->
 			</signal>  
+			<signal id="2" name="gaze=look_at" modality="gaze"/>
 		</signals>
 		<constraints/>
 	</behaviorset>
@@ -1417,6 +1308,7 @@
 			<signal id="8" name="NOD" modality="head" repetitivity="0" min="1" max="2"  probability_start="0.5" probability_end="0.5"/>
 			<signal id="9" name="head=head_infront" modality="head" repetitivity="0" min="1" max="2"  probability_start="0" probability_end="0"/>
 			<signal id="10" name="emotion=anger_signal_10" modality="gesture" repetitivity="0" min="2" max="5"  probability_start="0.2" probability_end="0.2"/>
+			<signal id="11" name="gaze=look_at" modality="gaze" repetitivity="0" min="1" max="2"  probability_start="0" probability_end="0"/>
 			<signal id="12" name="anger" modality="torso" repetitivity="0" min="2" max="5"  probability_start="0" probability_end="0"/>
 		</signals>
 		<constraints/>
@@ -1557,39 +1449,4 @@
 	</behaviorset>
 	
 	<!--END OF  MSE -->
-	
-	<!-- stupid gestures made by Donatella -->
-	
-	<behaviorset name="performative-Hungryyy">
-		<signals>
-			<signal id="1" name="performative=Hungryness" modality="gesture"/>			
-		</signals>
-		<constraints>
-			<rules>
-			</rules>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="performative-Italian">
-		<signals>
-			<signal id="1" name="performative=IconicItalianGesture" modality="gesture"/>		
-		</signals>
-		<constraints>
-			<rules>
-			</rules>
-		</constraints>
-	</behaviorset>
-	
-	<behaviorset name="performative-SiPach">
-		<signals>
-			<signal id="1" name="performative=YouCrazy" modality="gesture"/>		
-		</signals>
-		<constraints>
-			<rules>
-			</rules>
-		</constraints>
-	</behaviorset>
-	
-	<!-- end of stupid gestures -->
-	
 </behaviorsets>
