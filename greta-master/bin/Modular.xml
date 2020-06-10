@@ -71,6 +71,7 @@
                 <item module="TTS" name="Controller"/>
                 <item module="MaryTTS Client" name="MaryTTS Client"/>
                 <item module="CereProc" name="CereProc"/>
+                <item module="Voxygen" name="Voxygen"/>
             </menu>
             <menu name="Laugh Synthetizer">
                 <item module="Laugh Synthetizer" name="Controller"/>
