@@ -289,8 +289,8 @@ public class Model implements IntentionEmitter {
 
                         insereTM(temp, speechElement);
                         initLex();
-
-                        if (temp > 1) {
+                        //NE FONCTIONNE PAS AVEC VOXYGEN
+                        /*if (temp > 1) {
 
                             inserePause(temp, speechElement);
                             Compteurs.get("compteCar").set(0);
@@ -300,7 +300,7 @@ public class Model implements IntentionEmitter {
                             inserePause(temp, speechElement);
                             Compteurs.get("compteCar").set(0);
 
-                        }
+                        }*/
                     }
 
                     tokPrec = tok.toString();
