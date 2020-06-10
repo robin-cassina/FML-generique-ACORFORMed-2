@@ -67,6 +67,7 @@ public class View extends JFrame implements IntentionEmitter {
     private String SEND_BUTTON;
     private String ANNOTATE_BUTTON;
     private String OPEN_BUTTON;
+    private String SAVE_BUTTON;
 
     private JPanel panel;
     private GroupLayout layout;
@@ -99,6 +100,7 @@ public class View extends JFrame implements IntentionEmitter {
     private JButton sendButton;
     private JButton anButton;
     private JButton opButton;
+    private JButton saveButton;
 
     private ArrayList<IntentionPerformer> performers = new ArrayList<IntentionPerformer>();
 
@@ -112,6 +114,7 @@ public class View extends JFrame implements IntentionEmitter {
         SEND_BUTTON = "Send";
         ANNOTATE_BUTTON = "Annotate";
         OPEN_BUTTON = "Open";
+        SAVE_BUTTON = "Save FML";
 
         panel = new JPanel();
         layout = new GroupLayout(panel);
@@ -167,6 +170,7 @@ public class View extends JFrame implements IntentionEmitter {
         sendButton = new JButton(SEND_BUTTON);
         anButton = new JButton(ANNOTATE_BUTTON);
         opButton = new JButton(OPEN_BUTTON);
+        saveButton = new JButton(SAVE_BUTTON);
 
         opButton.addActionListener(new ActionListener() {
             @Override
@@ -189,6 +193,13 @@ public class View extends JFrame implements IntentionEmitter {
             }
         });
 
+        saveButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                save();
+            }
+        });
+        
         showTMButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -241,6 +252,7 @@ public class View extends JFrame implements IntentionEmitter {
                 )
                 .addComponent(scPan2)
                 .addComponent(sendButton)
+                .addComponent(saveButton)
         );
 
         layout.setVerticalGroup(
@@ -266,7 +278,10 @@ public class View extends JFrame implements IntentionEmitter {
                                         .addComponent(DALab)
                                         .addComponent(showDA))
                         )
-                        .addComponent(sendButton)
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                .addComponent(sendButton)
+                                .addComponent(saveButton)
+                        )
                         .addComponent(scPan2))
         );
 
@@ -323,6 +338,10 @@ public class View extends JFrame implements IntentionEmitter {
             }
         }
 
+    }
+
+    public void save() {
+        //TODO TODO TODO
     }
 
     public void setSHOWPAUSE(boolean sHOWPAUSE) {
