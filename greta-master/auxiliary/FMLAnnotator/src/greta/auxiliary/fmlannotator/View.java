@@ -251,8 +251,10 @@ public class View extends JFrame implements IntentionEmitter {
                                 .addComponent(showDA))
                 )
                 .addComponent(scPan2)
-                .addComponent(sendButton)
-                .addComponent(saveButton)
+                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                        .addComponent(sendButton)
+                        .addComponent(saveButton)
+                )
         );
 
         layout.setVerticalGroup(
@@ -278,11 +280,12 @@ public class View extends JFrame implements IntentionEmitter {
                                         .addComponent(DALab)
                                         .addComponent(showDA))
                         )
-                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
                                 .addComponent(sendButton)
                                 .addComponent(saveButton)
                         )
-                        .addComponent(scPan2))
+                        .addComponent(scPan2)
+                )
         );
 
         add(panel);
