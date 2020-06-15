@@ -50,6 +50,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
+import static greta.auxiliary.fmlannotator.Model.copyOutputFile;
 
 /**
  *
@@ -94,6 +97,7 @@ public class View extends JFrame implements IntentionEmitter {
     private boolean SHOWDA;
 
     private JFileChooser openFileChooser;
+    private JFileChooser saveFileChooser;
 
     private JComboBox languageComboBox;
 
@@ -166,6 +170,15 @@ public class View extends JFrame implements IntentionEmitter {
 
         openFileChooser = new JFileChooser();
         openFileChooser .setCurrentDirectory(new File("./"));
+
+        saveFileChooser = new JFileChooser();
+        saveFileChooser .setDialogTitle("Choose where you want to save the file");
+        saveFileChooser .setCurrentDirectory(new File("./"));
+        saveFileChooser .addActionListener(e -> save());
+        saveFileChooser .setAcceptAllFileFilterUsed(false);
+
+        FileNameExtensionFilter xmlfilter = new FileNameExtensionFilter("xml files (*.xml)", "xml");
+        saveFileChooser .addChoosableFileFilter(xmlfilter);
 
         sendButton = new JButton(SEND_BUTTON);
         anButton = new JButton(ANNOTATE_BUTTON);
@@ -344,7 +357,14 @@ public class View extends JFrame implements IntentionEmitter {
     }
 
     public void save() {
-        //TODO TODO TODO
+        XMLParser fmlparser = XML.createParser();
+        XMLTree fml = fmlparser.parseBuffer(area2.getText());
+        if (fml != null) {
+            int recup = saveFileChooser.showSaveDialog(null);
+            if (recup == JFileChooser.APPROVE_OPTION){
+                copyOutputFile(saveFileChooser.getSelectedFile().toPath());
+            }
+        }
     }
 
     public void setSHOWPAUSE(boolean sHOWPAUSE) {

@@ -32,14 +32,11 @@ import greta.core.util.log.Logs;
 import greta.core.util.xml.XML;
 import greta.core.util.xml.XMLParser;
 import greta.core.util.xml.XMLTree;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FilenameFilter;
-import java.io.IOException;
-import java.io.StringReader;
+
+import java.io.*;
 import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -59,6 +56,9 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+
+import static java.nio.file.Files.copy;
+
 
 /**
  *
@@ -265,7 +265,7 @@ public class Model implements IntentionEmitter {
         CounterFactory C1 = new CounterFactory(test);
 
         String[] compteurs = {"tm", "pause", "boundaries", "speech", "social", "turntaking", "backchannel", "performative", "functionalRelation", "emotion", "emphasis", "certainty", "other", "compteCar", "world"};
-        Compteurs = C1.createCompteur(compteurs, 1);
+        Compteurs = C1.createCompteur(compteurs, 0);
 
         initLex();
         idLex = 5;
