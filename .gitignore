@@ -1,2 +1,6 @@
 
 .idea/
+
+greta-master/bin/Common/Data/FMLAnnotator/Output/output.xml
+
+greta-master/build.xml
