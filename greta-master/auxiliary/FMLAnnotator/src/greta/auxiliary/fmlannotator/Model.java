@@ -345,6 +345,15 @@ public class Model implements IntentionEmitter {
         return result;
     }
 
+    public static void copyOutputFile(Path OutputPath) {
+        Path source = Paths.get(OUTPUT_DIR , "./output.xml");
+        try{
+            copy(source, OutputPath);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+
     private void chercheDAcomplexe(String tokPrec) {
         // TODO
     }
