@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+			<tm id="tm0"/>
+				Ici,
+			<tm id="tm1"/>
+				vous pouvez
+			<tm id="tm2"/>
+				cuisiner,
+			<tm id="tm3"/>
+				choisir
+			<tm id="tm4"/>	
+				vos ingrédients,  
+			<tm id="tm5"/>
+				ou simplement explorer
+			<tm id="tm6"/>
+				les lieux.
+			<tm id="tm7"/>
+				
+			<pitchaccent id='xpa1' type='Hstar' start='s1:tm2' end='s1:tm3' level='strong' importance='1'/>
+			<pitchaccent id='xpa2' type='Hstar' start='s1:tm3' end='s1:tm4' level='strong' importance='1'/>
+			<pitchaccent id='xpa3' type='Hstar' start='s1:tm5' end='s1:tm6' level='strong' importance='1'/>
+			<boundary id="bd1" type="LH" start="s1:tm1" end='s1:tm1+0.3'/>
+			<boundary id="bd2" type="LH" start="s1:tm3" end='s1:tm3+0.3'/>
+			<boundary id="bd3" type="LL" start="s1:tm7" end='s1:tm7+0.5'/>
+			
+		</speech>
+	</bml>
+	<fml>
+		<beat id="b1" type="onmyleft" start="s1:tm0" end="s1:tm1" importance="1.0"/>
+		<beat id="b2" type="left" start="s1:tm2" end="s1:tm3" importance="1.0"/>
+		<beat id="b3" type="left" start="s1:tm3" end="s1:tm4" importance="1.0"/>
+		<performative id="p1" type="beatsocial" start="s1:tm5" end="s1:tm7+1" importance="1.0"/>
+
+	</fml>
+</fml-apml>

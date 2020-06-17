@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE fml-apml SYSTEM 'fml-apml.dtd'>
+<fml-apml>
+ <bml>
+  <speech id="s1" start="0">
+   <description type="gretabml" level="1">
+    <reference>tmp/from-fml-apml.pho</reference>
+   </description>
+   <tm id="tm1"/>
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	Voilà bien longtemps,
+	<tm id="tm2"/>
+	\pau=350\
+	un soir de printemps,
+	<tm id="tm3"/>
+	\pau=350\
+	trois petits morceaux de nuit se détachèrent du ciel 
+	<tm id="tm4"/>
+	\pau=250\
+	et tombèrent sur Terre.
+	<tm id="tm5"/>
+	\pau=350\
+	Ils étaient 
+	<tm id="tm6"/>
+	\rspd=94\
+	tout noirs
+	\rspd=100\
+	<tm id="tm7"/>
+	,
+	<tm id="tm8"/>
+	\rspd=94\
+	tout bossus
+	\rspd=100\
+	<tm id="tm9"/>
+	,
+	<tm id="tm10"/>
+	\pau=250\
+	 et 
+	<tm id="tm11"/>
+	\rspd=87\
+	tout étonnés 
+	\rspd=100\
+	<tm id="tm12"/>
+	de se retrouver là.
+	<tm id="tm13"/>
+	\pau=500\
+	Le premier dit : 
+	<tm id="tm14"/>
+	\pau=500\
+	\vce=speaker=AntoineUpclose\ \rspd=87\ \vol=32767\ \vct=130\
+	- Où suis-je ?
+	<tm id="tm15"/>
+	\pau=250\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	Le deuxième dit : 
+	<tm id="tm16"/>
+	\pau=500\
+	\vce=speaker=AntoineUpclose\ \rspd=87\ \vol=32767\ \vct=130\
+	- Qui suis-je ?
+	<tm id="tm17"/>
+	\pau=250\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	Et le troisième piailla : 
+	<tm id="tm18"/>
+	\pau=500\
+	\vce=speaker=AntoineUpclose\ \rspd=87\ \vol=32767\ \vct=130\
+	- J'ai 
+	<tm id="tm19"/>
+	\vol=42597\
+	faim
+	\vol=32767\
+	<tm id="tm20"/>
+	,
+	<tm id="tm21"/>
+	\pau=1000\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	Une souris passait par là.
+	<tm id="tm22"/>
+	\pau=400\
+	C'était une vieille maman souris.
+	<tm id="tm23"/>
+	\pau=150\
+	 Et,
+	<tm id="tm24"/>
+	 comme toutes les mamans de la terre,
+	<tm id="tm25"/>
+	\pau=250\
+	elle comprenait ces mots,
+	<tm id="tm26"/>
+	\pau=300\
+	 "j'ai faim",
+	<tm id="tm27"/>
+	\pau=300\
+	dans toutes les langues de l'univers.
+	<tm id="tm28"/>
+	\pau=500\
+	\vce=speaker=MargauxHappy\ \rspd=87\ \vol=45874\ \vct=140\
+	 mais,
+	\vce=speaker=Margaux\ \vol=32767\ 
+	<tm id="tm29"/>
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	se dit-elle,
+	<tm id="tm30"/>
+	\vce=speaker=MargauxHappy\ \rspd=87\ \vol=32767\ \vct=140\
+	Ce sont des bébés !
+	\vce=speaker=Margaux\
+	<tm id="tm31"/>
+	Des bébés de quoi,
+	<tm id="tm32"/>
+	\pau=150\
+	je n'en sais rien.
+	<tm id="tm33"/>
+	\pau=250\
+	Perdus,
+	<tm id="tm34"/>
+	\pau=250\
+	sans doute,
+	<tm id="tm35"/>
+	\pau=500\
+	ou tombés du nid.
+	<tm id="tm36"/>
+	\pau=500\
+	Il faut retrouver leurs parents.
+	<tm id="tm37"/>
+	\pau=750\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	Mais personne,
+	<tm id="tm38"/>
+	 apparemment,
+	<tm id="tm39"/>
+	 n'avait perdu de petits.
+	<tm id="tm40"/>
+	\pau=2000\
+	Les choses se compliquèrent encore
+	<tm id="tm41"/>
+	\pau=200\
+	 lorsqu'il leur poussa de petites ailes.
+	<tm id="tm42"/>
+	\pau=350\
+	Pas de vraies ailes avec des plumes,
+	<tm id="tm43"/>
+	 plutôt de drôles de bras palmés qui faisaient tout aussi bien l'affaire.
+	<tm id="tm44"/>
+	\pau=500\
+	Mais pas l'affaire de dame Souris !
+	<tm id="tm45"/>
+	\vce=speaker=MargauxHappy\ \rspd=94\ \vol=32767\ \vct=140\
+	Allez donc élever des enfants qui volent,
+	\vce=speaker=Margaux\ \rspd=87\
+	<tm id="tm46"/>
+	\pau=250\
+	\vce=speaker=MargauxHappy\
+	quand vous êtes cloué au sol !
+	\vce=speaker=Margaux\
+	<tm id="tm47"/>
+	\pau=1000\
+	\pau=1000\
+	\vce=speaker=MargauxSad\
+	Ah là 
+	\vce=speaker=Margaux\
+	<tm id="tm48"/>
+	\vce=speaker=MargauxSad\ \rspd=81\
+	là !
+	\vce=speaker=Margaux\ \rspd=87\
+	<tm id="tm49"/>
+	\pau=500\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	se dit dame Souris,
+	<tm id="tm50"/>
+	\pau=500\
+	\vce=speaker=MargauxSad\ \rspd=87\ \vol=32767\ \vct=140\
+	La vie est bien compliquée.
+	\vce=speaker=Margaux\
+	<tm id="tm51"/>
+	\pau=350\
+	Mais il y a toujours moyen de s'arranger.
+	<tm id="tm52"/>
+	\pau=2000\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	L'hiver vint.
+	<tm id="tm53"/>
+	\pau=250\
+	\pau=200\
+	Il était glacial.
+	<tm id="tm54"/>
+	\pau=500\
+	Bientôt,
+	<tm id="tm55"/>
+	 il n'y eut plus un moucheron,
+	<tm id="tm56"/>
+	 plus une larve.
+	<tm id="tm57"/>
+	\pau=500\
+	Dame Souris rongeait des graines dures comme du bois,
+	<tm id="tm58"/>
+	\pau=250\
+	mais les petits n'en voulaient toujours pas.
+	<tm id="tm59"/>
+	\pau=500\
+	Ils ne mangeaient plus.
+	<tm id="tm60"/>
+	\pau=350\
+	Ils avaient froid.
+	<tm id="tm61"/>
+	\pau=500\
+	Alors,
+	<tm id="tm62"/>
+	 pour se tenir chaud,
+	<tm id="tm63"/>
+	 ils s'emmitouflèrent dans leurs ailes.
+	<tm id="tm64"/>
+	\pau=500\
+	
+	<tm id="tm65"/>
+	\vce=speaker=AntoineUpclose\ \rspd=84\
+	Bientôt le froid les engourdit.
+	\vce=speaker=Antoine\ \rspd=100\
+	<tm id="tm66"/>
+	\pau=350\
+	\vce=speaker=AntoineUpclose\ \rspd=84\
+	Ils ne bougeaient plus du tout.
+	\vce=speaker=Antoine\ \rspd=100\
+	<tm id="tm67"/>
+	\pau=1000\
+	L'hiver passa.
+	<tm id="tm68"/>
+	\pau=350\
+	Tête en bas,
+	<tm id="tm69"/>
+	 les petits ne bougeaient toujours pas.
+	<tm id="tm70"/>
+	\pau=250\
+	
+	<tm id="tm71"/>
+	Puis 
+	<tm id="tm72"/>
+	\pau=150\
+	un beau soir,
+	<tm id="tm73"/>
+	\pau=250\
+	dans l'air tiédi,
+	<tm id="tm74"/>
+	\pau=250\
+	ils frémirent 
+	<tm id="tm75"/>
+	\pau=200\
+	\pau=250\
+	et déplièrent leurs ailes.
+	<tm id="tm76"/>
+	\pau=500\
+	\vce=speaker=AntoineHappy\
+	Dame Souris 
+	\vce=speaker=Antoine\
+	<tm id="tm77"/>
+	\vce=speaker=AntoineHappy\ \vol=39321\
+	crut 
+	\vce=speaker=Antoine\ \vol=26214\
+	<tm id="tm78"/>
+	\vce=speaker=AntoineHappy\ \vol=45874\
+	mourir 
+	\vce=speaker=Antoine\ \vol=26214\
+	<tm id="tm79"/>
+	\vce=speaker=AntoineHappy\ \vol=39321\
+	de joie
+	\vce=speaker=Antoine\ \vol=26214\
+	<tm id="tm80"/>
+	\vce=speaker=AntoineHappy\ \vol=39321\
+	 !
+	\vce=speaker=Antoine\ \vol=26214\
+	<tm id="tm81"/>
+	\pau=500\
+	\vce=speaker=AntoineUpclose\ \rspd=87\ \vol=32767\ \vct=130\
+	-
+	<tm id="tm82"/>
+	 J'ai bien dormi,
+	<tm id="tm83"/>
+	\pau=250\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	dit le premier.
+	<tm id="tm84"/>
+	\pau=350\
+	\vce=speaker=AntoineUpclose\ \rspd=87\ \vol=32767\ \vct=130\
+	- Et toi,
+	<tm id="tm85"/>
+	 maman Souris,
+	<tm id="tm86"/>
+	 ça va ?
+	<tm id="tm87"/>
+	\pau=250\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	dit le deuxième.
+	<tm id="tm88"/>
+	\pau=350\
+	\vce=speaker=AntoineUpclose\ \rspd=87\ \vol=32767\ \vct=130\
+	-
+	<tm id="tm89"/>
+	 J'ai une de ces faims,
+	<tm id="tm90"/>
+	\pau=250\
+	\vce=speaker=Antoine\ \rspd=100\ \vol=26214\ \vct=100\
+	dit le troisième.
+	<tm id="tm91"/>
+	\pau=500\
+	\rspd=94\
+	Et à la queuleuleu,
+	\rspd=100\
+	<tm id="tm92"/>
+	\pau=250\
+	\rspd=94\
+	sans bruit,
+	\rspd=100\
+	<tm id="tm93"/>
+	\pau=250\
+	\rspd=87\
+	ils s'envolèrent dans la nuit.
+	\rspd=100\
+	<tm id="tm94"/>
+	\pau=2000\
+	\rspd=81\
+	Peut-être.
+	\rspd=100\
+	<tm id="tm95"/>
+	\pau=350\
+	\rspd=87\
+	Peut-être 
+	\rspd=100\
+	<tm id="tm96"/>
+	\rspd=94\
+	est-ce ainsi
+	\rspd=100\
+	<tm id="tm97"/>
+	 que sont nées les chauves-souris,
+	<tm id="tm98"/>
+	\pau=250\
+	ces hirondelles de la nuit ?
+	<tm id="tm99"/>
+	\pau=500\
+	Et même si l'histoire n'est pas vraie,
+	<tm id="tm100"/>
+	\pau=250\
+	parions que les chauves-souris l'aimeraient,
+	<tm id="tm101"/>
+	\pau=250\
+	
+	<tm id="tm102"/>
+	\vce=speaker=AntoineUpclose\
+	si elles savaient lire !
+	\vce=speaker=Antoine\
+	<tm id="tm103"/>
+	<boundary end="start+0.5" type="LH" id="b1" start="s1:tm2"/>
+   <boundary end="start+0.5" type="LH" id="b2" start="s1:tm3"/>
+   <boundary end="start+1" type="LL" id="b3" start="s1:tm5"/>
+   <boundary end="start+0.5" type="LH" id="b4" start="s1:tm8"/>
+   <boundary end="start+0.5" type="LH" id="b5" start="s1:tm10"/>
+   <boundary end="start+1" type="LL" id="b6" start="s1:tm13"/>
+   <boundary end="start+1" type="HH" id="b7" start="s1:tm15"/>
+   <boundary end="start+1" type="HH" id="b8" start="s1:tm17"/>
+   <boundary end="start+0.5" type="LH" id="b9" start="s1:tm21"/>
+   <boundary end="start+1" type="LL" id="b10" start="s1:tm22"/>
+   <boundary end="start+1" type="LL" id="b11" start="s1:tm23"/>
+   <boundary end="start+0.5" type="LH" id="b12" start="s1:tm24"/>
+   <boundary end="start+0.5" type="LH" id="b13" start="s1:tm25"/>
+   <boundary end="start+0.5" type="LH" id="b14" start="s1:tm26"/>
+   <boundary end="start+0.5" type="LH" id="b15" start="s1:tm27"/>
+   <boundary end="start+1" type="LL" id="b16" start="s1:tm28"/>
+   <boundary end="start+0.5" type="LH" id="b17" start="s1:tm29"/>
+   <boundary end="start+0.5" type="LH" id="b18" start="s1:tm30"/>
+   <boundary end="start+1" type="HH" id="b19" start="s1:tm31"/>
+   <boundary end="start+0.5" type="LH" id="b20" start="s1:tm32"/>
+   <boundary end="start+1" type="LL" id="b21" start="s1:tm33"/>
+   <boundary end="start+0.5" type="LH" id="b22" start="s1:tm34"/>
+   <boundary end="start+0.5" type="LH" id="b23" start="s1:tm35"/>
+   <boundary end="start+1" type="LL" id="b24" start="s1:tm36"/>
+   <boundary end="start+1" type="LL" id="b25" start="s1:tm37"/>
+   <boundary end="start+0.5" type="LH" id="b26" start="s1:tm38"/>
+   <boundary end="start+0.5" type="LH" id="b27" start="s1:tm39"/>
+   <boundary end="start+1" type="LL" id="b28" start="s1:tm40"/>
+   <boundary end="start+1" type="LL" id="b29" start="s1:tm42"/>
+   <boundary end="start+0.5" type="LH" id="b30" start="s1:tm43"/>
+   <boundary end="start+1" type="LL" id="b31" start="s1:tm44"/>
+   <boundary end="start+1" type="HH" id="b32" start="s1:tm45"/>
+   <boundary end="start+0.5" type="LH" id="b33" start="s1:tm46"/>
+   <boundary end="start+1" type="HH" id="b34" start="s1:tm47"/>
+   <boundary end="start+1" type="HH" id="b35" start="s1:tm49"/>
+   <boundary end="start+0.5" type="LH" id="b36" start="s1:tm50"/>
+   <boundary end="start+1" type="LL" id="b37" start="s1:tm51"/>
+   <boundary end="start+1" type="LL" id="b38" start="s1:tm52"/>
+   <boundary end="start+1" type="LL" id="b39" start="s1:tm53"/>
+   <boundary end="start+1" type="LL" id="b40" start="s1:tm54"/>
+   <boundary end="start+0.5" type="LH" id="b41" start="s1:tm55"/>
+   <boundary end="start+0.5" type="LH" id="b42" start="s1:tm56"/>
+   <boundary end="start+1" type="LL" id="b43" start="s1:tm57"/>
+   <boundary end="start+0.5" type="LH" id="b44" start="s1:tm58"/>
+   <boundary end="start+1" type="LL" id="b45" start="s1:tm59"/>
+   <boundary end="start+1" type="LL" id="b46" start="s1:tm60"/>
+   <boundary end="start+1" type="LL" id="b47" start="s1:tm61"/>
+   <boundary end="start+0.5" type="LH" id="b48" start="s1:tm62"/>
+   <boundary end="start+0.5" type="LH" id="b49" start="s1:tm63"/>
+   <boundary end="start+1" type="LL" id="b50" start="s1:tm64"/>
+   <boundary end="start+1" type="LL" id="b51" start="s1:tm66"/>
+   <boundary end="start+1" type="LL" id="b52" start="s1:tm67"/>
+   <boundary end="start+1" type="LL" id="b53" start="s1:tm68"/>
+   <boundary end="start+0.5" type="LH" id="b54" start="s1:tm69"/>
+   <boundary end="start+1" type="LL" id="b55" start="s1:tm70"/>
+   <boundary end="start+0.5" type="LH" id="b56" start="s1:tm73"/>
+   <boundary end="start+0.5" type="LH" id="b57" start="s1:tm74"/>
+   <boundary end="start+1" type="LL" id="b58" start="s1:tm76"/>
+   <boundary end="start+1" type="HH" id="b59" start="s1:tm81"/>
+   <boundary end="start+0.5" type="LH" id="b60" start="s1:tm83"/>
+   <boundary end="start+1" type="LL" id="b61" start="s1:tm84"/>
+   <boundary end="start+0.5" type="LH" id="b62" start="s1:tm85"/>
+   <boundary end="start+0.5" type="LH" id="b63" start="s1:tm86"/>
+   <boundary end="start+1" type="HH" id="b64" start="s1:tm87"/>
+   <boundary end="start+1" type="LL" id="b65" start="s1:tm88"/>
+   <boundary end="start+0.5" type="LH" id="b66" start="s1:tm90"/>
+   <boundary end="start+1" type="LL" id="b67" start="s1:tm91"/>
+   <boundary end="start+0.5" type="LH" id="b68" start="s1:tm92"/>
+   <boundary end="start+0.5" type="LH" id="b69" start="s1:tm93"/>
+   <boundary end="start+1" type="LL" id="b70" start="s1:tm94"/>
+   <boundary end="start+1" type="LL" id="b71" start="s1:tm95"/>
+   <boundary end="start+0.5" type="LH" id="b72" start="s1:tm98"/>
+   <boundary end="start+1" type="HH" id="b73" start="s1:tm99"/>
+   <boundary end="start+0.5" type="LH" id="b74" start="s1:tm100"/>
+   <boundary end="start+0.5" type="LH" id="b75" start="s1:tm101"/>
+   <boundary end="start+1" type="HH" id="b76" start="s1:tm103"/>
+  </speech>
+ </bml>
+ <fml>
+  <performative end="s1:tm15" type="request" character="Petits" id="p1" start="s1:tm14"/>
+  <performative end="s1:tm17" type="request" character="Petits" id="p2" start="s1:tm16"/>
+  <performative end="s1:tm19" type="inform" character="Petits" id="p3" start="s1:tm18"/>
+  <emotion-signs end="s1:tm19" type="exclamation" character="Petits" id="e1" start="s1:tm18"/>
+  <performative end="s1:tm20" type="inform" character="Petits" id="p4" start="s1:tm19"/>
+  <emotion-signs end="s1:tm20" type="exclamation" character="Petits" id="e2" start="s1:tm19"/>
+  <performative end="s1:tm21" type="inform" character="Petits" id="p5" start="s1:tm20"/>
+  <emotion-signs end="s1:tm21" type="exclamation" character="Petits" id="e3" start="s1:tm20"/>
+  <performative end="s1:tm29" type="inform" character="Souris" id="p6" start="s1:tm28"/>
+  <emotion-signs end="s1:tm29" type="exclamation" character="Souris" id="e4" start="s1:tm28"/>
+  <emotion regulation="felt" end="s1:tm29" type="happy" character="Souris" id="e5" start="s1:tm28"/>
+  <performative end="s1:tm30" type="tell" character="Narrateur" id="p7" start="s1:tm29"/>
+  <performative end="s1:tm31" type="inform" character="Souris" id="p8" start="s1:tm30"/>
+  <emotion-signs end="s1:tm31" type="exclamation" character="Souris" id="e6" start="s1:tm30"/>
+  <emotion regulation="felt" end="s1:tm31" type="happy" character="Souris" id="e7" start="s1:tm30"/>
+  <performative end="s1:tm32" type="inform" character="Souris" id="p9" start="s1:tm31"/>
+  <performative end="s1:tm33" type="inform" character="Souris" id="p10" start="s1:tm32"/>
+  <performative end="s1:tm34" type="inform" character="Souris" id="p11" start="s1:tm33"/>
+  <performative end="s1:tm35" type="inform" character="Souris" id="p12" start="s1:tm34"/>
+  <performative end="s1:tm36" type="inform" character="Souris" id="p13" start="s1:tm35"/>
+  <performative end="s1:tm37" type="inform" character="Souris" id="p14" start="s1:tm36"/>
+  <emotion regulation="felt" end="s1:tm46" type="happy" character="Souris" id="e8" start="s1:tm45"/>
+  <emotion regulation="felt" end="s1:tm47" type="happy" character="Souris" id="e9" start="s1:tm46"/>
+  <performative end="s1:tm48" type="inform" character="Souris" id="p15" start="s1:tm47"/>
+  <emotion-signs end="s1:tm48" type="exclamation" character="Souris" id="e10" start="s1:tm47"/>
+  <emotion regulation="felt" end="s1:tm48" type="sad" character="Souris" id="e11" start="s1:tm47"/>
+  <performative end="s1:tm49" type="inform" character="Souris" id="p16" start="s1:tm48"/>
+  <emotion-signs end="s1:tm49" type="exclamation" character="Souris" id="e12" start="s1:tm48"/>
+  <emotion regulation="felt" end="s1:tm49" type="sad" character="Souris" id="e13" start="s1:tm48"/>
+  <performative end="s1:tm50" type="tell" character="Narrateur" id="p17" start="s1:tm49"/>
+  <performative end="s1:tm51" type="inform" character="Souris" id="p18" start="s1:tm50"/>
+  <emotion regulation="felt" end="s1:tm51" type="sad" character="Souris" id="e14" start="s1:tm50"/>
+  <performative end="s1:tm52" type="inform" character="Souris" id="p19" start="s1:tm51"/>
+  <emotion regulation="felt" end="s1:tm66" type="upclose" character="Narrateur" id="e15" start="s1:tm65"/>
+  <emotion regulation="felt" end="s1:tm67" type="upclose" character="Narrateur" id="e16" start="s1:tm66"/>
+  <performative end="s1:tm77" type="believe" character="Narrateur" id="p20" start="s1:tm76"/>
+  <emotion regulation="felt" end="s1:tm77" type="happy" character="Narrateur" id="e17" start="s1:tm76"/>
+  <performative end="s1:tm78" type="believe" character="Narrateur" id="p21" start="s1:tm77"/>
+  <emotion regulation="felt" end="s1:tm78" type="happy" character="Narrateur" id="e18" start="s1:tm77"/>
+  <performative end="s1:tm79" type="believe" character="Narrateur" id="p22" start="s1:tm78"/>
+  <emotion regulation="felt" end="s1:tm79" type="happy" character="Narrateur" id="e19" start="s1:tm78"/>
+  <performative end="s1:tm80" type="believe" character="Narrateur" id="p23" start="s1:tm79"/>
+  <emotion regulation="felt" end="s1:tm80" type="happy" character="Narrateur" id="e20" start="s1:tm79"/>
+  <performative end="s1:tm81" type="believe" character="Narrateur" id="p24" start="s1:tm80"/>
+  <emotion regulation="felt" end="s1:tm81" type="happy" character="Narrateur" id="e21" start="s1:tm80"/>
+  <performative end="s1:tm82" type="inform" character="Petits" id="p25" start="s1:tm81"/>
+  <performative end="s1:tm83" type="inform" character="Petits" id="p26" start="s1:tm82"/>
+  <performative end="s1:tm84" type="tell" character="Narrateur" id="p27" start="s1:tm83"/>
+  <performative end="s1:tm87" type="request" character="Petits" id="p28" start="s1:tm84"/>
+  <performative end="s1:tm88" type="tell" character="Narrateur" id="p29" start="s1:tm87"/>
+  <performative end="s1:tm89" type="inform" character="Petits" id="p30" start="s1:tm88"/>
+  <emotion-signs end="s1:tm89" type="exclamation" character="Petits" id="e22" start="s1:tm88"/>
+  <performative end="s1:tm90" type="inform" character="Petits" id="p31" start="s1:tm89"/>
+  <emotion-signs end="s1:tm90" type="exclamation" character="Petits" id="e23" start="s1:tm89"/>
+  <performative end="s1:tm91" type="tell" character="Narrateur" id="p32" start="s1:tm90"/>
+  <emotion regulation="felt" end="s1:tm103" type="upclose" character="Narrateur" id="e24" start="s1:tm102"/>
+ </fml>
+</fml-apml>

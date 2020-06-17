@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<fml-apml>
+<bml>
+<speech id="s1" start="0.0" language="english" voice="openmary" text="">
+<description level='1' type='gretabml'>
+<reference>tmp/from-fml-apml.pho</reference>
+</description>
+            <tm id="tm1" time="0"/>
+				Welcome, 
+			<tm id="tm2" time="1"/>
+				This is the second
+			<tm id="tm3" time="2"/>
+				test of the social 
+			<tm id="tm4" time="3"/>
+				attitude influence.
+			<tm id="tm5" time="4"/>
+				May be you don't know
+			<tm id="tm6" time="5"/>
+				what this test is about, 
+			<tm id="tm7" time="6"/>
+				Have you tried 
+			<tm id="tm8" time="7"/>
+				the first one?
+			<tm id="tm9" time="8"/>
+				I suggest that you 
+			<tm id="tm10" time="9"/>
+				try the previous one. 
+			<tm id="tm11" time="10"/>
+				If you are ready 
+			<tm id="tm12" time="11"/>
+				we will begin,
+			<tm id="tm13" time="12"/>
+				but if you are not please 
+			<tm id="tm14" time="13"/>
+				come back later, 
+			<tm id="tm15" time="14"/>
+				I don't have time to 
+			<tm id="tm16" time="15"/>
+				explain the basis again,
+			<tm id="tm17" time="16"/>
+				Do you agree that I feel
+			<tm id="tm18" time="17"/>
+				dominant with you?
+			<tm id="tm19" time="18"/>
+				Or do you disagree?
+			<tm id="tm20" time="19"/>
+</speech>
+</bml>
+<fml>
+<performative id="p1" type="greet" start="s1:tm1" end="s1:tm2"  importance="1" intensity="0.5"/>
+<performative id="p2" type="inform" start="s1:tm2" end="s1:tm4"  importance="1" intensity="0.5"/>
+<performative id="p3" type="maybe" start="s1:tm5" end="s1:tm7"  importance="1" intensity="0.5"/>
+<performative id="p4" type="ask" start="s1:tm7" end="s1:tm9"  importance="1" intensity="0.5"/>
+<performative id="p5" type="suggest" start="s1:tm9" end="s1:tm11"  importance="1" intensity="0.5"/>
+<performative id="p6" type="accept" start="s1:tm11" end="s1:tm13"  importance="1" intensity="0.5"/>
+<performative id="p7" type="refuse" start="s1:tm13" end="s1:tm14"  importance="1" intensity="0.5"/>
+<performative id="p8" type="deny" start="s1:tm15" end="s1:tm16"  importance="1" intensity="0.5"/>
+<performative id="p9" type="agree" start="s1:tm17" end="s1:tm18"  importance="1" intensity="0.5"/>
+<performative id="p10" type="disagree" start="s1:tm19" end="s1:tm20"  importance="1" intensity="0.5"/>
+
+</fml>
+</fml-apml>
