@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Ce geste est le numéro 1.
+			<tm id="tm10"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm2"/>
+				Ce geste est le numéro 2.
+			<tm id="tm11"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm3"/>
+				Ce geste est le numéro 3.
+			<tm id="tm12"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm4"/>
+				Ce geste est le numéro 4.
+			<tm id="tm13"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm5"/>
+				Ce geste est le numéro 5.
+			<tm id="tm14"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm6"/>
+				Ce geste est le numéro 6.
+			<tm id="tm15"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm7"/>
+				Ce geste est le numéro 7.
+			<tm id="tm16"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm8"/>
+				Ce geste est le numéro 8.
+			<tm id="tm17"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm9"/>
+				Ce geste est le numéro 9.
+			<tm id="tm18"/>
+				J'attends, un peu, beaucoup !
+		</speech>
+	</bml>
+	<fml>
+		<catalog id="e1" type="emotion1" start="s1:tm1" end="s1:tm10" importance="1.0"/>
+		<catalog id="rest1" type="rest14" start="s1:tm10" end="s1:tm2" importance="1.0"/>
+		<catalog id="e2" type="emotion2" start="s1:tm2" end="s1:tm11" importance="1.0"/>
+		<catalog id="rest2" type="rest14" start="s1:tm11" end="s1:tm3" importance="1.0"/>
+		<catalog id="e3" type="emotion3" start="s1:tm3" end="s1:tm12" importance="1.0"/>
+		<catalog id="rest3" type="rest14" start="s1:tm12" end="s1:tm4" importance="1.0"/>
+		<catalog id="e4" type="emotion4" start="s1:tm4" end="s1:tm13" importance="1.0"/>
+		<catalog id="rest4" type="rest14" start="s1:tm13" end="s1:tm5" importance="1.0"/>
+		<catalog id="e5" type="emotion5" start="s1:tm5" end="s1:tm14" importance="1.0"/>
+		<catalog id="rest5" type="rest14" start="s1:tm14" end="s1:tm6" importance="1.0"/>
+		<catalog id="e6" type="emotion6" start="s1:tm6" end="s1:tm15" importance="1.0"/>
+		<catalog id="rest6" type="rest14" start="s1:tm15" end="s1:tm7" importance="1.0"/>
+		<catalog id="e7" type="emotion7" start="s1:tm7" end="s1:tm16" importance="1.0"/>
+		<catalog id="rest7" type="rest14" start="s1:tm16" end="s1:tm8" importance="1.0"/>
+		<catalog id="e8" type="emotion8" start="s1:tm8" end="s1:tm17" importance="1.0"/>
+		<catalog id="rest8" type="rest14" start="s1:tm17" end="s1:tm9" importance="1.0"/>
+		<catalog id="e9" type="emotion9" start="s1:tm9" end="s1:tm18" importance="1.0"/>
+		<catalog id="rest9" type="rest14" start="s1:tm18" end="s1:tm10" importance="1.0"/>
+	</fml>
+</fml-apml>

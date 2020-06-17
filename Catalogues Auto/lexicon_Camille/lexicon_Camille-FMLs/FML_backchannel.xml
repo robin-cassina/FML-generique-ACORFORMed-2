@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>Le comportement que je mime est le numéro 1.<tm id="tm13"/>
+			<tm id="tm2"/>Le comportement que je mime est le numéro 2.<tm id="tm14"/>
+			<tm id="tm3"/>Le comportement que je mime est le numéro 3.<tm id="tm15"/>
+			<tm id="tm4"/>Le comportement que je mime est le numéro 4.<tm id="tm16"/>
+			<tm id="tm5"/>Le comportement que je mime est le numéro 5.<tm id="tm17"/>
+			<tm id="tm6"/>Le comportement que je mime est le numéro 6.<tm id="tm18"/>
+			<tm id="tm7"/>Le comportement que je mime est le numéro 7.<tm id="tm19"/>
+			<tm id="tm8"/>Le comportement que je mime est le numéro 8.<tm id="tm20"/>
+			<tm id="tm9"/>Le comportement que je mime est le numéro 9.<tm id="tm21"/>
+			<tm id="tm10"/>Le comportement que je mime est le numéro 10.<tm id="tm22"/>
+			<tm id="tm11"/>Le comportement que je mime est le numéro 11.<tm id="tm23"/>
+			<tm id="tm12"/>Le comportement que je mime est le numéro 12.<tm id="tm24"/>
+		</speech>
+	</bml>
+	<fml>
+		<backchannel id="bac1" type="agreement" start="s1:tm1" end="s1:tm13" importance="1.0"/>
+		<backchannel id="bac2" type="disagreement" start="s1:tm2" end="s1:tm14" importance="1.0"/>
+		<backchannel id="bac3" type="acceptance" start="s1:tm3" end="s1:tm15" importance="1.0"/>
+		<backchannel id="bac4" type="refusal" start="s1:tm4" end="s1:tm16" importance="1.0"/>
+		<backchannel id="bac5" type="liking" start="s1:tm5" end="s1:tm17" importance="1.0"/>
+		<backchannel id="bac6" type="disliking" start="s1:tm6" end="s1:tm18" importance="1.0"/>
+		<backchannel id="bac7" type="understanding" start="s1:tm7" end="s1:tm19" importance="1.0"/>
+		<backchannel id="bac8" type="no_understanding" start="s1:tm8" end="s1:tm20" importance="1.0"/>
+		<backchannel id="bac9" type="interest" start="s1:tm9" end="s1:tm21" importance="1.0"/>
+		<backchannel id="bac10" type="no_interest" start="s1:tm10" end="s1:tm22" importance="1.0"/>
+		<backchannel id="bac11" type="belief" start="s1:tm11" end="s1:tm23" importance="1.0"/>
+		<backchannel id="bac12" type="disbelief" start="s1:tm12" end="s1:tm24" importance="1.0"/>
+	</fml>
+</fml-apml>

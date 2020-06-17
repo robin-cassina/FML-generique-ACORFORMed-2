@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>Le comportement que je mime est le numéro 1.<tm id="tm4"/>
+			<tm id="tm2"/>Le comportement que je mime est le numéro 2.<tm id="tm5"/>
+			<tm id="tm3"/>Le comportement que je mime est le numéro 3.<tm id="tm6"/>
+		</speech>
+	</bml>
+	<fml>
+		<pitchaccent id="pit1" type="Hstar" start="s1:tm1" end="s1:tm4" importance="1.0"/>
+		<pitchaccent id="pit2" type="LplusHstar" start="s1:tm2" end="s1:tm5" importance="1.0"/>
+		<pitchaccent id="pit3" type="Lstar" start="s1:tm3" end="s1:tm6" importance="1.0"/>
+	</fml>
+</fml-apml>

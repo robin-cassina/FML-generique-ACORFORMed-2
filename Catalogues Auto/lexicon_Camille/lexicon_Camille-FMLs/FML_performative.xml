@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>Le comportement que je mime est le numéro 1.<tm id="tm15"/>
+			<tm id="tm2"/>Le comportement que je mime est le numéro 2.<tm id="tm16"/>
+			<tm id="tm3"/>Le comportement que je mime est le numéro 3.<tm id="tm17"/>
+			<tm id="tm4"/>Le comportement que je mime est le numéro 4.<tm id="tm18"/>
+			<tm id="tm5"/>Le comportement que je mime est le numéro 5.<tm id="tm19"/>
+			<tm id="tm6"/>Le comportement que je mime est le numéro 6.<tm id="tm20"/>
+			<tm id="tm7"/>Le comportement que je mime est le numéro 7.<tm id="tm21"/>
+			<tm id="tm8"/>Le comportement que je mime est le numéro 8.<tm id="tm22"/>
+			<tm id="tm9"/>Le comportement que je mime est le numéro 9.<tm id="tm23"/>
+			<tm id="tm10"/>Le comportement que je mime est le numéro 10.<tm id="tm24"/>
+			<tm id="tm11"/>Le comportement que je mime est le numéro 11.<tm id="tm25"/>
+			<tm id="tm12"/>Le comportement que je mime est le numéro 12.<tm id="tm26"/>
+			<tm id="tm13"/>Le comportement que je mime est le numéro 13.<tm id="tm27"/>
+			<tm id="tm14"/>Le comportement que je mime est le numéro 14.<tm id="tm28"/>
+		</speech>
+	</bml>
+	<fml>
+		<performative id="per1" type="rythm" start="s1:tm1" end="s1:tm15" importance="1.0"/>
+		<performative id="per2" type="deny" start="s1:tm2" end="s1:tm16" importance="1.0"/>
+		<performative id="per3" type="greet" start="s1:tm3" end="s1:tm17" importance="1.0"/>
+		<performative id="per4" type="disagree" start="s1:tm4" end="s1:tm18" importance="1.0"/>
+		<performative id="per5" type="inform" start="s1:tm5" end="s1:tm19" importance="1.0"/>
+		<performative id="per6" type="propose" start="s1:tm6" end="s1:tm20" importance="1.0"/>
+		<performative id="per7" type="suggest" start="s1:tm7" end="s1:tm21" importance="1.0"/>
+		<performative id="per8" type="warn" start="s1:tm8" end="s1:tm22" importance="1.0"/>
+		<performative id="per9" type="lookright" start="s1:tm9" end="s1:tm23" importance="1.0"/>
+		<performative id="per10" type="lookleft" start="s1:tm10" end="s1:tm24" importance="1.0"/>
+		<performative id="per11" type="raiseHand_R" start="s1:tm11" end="s1:tm25" importance="1.0"/>
+		<performative id="per12" type="GoodThumbup" start="s1:tm12" end="s1:tm26" importance="1.0"/>
+		<performative id="per13" type="inciateAtBoth" start="s1:tm13" end="s1:tm27" importance="1.0"/>
+		<performative id="per14" type="trigger-head_nod" start="s1:tm14" end="s1:tm28" importance="1.0"/>
+	</fml>
+</fml-apml>

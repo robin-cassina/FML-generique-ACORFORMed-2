@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behaviorsets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="../../Common/Data/xml/behaviorsets.xsd">
+
+<!----------------------   CATALOGS   ----------------------->
+
+<!------ Shoulders ------>
+<!-- SHOULDERGESTURE -->
+	<behaviorset name="catalog-ShoulderGesture1">
+		<signals>
+			<signal id="1" name="shoulderUp" modality="shoulders"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-ShoulderGesture2">
+		<signals>
+			<signal id="1" name="shoulderDown" modality="shoulders"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-ShoulderGesture3">
+		<signals>
+			<signal id="1" name="shoulderFront" modality="shoulders"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-ShoulderGesture4">
+		<signals>
+			<signal id="1" name="shoulderback" modality="shoulders"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!---------------------- END CATALOGS ----------------------->
+
+</behaviorsets>

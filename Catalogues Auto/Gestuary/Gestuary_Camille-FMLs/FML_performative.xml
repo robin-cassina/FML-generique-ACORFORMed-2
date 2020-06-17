@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Ce geste est le numéro 1.
+			<tm id="tm44"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm2"/>
+				Ce geste est le numéro 2.
+			<tm id="tm45"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm3"/>
+				Ce geste est le numéro 3.
+			<tm id="tm46"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm4"/>
+				Ce geste est le numéro 4.
+			<tm id="tm47"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm5"/>
+				Ce geste est le numéro 5.
+			<tm id="tm48"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm6"/>
+				Ce geste est le numéro 6.
+			<tm id="tm49"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm7"/>
+				Ce geste est le numéro 7.
+			<tm id="tm50"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm8"/>
+				Ce geste est le numéro 8.
+			<tm id="tm51"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm9"/>
+				Ce geste est le numéro 9.
+			<tm id="tm52"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm10"/>
+				Ce geste est le numéro 10.
+			<tm id="tm53"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm11"/>
+				Ce geste est le numéro 11.
+			<tm id="tm54"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm12"/>
+				Ce geste est le numéro 12.
+			<tm id="tm55"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm13"/>
+				Ce geste est le numéro 13.
+			<tm id="tm56"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm14"/>
+				Ce geste est le numéro 14.
+			<tm id="tm57"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm15"/>
+				Ce geste est le numéro 15.
+			<tm id="tm58"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm16"/>
+				Ce geste est le numéro 16.
+			<tm id="tm59"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm17"/>
+				Ce geste est le numéro 17.
+			<tm id="tm60"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm18"/>
+				Ce geste est le numéro 18.
+			<tm id="tm61"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm19"/>
+				Ce geste est le numéro 19.
+			<tm id="tm62"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm20"/>
+				Ce geste est le numéro 20.
+			<tm id="tm63"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm21"/>
+				Ce geste est le numéro 21.
+			<tm id="tm64"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm22"/>
+				Ce geste est le numéro 22.
+			<tm id="tm65"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm23"/>
+				Ce geste est le numéro 23.
+			<tm id="tm66"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm24"/>
+				Ce geste est le numéro 24.
+			<tm id="tm67"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm25"/>
+				Ce geste est le numéro 25.
+			<tm id="tm68"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm26"/>
+				Ce geste est le numéro 26.
+			<tm id="tm69"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm27"/>
+				Ce geste est le numéro 27.
+			<tm id="tm70"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm28"/>
+				Ce geste est le numéro 28.
+			<tm id="tm71"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm29"/>
+				Ce geste est le numéro 29.
+			<tm id="tm72"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm30"/>
+				Ce geste est le numéro 30.
+			<tm id="tm73"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm31"/>
+				Ce geste est le numéro 31.
+			<tm id="tm74"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm32"/>
+				Ce geste est le numéro 32.
+			<tm id="tm75"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm33"/>
+				Ce geste est le numéro 33.
+			<tm id="tm76"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm34"/>
+				Ce geste est le numéro 34.
+			<tm id="tm77"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm35"/>
+				Ce geste est le numéro 35.
+			<tm id="tm78"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm36"/>
+				Ce geste est le numéro 36.
+			<tm id="tm79"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm37"/>
+				Ce geste est le numéro 37.
+			<tm id="tm80"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm38"/>
+				Ce geste est le numéro 38.
+			<tm id="tm81"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm39"/>
+				Ce geste est le numéro 39.
+			<tm id="tm82"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm40"/>
+				Ce geste est le numéro 40.
+			<tm id="tm83"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm41"/>
+				Ce geste est le numéro 41.
+			<tm id="tm84"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm42"/>
+				Ce geste est le numéro 42.
+			<tm id="tm85"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm43"/>
+				Ce geste est le numéro 43.
+			<tm id="tm86"/>
+				J'attends, un peu, beaucoup !
+		</speech>
+	</bml>
+	<fml>
+		<catalog id="p1" type="performative1" start="s1:tm1" end="s1:tm44" importance="1.0"/>
+		<catalog id="rest1" type="rest14" start="s1:tm44" end="s1:tm2" importance="1.0"/>
+		<catalog id="p2" type="performative2" start="s1:tm2" end="s1:tm45" importance="1.0"/>
+		<catalog id="rest2" type="rest14" start="s1:tm45" end="s1:tm3" importance="1.0"/>
+		<catalog id="p3" type="performative3" start="s1:tm3" end="s1:tm46" importance="1.0"/>
+		<catalog id="rest3" type="rest14" start="s1:tm46" end="s1:tm4" importance="1.0"/>
+		<catalog id="p4" type="performative4" start="s1:tm4" end="s1:tm47" importance="1.0"/>
+		<catalog id="rest4" type="rest14" start="s1:tm47" end="s1:tm5" importance="1.0"/>
+		<catalog id="p5" type="performative5" start="s1:tm5" end="s1:tm48" importance="1.0"/>
+		<catalog id="rest5" type="rest14" start="s1:tm48" end="s1:tm6" importance="1.0"/>
+		<catalog id="p6" type="performative6" start="s1:tm6" end="s1:tm49" importance="1.0"/>
+		<catalog id="rest6" type="rest14" start="s1:tm49" end="s1:tm7" importance="1.0"/>
+		<catalog id="p7" type="performative7" start="s1:tm7" end="s1:tm50" importance="1.0"/>
+		<catalog id="rest7" type="rest14" start="s1:tm50" end="s1:tm8" importance="1.0"/>
+		<catalog id="p8" type="performative8" start="s1:tm8" end="s1:tm51" importance="1.0"/>
+		<catalog id="rest8" type="rest14" start="s1:tm51" end="s1:tm9" importance="1.0"/>
+		<catalog id="p9" type="performative9" start="s1:tm9" end="s1:tm52" importance="1.0"/>
+		<catalog id="rest9" type="rest14" start="s1:tm52" end="s1:tm10" importance="1.0"/>
+		<catalog id="p10" type="performative10" start="s1:tm10" end="s1:tm53" importance="1.0"/>
+		<catalog id="rest10" type="rest14" start="s1:tm53" end="s1:tm11" importance="1.0"/>
+		<catalog id="p11" type="performative11" start="s1:tm11" end="s1:tm54" importance="1.0"/>
+		<catalog id="rest11" type="rest14" start="s1:tm54" end="s1:tm12" importance="1.0"/>
+		<catalog id="p12" type="performative12" start="s1:tm12" end="s1:tm55" importance="1.0"/>
+		<catalog id="rest12" type="rest14" start="s1:tm55" end="s1:tm13" importance="1.0"/>
+		<catalog id="p13" type="performative13" start="s1:tm13" end="s1:tm56" importance="1.0"/>
+		<catalog id="rest13" type="rest14" start="s1:tm56" end="s1:tm14" importance="1.0"/>
+		<catalog id="p14" type="performative14" start="s1:tm14" end="s1:tm57" importance="1.0"/>
+		<catalog id="rest14" type="rest14" start="s1:tm57" end="s1:tm15" importance="1.0"/>
+		<catalog id="p15" type="performative15" start="s1:tm15" end="s1:tm58" importance="1.0"/>
+		<catalog id="rest15" type="rest14" start="s1:tm58" end="s1:tm16" importance="1.0"/>
+		<catalog id="p16" type="performative16" start="s1:tm16" end="s1:tm59" importance="1.0"/>
+		<catalog id="rest16" type="rest14" start="s1:tm59" end="s1:tm17" importance="1.0"/>
+		<catalog id="p17" type="performative17" start="s1:tm17" end="s1:tm60" importance="1.0"/>
+		<catalog id="rest17" type="rest14" start="s1:tm60" end="s1:tm18" importance="1.0"/>
+		<catalog id="p18" type="performative18" start="s1:tm18" end="s1:tm61" importance="1.0"/>
+		<catalog id="rest18" type="rest14" start="s1:tm61" end="s1:tm19" importance="1.0"/>
+		<catalog id="p19" type="performative19" start="s1:tm19" end="s1:tm62" importance="1.0"/>
+		<catalog id="rest19" type="rest14" start="s1:tm62" end="s1:tm20" importance="1.0"/>
+		<catalog id="p20" type="performative20" start="s1:tm20" end="s1:tm63" importance="1.0"/>
+		<catalog id="rest20" type="rest14" start="s1:tm63" end="s1:tm21" importance="1.0"/>
+		<catalog id="p21" type="performative21" start="s1:tm21" end="s1:tm64" importance="1.0"/>
+		<catalog id="rest21" type="rest14" start="s1:tm64" end="s1:tm22" importance="1.0"/>
+		<catalog id="p22" type="performative22" start="s1:tm22" end="s1:tm65" importance="1.0"/>
+		<catalog id="rest22" type="rest14" start="s1:tm65" end="s1:tm23" importance="1.0"/>
+		<catalog id="p23" type="performative23" start="s1:tm23" end="s1:tm66" importance="1.0"/>
+		<catalog id="rest23" type="rest14" start="s1:tm66" end="s1:tm24" importance="1.0"/>
+		<catalog id="p24" type="performative24" start="s1:tm24" end="s1:tm67" importance="1.0"/>
+		<catalog id="rest24" type="rest14" start="s1:tm67" end="s1:tm25" importance="1.0"/>
+		<catalog id="p25" type="performative25" start="s1:tm25" end="s1:tm68" importance="1.0"/>
+		<catalog id="rest25" type="rest14" start="s1:tm68" end="s1:tm26" importance="1.0"/>
+		<catalog id="p26" type="performative26" start="s1:tm26" end="s1:tm69" importance="1.0"/>
+		<catalog id="rest26" type="rest14" start="s1:tm69" end="s1:tm27" importance="1.0"/>
+		<catalog id="p27" type="performative27" start="s1:tm27" end="s1:tm70" importance="1.0"/>
+		<catalog id="rest27" type="rest14" start="s1:tm70" end="s1:tm28" importance="1.0"/>
+		<catalog id="p28" type="performative28" start="s1:tm28" end="s1:tm71" importance="1.0"/>
+		<catalog id="rest28" type="rest14" start="s1:tm71" end="s1:tm29" importance="1.0"/>
+		<catalog id="p29" type="performative29" start="s1:tm29" end="s1:tm72" importance="1.0"/>
+		<catalog id="rest29" type="rest14" start="s1:tm72" end="s1:tm30" importance="1.0"/>
+		<catalog id="p30" type="performative30" start="s1:tm30" end="s1:tm73" importance="1.0"/>
+		<catalog id="rest30" type="rest14" start="s1:tm73" end="s1:tm31" importance="1.0"/>
+		<catalog id="p31" type="performative31" start="s1:tm31" end="s1:tm74" importance="1.0"/>
+		<catalog id="rest31" type="rest14" start="s1:tm74" end="s1:tm32" importance="1.0"/>
+		<catalog id="p32" type="performative32" start="s1:tm32" end="s1:tm75" importance="1.0"/>
+		<catalog id="rest32" type="rest14" start="s1:tm75" end="s1:tm33" importance="1.0"/>
+		<catalog id="p33" type="performative33" start="s1:tm33" end="s1:tm76" importance="1.0"/>
+		<catalog id="rest33" type="rest14" start="s1:tm76" end="s1:tm34" importance="1.0"/>
+		<catalog id="p34" type="performative34" start="s1:tm34" end="s1:tm77" importance="1.0"/>
+		<catalog id="rest34" type="rest14" start="s1:tm77" end="s1:tm35" importance="1.0"/>
+		<catalog id="p35" type="performative35" start="s1:tm35" end="s1:tm78" importance="1.0"/>
+		<catalog id="rest35" type="rest14" start="s1:tm78" end="s1:tm36" importance="1.0"/>
+		<catalog id="p36" type="performative36" start="s1:tm36" end="s1:tm79" importance="1.0"/>
+		<catalog id="rest36" type="rest14" start="s1:tm79" end="s1:tm37" importance="1.0"/>
+		<catalog id="p37" type="performative37" start="s1:tm37" end="s1:tm80" importance="1.0"/>
+		<catalog id="rest37" type="rest14" start="s1:tm80" end="s1:tm38" importance="1.0"/>
+		<catalog id="p38" type="performative38" start="s1:tm38" end="s1:tm81" importance="1.0"/>
+		<catalog id="rest38" type="rest14" start="s1:tm81" end="s1:tm39" importance="1.0"/>
+		<catalog id="p39" type="performative39" start="s1:tm39" end="s1:tm82" importance="1.0"/>
+		<catalog id="rest39" type="rest14" start="s1:tm82" end="s1:tm40" importance="1.0"/>
+		<catalog id="p40" type="performative40" start="s1:tm40" end="s1:tm83" importance="1.0"/>
+		<catalog id="rest40" type="rest14" start="s1:tm83" end="s1:tm41" importance="1.0"/>
+		<catalog id="p41" type="performative41" start="s1:tm41" end="s1:tm84" importance="1.0"/>
+		<catalog id="rest41" type="rest14" start="s1:tm84" end="s1:tm42" importance="1.0"/>
+		<catalog id="p42" type="performative42" start="s1:tm42" end="s1:tm85" importance="1.0"/>
+		<catalog id="rest42" type="rest14" start="s1:tm85" end="s1:tm43" importance="1.0"/>
+		<catalog id="p43" type="performative43" start="s1:tm43" end="s1:tm86" importance="1.0"/>
+		<catalog id="rest43" type="rest14" start="s1:tm86" end="s1:tm44" importance="1.0"/>
+	</fml>
+</fml-apml>

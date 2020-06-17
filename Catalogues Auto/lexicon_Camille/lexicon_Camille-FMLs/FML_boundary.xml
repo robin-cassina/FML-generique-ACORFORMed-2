@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>Le comportement que je mime est le numéro 1.<tm id="tm7"/>
+			<tm id="tm2"/>Le comportement que je mime est le numéro 2.<tm id="tm8"/>
+			<tm id="tm3"/>Le comportement que je mime est le numéro 3.<tm id="tm9"/>
+			<tm id="tm4"/>Le comportement que je mime est le numéro 4.<tm id="tm10"/>
+			<tm id="tm5"/>Le comportement que je mime est le numéro 5.<tm id="tm11"/>
+			<tm id="tm6"/>Le comportement que je mime est le numéro 6.<tm id="tm12"/>
+		</speech>
+	</bml>
+	<fml>
+		<boundary id="bou1" type="L" start="s1:tm1" end="s1:tm7" importance="1.0"/>
+		<boundary id="bou2" type="HL" start="s1:tm2" end="s1:tm8" importance="1.0"/>
+		<boundary id="bou3" type="H" start="s1:tm3" end="s1:tm9" importance="1.0"/>
+		<boundary id="bou4" type="HH" start="s1:tm4" end="s1:tm10" importance="1.0"/>
+		<boundary id="bou5" type="LL" start="s1:tm5" end="s1:tm11" importance="1.0"/>
+		<boundary id="bou6" type="LH" start="s1:tm6" end="s1:tm12" importance="1.0"/>
+	</fml>
+</fml-apml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Ce geste est le numéro 1.
+			<tm id="tm3"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm2"/>
+				Ce geste est le numéro 2.
+			<tm id="tm4"/>
+				J'attends, un peu, beaucoup !
+		</speech>
+	</bml>
+	<fml>
+		<catalog id="L1" type="LeanLeftAndBack1" start="s1:tm1" end="s1:tm3" importance="1.0"/>
+		<catalog id="rest1" type="rest14" start="s1:tm3" end="s1:tm2" importance="1.0"/>
+		<catalog id="L2" type="LeanLeftAndBack2" start="s1:tm2" end="s1:tm4" importance="1.0"/>
+		<catalog id="rest2" type="rest14" start="s1:tm4" end="s1:tm3" importance="1.0"/>
+	</fml>
+</fml-apml>

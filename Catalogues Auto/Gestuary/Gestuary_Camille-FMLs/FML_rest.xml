@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Ce geste est le numéro 1.
+			<tm id="tm15"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm2"/>
+				Ce geste est le numéro 2.
+			<tm id="tm16"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm3"/>
+				Ce geste est le numéro 3.
+			<tm id="tm17"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm4"/>
+				Ce geste est le numéro 4.
+			<tm id="tm18"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm5"/>
+				Ce geste est le numéro 5.
+			<tm id="tm19"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm6"/>
+				Ce geste est le numéro 6.
+			<tm id="tm20"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm7"/>
+				Ce geste est le numéro 7.
+			<tm id="tm21"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm8"/>
+				Ce geste est le numéro 8.
+			<tm id="tm22"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm9"/>
+				Ce geste est le numéro 9.
+			<tm id="tm23"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm10"/>
+				Ce geste est le numéro 10.
+			<tm id="tm24"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm11"/>
+				Ce geste est le numéro 11.
+			<tm id="tm25"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm12"/>
+				Ce geste est le numéro 12.
+			<tm id="tm26"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm13"/>
+				Ce geste est le numéro 13.
+			<tm id="tm27"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm14"/>
+				Ce geste est le numéro 14.
+			<tm id="tm28"/>
+				J'attends, un peu, beaucoup !
+		</speech>
+	</bml>
+	<fml>
+		<catalog id="r1" type="rest1" start="s1:tm1" end="s1:tm15" importance="1.0"/>
+		<catalog id="rest1" type="rest14" start="s1:tm15" end="s1:tm2" importance="1.0"/>
+		<catalog id="r2" type="rest2" start="s1:tm2" end="s1:tm16" importance="1.0"/>
+		<catalog id="rest2" type="rest14" start="s1:tm16" end="s1:tm3" importance="1.0"/>
+		<catalog id="r3" type="rest3" start="s1:tm3" end="s1:tm17" importance="1.0"/>
+		<catalog id="rest3" type="rest14" start="s1:tm17" end="s1:tm4" importance="1.0"/>
+		<catalog id="r4" type="rest4" start="s1:tm4" end="s1:tm18" importance="1.0"/>
+		<catalog id="rest4" type="rest14" start="s1:tm18" end="s1:tm5" importance="1.0"/>
+		<catalog id="r5" type="rest5" start="s1:tm5" end="s1:tm19" importance="1.0"/>
+		<catalog id="rest5" type="rest14" start="s1:tm19" end="s1:tm6" importance="1.0"/>
+		<catalog id="r6" type="rest6" start="s1:tm6" end="s1:tm20" importance="1.0"/>
+		<catalog id="rest6" type="rest14" start="s1:tm20" end="s1:tm7" importance="1.0"/>
+		<catalog id="r7" type="rest7" start="s1:tm7" end="s1:tm21" importance="1.0"/>
+		<catalog id="rest7" type="rest14" start="s1:tm21" end="s1:tm8" importance="1.0"/>
+		<catalog id="r8" type="rest8" start="s1:tm8" end="s1:tm22" importance="1.0"/>
+		<catalog id="rest8" type="rest14" start="s1:tm22" end="s1:tm9" importance="1.0"/>
+		<catalog id="r9" type="rest9" start="s1:tm9" end="s1:tm23" importance="1.0"/>
+		<catalog id="rest9" type="rest14" start="s1:tm23" end="s1:tm10" importance="1.0"/>
+		<catalog id="r10" type="rest10" start="s1:tm10" end="s1:tm24" importance="1.0"/>
+		<catalog id="rest10" type="rest14" start="s1:tm24" end="s1:tm11" importance="1.0"/>
+		<catalog id="r11" type="rest11" start="s1:tm11" end="s1:tm25" importance="1.0"/>
+		<catalog id="rest11" type="rest14" start="s1:tm25" end="s1:tm12" importance="1.0"/>
+		<catalog id="r12" type="rest12" start="s1:tm12" end="s1:tm26" importance="1.0"/>
+		<catalog id="rest12" type="rest14" start="s1:tm26" end="s1:tm13" importance="1.0"/>
+		<catalog id="r13" type="rest13" start="s1:tm13" end="s1:tm27" importance="1.0"/>
+		<catalog id="rest13" type="rest14" start="s1:tm27" end="s1:tm14" importance="1.0"/>
+		<catalog id="r14" type="rest14" start="s1:tm14" end="s1:tm28" importance="1.0"/>
+		<catalog id="rest14" type="rest14" start="s1:tm28" end="s1:tm15" importance="1.0"/>
+	</fml>
+</fml-apml>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behaviorsets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="../../Common/Data/xml/behaviorsets.xsd">
+
+<!----------------------   CATALOGS   ----------------------->
+
+<!------ FACE EXPRESSION ------>
+<!-- NEUTRAL -->
+	<behaviorset name="catalog-Neutral">
+		<signals>
+			<signal id="1" name="Neutral" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- UP -->
+	<behaviorset name="catalog-Up">
+		<signals>
+			<signal id="1" name="Up" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- DOWN -->
+	<behaviorset name="catalog-Down">
+		<signals>
+			<signal id="1" name="Down" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- LEFTWARD -->
+	<behaviorset name="catalog-Leftward">
+		<signals>
+			<signal id="1" name="Leftward" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- RIGHTWARD -->
+	<behaviorset name="catalog-Rightward">
+		<signals>
+			<signal id="1" name="Rightward" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- NOD -->
+	<behaviorset name="catalog-Nod_Middle">
+		<signals>
+			<signal id="1" name="Nod_Middle" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-Nod_Big">
+		<signals>
+			<signal id="1" name="Nod_Big" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-Nod_Small">
+		<signals>
+			<signal id="1" name="Nod_Small" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rejoice_signal_21">
+		<signals>
+			<signal id="1" name="rejoice_signal_21" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-NodUpDown">
+		<signals>
+			<signal id="1" name="NodUpDown" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-NodDownUp">
+		<signals>
+			<signal id="1" name="NodDownUp" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- TOSS -->
+	<behaviorset name="catalog-Toss_Middle">
+		<signals>
+			<signal id="1" name="Toss_Middle" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-Toss_Big">
+		<signals>
+			<signal id="1" name="Toss_Big" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-Toss_Small">
+		<signals>
+			<signal id="1" name="Toss_Small" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- SHAKE -->
+	<behaviorset name="catalog-Shake_Middle">
+		<signals>
+			<signal id="1" name="Shake_Middle" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-Shake_Big">
+		<signals>
+			<signal id="1" name="Shake_Big" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-Shake_Small">
+		<signals>
+			<signal id="1" name="Shake_Small" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-regret_signal_16">
+		<signals>
+			<signal id="1" name="regret_signal_16" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rejoice_signal_13">
+		<signals>
+			<signal id="1" name="rejoice_signal_13" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rejoice_signal_20">
+		<signals>
+			<signal id="1" name="rejoice_signal_20" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-ShakeRightLeft">
+		<signals>
+			<signal id="1" name="ShakeRightLeft" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-ShakeLeftRight">
+		<signals>
+			<signal id="1" name="ShakeLeftRight" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- ASIDE_RIGHT -->
+	<behaviorset name="catalog-Aside_Right">
+		<signals>
+			<signal id="1" name="Aside_Right" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- ASIDE_LEFT -->
+	<behaviorset name="catalog-Aside_Left">
+		<signals>
+			<signal id="1" name="Aside_Left" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- ASIDE_RIGHT_REACTION -->
+	<behaviorset name="catalog-Aside_Right_Reaction">
+		<signals>
+			<signal id="1" name="Aside_Right_Reaction" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- ASIDE_LEFT_REACTION -->
+	<behaviorset name="catalog-Aside_Left_Reaction">
+		<signals>
+			<signal id="1" name="Aside_Left_Reaction" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- DOWN_RIGHT -->
+	<behaviorset name="catalog-Down_Right">
+		<signals>
+			<signal id="1" name="Down_Right" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- DOWN_LEFT -->
+	<behaviorset name="catalog-Down_Left">
+		<signals>
+			<signal id="1" name="Down_Left" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- UP_RIGHT -->
+	<behaviorset name="catalog-Up_Right">
+		<signals>
+			<signal id="1" name="Up_Right" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- UP_LEFT -->
+	<behaviorset name="catalog-Up_Left">
+		<signals>
+			<signal id="1" name="Up_Left" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- UP_ASIDE_RIGHT -->
+	<behaviorset name="catalog-Up_Aside_Right">
+		<signals>
+			<signal id="1" name="Up_Aside_Right" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- UP_ASIDE_LEFT -->
+	<behaviorset name="catalog-Up_Aside_Left">
+		<signals>
+			<signal id="1" name="Up_Aside_Left" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- DOWN_ASIDE_RIGHT -->
+	<behaviorset name="catalog-Down_Aside_Right">
+		<signals>
+			<signal id="1" name="Down_Aside_Right" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- DOWN_ASIDE_LEFT -->
+	<behaviorset name="catalog-Down_Aside_Left">
+		<signals>
+			<signal id="1" name="Down_Aside_Left" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- RELIEF_SIGNAL -->
+	<behaviorset name="catalog-relief_signal_14">
+		<signals>
+			<signal id="1" name="relief_signal_14" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- PRIDE_SIGNAL -->
+	<behaviorset name="catalog-pride_signal_8">
+		<signals>
+			<signal id="1" name="pride_signal_8" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-pride_signal_9">
+		<signals>
+			<signal id="1" name="pride_signal_9" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- EMBARRASSMENT_SIGNAL -->
+	<behaviorset name="catalog-embarrassment_signal_1">
+		<signals>
+			<signal id="1" name="embarrassment_signal_1" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-embarrassment_signal_2">
+		<signals>
+			<signal id="1" name="embarrassment_signal_2" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- JOY_SIGNAL -->
+	<behaviorset name="catalog-joy_signal_7">
+		<signals>
+			<signal id="1" name="joy_signal_7" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-joy_signal_8">
+		<signals>
+			<signal id="1" name="joy_signal_8" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- REGRET_SIGNAL -->
+	<behaviorset name="catalog-regret_signal_13">
+		<signals>
+			<signal id="1" name="regret_signal_13" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-regret_signal_14">
+		<signals>
+			<signal id="1" name="regret_signal_14" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-regret_signal_24">
+		<signals>
+			<signal id="1" name="regret_signal_24" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- REJOICE_SIGNAL -->
+	<behaviorset name="catalog-rejoice_signal_14">
+		<signals>
+			<signal id="1" name="rejoice_signal_14" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- TILT -->
+	<behaviorset name="catalog-TiltRightLeft">
+		<signals>
+			<signal id="1" name="TiltRightLeft" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-TiltLeftRight">
+		<signals>
+			<signal id="1" name="TiltLeftRight" modality="head"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!---------------------- END CATALOGS ----------------------->
+
+</behaviorsets>

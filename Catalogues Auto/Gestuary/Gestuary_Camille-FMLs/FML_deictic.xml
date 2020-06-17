@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Ce geste est le numéro 1.
+			<tm id="tm21"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm2"/>
+				Ce geste est le numéro 2.
+			<tm id="tm22"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm3"/>
+				Ce geste est le numéro 3.
+			<tm id="tm23"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm4"/>
+				Ce geste est le numéro 4.
+			<tm id="tm24"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm5"/>
+				Ce geste est le numéro 5.
+			<tm id="tm25"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm6"/>
+				Ce geste est le numéro 6.
+			<tm id="tm26"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm7"/>
+				Ce geste est le numéro 7.
+			<tm id="tm27"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm8"/>
+				Ce geste est le numéro 8.
+			<tm id="tm28"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm9"/>
+				Ce geste est le numéro 9.
+			<tm id="tm29"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm10"/>
+				Ce geste est le numéro 10.
+			<tm id="tm30"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm11"/>
+				Ce geste est le numéro 11.
+			<tm id="tm31"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm12"/>
+				Ce geste est le numéro 12.
+			<tm id="tm32"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm13"/>
+				Ce geste est le numéro 13.
+			<tm id="tm33"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm14"/>
+				Ce geste est le numéro 14.
+			<tm id="tm34"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm15"/>
+				Ce geste est le numéro 15.
+			<tm id="tm35"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm16"/>
+				Ce geste est le numéro 16.
+			<tm id="tm36"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm17"/>
+				Ce geste est le numéro 17.
+			<tm id="tm37"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm18"/>
+				Ce geste est le numéro 18.
+			<tm id="tm38"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm19"/>
+				Ce geste est le numéro 19.
+			<tm id="tm39"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm20"/>
+				Ce geste est le numéro 20.
+			<tm id="tm40"/>
+				J'attends, un peu, beaucoup !
+		</speech>
+	</bml>
+	<fml>
+		<catalog id="d1" type="deictic1" start="s1:tm1" end="s1:tm21" importance="1.0"/>
+		<catalog id="rest1" type="rest14" start="s1:tm21" end="s1:tm2" importance="1.0"/>
+		<catalog id="d2" type="deictic2" start="s1:tm2" end="s1:tm22" importance="1.0"/>
+		<catalog id="rest2" type="rest14" start="s1:tm22" end="s1:tm3" importance="1.0"/>
+		<catalog id="d3" type="deictic3" start="s1:tm3" end="s1:tm23" importance="1.0"/>
+		<catalog id="rest3" type="rest14" start="s1:tm23" end="s1:tm4" importance="1.0"/>
+		<catalog id="d4" type="deictic4" start="s1:tm4" end="s1:tm24" importance="1.0"/>
+		<catalog id="rest4" type="rest14" start="s1:tm24" end="s1:tm5" importance="1.0"/>
+		<catalog id="d5" type="deictic5" start="s1:tm5" end="s1:tm25" importance="1.0"/>
+		<catalog id="rest5" type="rest14" start="s1:tm25" end="s1:tm6" importance="1.0"/>
+		<catalog id="d6" type="deictic6" start="s1:tm6" end="s1:tm26" importance="1.0"/>
+		<catalog id="rest6" type="rest14" start="s1:tm26" end="s1:tm7" importance="1.0"/>
+		<catalog id="d7" type="deictic7" start="s1:tm7" end="s1:tm27" importance="1.0"/>
+		<catalog id="rest7" type="rest14" start="s1:tm27" end="s1:tm8" importance="1.0"/>
+		<catalog id="d8" type="deictic8" start="s1:tm8" end="s1:tm28" importance="1.0"/>
+		<catalog id="rest8" type="rest14" start="s1:tm28" end="s1:tm9" importance="1.0"/>
+		<catalog id="d9" type="deictic9" start="s1:tm9" end="s1:tm29" importance="1.0"/>
+		<catalog id="rest9" type="rest14" start="s1:tm29" end="s1:tm10" importance="1.0"/>
+		<catalog id="d10" type="deictic10" start="s1:tm10" end="s1:tm30" importance="1.0"/>
+		<catalog id="rest10" type="rest14" start="s1:tm30" end="s1:tm11" importance="1.0"/>
+		<catalog id="d11" type="deictic11" start="s1:tm11" end="s1:tm31" importance="1.0"/>
+		<catalog id="rest11" type="rest14" start="s1:tm31" end="s1:tm12" importance="1.0"/>
+		<catalog id="d12" type="deictic12" start="s1:tm12" end="s1:tm32" importance="1.0"/>
+		<catalog id="rest12" type="rest14" start="s1:tm32" end="s1:tm13" importance="1.0"/>
+		<catalog id="d13" type="deictic13" start="s1:tm13" end="s1:tm33" importance="1.0"/>
+		<catalog id="rest13" type="rest14" start="s1:tm33" end="s1:tm14" importance="1.0"/>
+		<catalog id="d14" type="deictic14" start="s1:tm14" end="s1:tm34" importance="1.0"/>
+		<catalog id="rest14" type="rest14" start="s1:tm34" end="s1:tm15" importance="1.0"/>
+		<catalog id="d15" type="deictic15" start="s1:tm15" end="s1:tm35" importance="1.0"/>
+		<catalog id="rest15" type="rest14" start="s1:tm35" end="s1:tm16" importance="1.0"/>
+		<catalog id="d16" type="deictic16" start="s1:tm16" end="s1:tm36" importance="1.0"/>
+		<catalog id="rest16" type="rest14" start="s1:tm36" end="s1:tm17" importance="1.0"/>
+		<catalog id="d17" type="deictic17" start="s1:tm17" end="s1:tm37" importance="1.0"/>
+		<catalog id="rest17" type="rest14" start="s1:tm37" end="s1:tm18" importance="1.0"/>
+		<catalog id="d18" type="deictic18" start="s1:tm18" end="s1:tm38" importance="1.0"/>
+		<catalog id="rest18" type="rest14" start="s1:tm38" end="s1:tm19" importance="1.0"/>
+		<catalog id="d19" type="deictic19" start="s1:tm19" end="s1:tm39" importance="1.0"/>
+		<catalog id="rest19" type="rest14" start="s1:tm39" end="s1:tm20" importance="1.0"/>
+		<catalog id="d20" type="deictic20" start="s1:tm20" end="s1:tm40" importance="1.0"/>
+		<catalog id="rest20" type="rest14" start="s1:tm40" end="s1:tm21" importance="1.0"/>
+	</fml>
+</fml-apml>

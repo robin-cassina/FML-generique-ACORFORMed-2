@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>
+				Ce geste est le numéro 1.
+			<tm id="tm6"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm2"/>
+				Ce geste est le numéro 2.
+			<tm id="tm7"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm3"/>
+				Ce geste est le numéro 3.
+			<tm id="tm8"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm4"/>
+				Ce geste est le numéro 4.
+			<tm id="tm9"/>
+				J'attends, un peu, beaucoup !
+			<tm id="tm5"/>
+				Ce geste est le numéro 5.
+			<tm id="tm10"/>
+				J'attends, un peu, beaucoup !
+		</speech>
+	</bml>
+	<fml>
+		<catalog id="z1" type="zziconic1" start="s1:tm1" end="s1:tm6" importance="1.0"/>
+		<catalog id="rest1" type="rest14" start="s1:tm6" end="s1:tm2" importance="1.0"/>
+		<catalog id="z2" type="zziconic2" start="s1:tm2" end="s1:tm7" importance="1.0"/>
+		<catalog id="rest2" type="rest14" start="s1:tm7" end="s1:tm3" importance="1.0"/>
+		<catalog id="z3" type="zziconic3" start="s1:tm3" end="s1:tm8" importance="1.0"/>
+		<catalog id="rest3" type="rest14" start="s1:tm8" end="s1:tm4" importance="1.0"/>
+		<catalog id="z4" type="zziconic4" start="s1:tm4" end="s1:tm9" importance="1.0"/>
+		<catalog id="rest4" type="rest14" start="s1:tm9" end="s1:tm5" importance="1.0"/>
+		<catalog id="z5" type="zziconic5" start="s1:tm5" end="s1:tm10" importance="1.0"/>
+		<catalog id="rest5" type="rest14" start="s1:tm10" end="s1:tm6" importance="1.0"/>
+	</fml>
+</fml-apml>

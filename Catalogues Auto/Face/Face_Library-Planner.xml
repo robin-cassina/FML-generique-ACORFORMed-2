@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behaviorsets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="../../Common/Data/xml/behaviorsets.xsd">
+
+<!----------------------   CATALOGS   ----------------------->
+
+<!------ FACE EXPRESSION ------>
+<!-- FACEEXP -->
+	<behaviorset name="catalog-faceexp1">
+		<signals>
+			<signal id="1" name="faceexp=agree" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp2">
+		<signals>
+			<signal id="1" name="faceexp=anger" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp3">
+		<signals>
+			<signal id="1" name="faceexp=anger_signal_1" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp4">
+		<signals>
+			<signal id="1" name="faceexp=anger_signal_2" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp5">
+		<signals>
+			<signal id="1" name="faceexp=anger_signal_7" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp6">
+		<signals>
+			<signal id="1" name="faceexp=anxiety" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp7">
+		<signals>
+			<signal id="1" name="faceexp=anxiety_signal_1" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp8">
+		<signals>
+			<signal id="1" name="faceexp=anxiety_signal_2" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp9">
+		<signals>
+			<signal id="1" name="faceexp=anxiety_signal_3" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp10">
+		<signals>
+			<signal id="1" name="faceexp=anxiety_signal_4" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp11">
+		<signals>
+			<signal id="1" name="faceexp=anxiety_signal_6" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp12">
+		<signals>
+			<signal id="1" name="faceexp=boredom" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp13">
+		<signals>
+			<signal id="1" name="faceexp=certain" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp14">
+		<signals>
+			<signal id="1" name="faceexp=Contempt" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp15">
+		<signals>
+			<signal id="1" name="faceexp=despair" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp16">
+		<signals>
+			<signal id="1" name="faceexp=disagree" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp17">
+		<signals>
+			<signal id="1" name="faceexp=disappointment" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp18">
+		<signals>
+			<signal id="1" name="faceexp=disbelief" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp19">
+		<signals>
+			<signal id="1" name="faceexp=disgust" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp20">
+		<signals>
+			<signal id="1" name="faceexp=Disliking" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp21">
+		<signals>
+			<signal id="1" name="faceexp=doubt" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp22">
+		<signals>
+			<signal id="1" name="faceexp=embarrassment" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp23">
+		<signals>
+			<signal id="1" name="faceexp=embarrassment_signal_6" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp24">
+		<signals>
+			<signal id="1" name="faceexp=embarrassment_signal_7" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp25">
+		<signals>
+			<signal id="1" name="faceexp=embarrassment_signal_8" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp26">
+		<signals>
+			<signal id="1" name="faceexp=envy" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp27">
+		<signals>
+			<signal id="1" name="faceexp=Eyebrows_Frown" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp28">
+		<signals>
+			<signal id="1" name="faceexp=Eyebrows_Raise" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp29">
+		<signals>
+			<signal id="1" name="faceexp=Eyes_Big_Open" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp30">
+		<signals>
+			<signal id="1" name="faceexp=Eyes_Closed" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp31">
+		<signals>
+			<signal id="1" name="faceexp=Eyes_RollUp" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp32">
+		<signals>
+			<signal id="1" name="faceexp=fear" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp33">
+		<signals>
+			<signal id="1" name="faceexp=gloating" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp34">
+		<signals>
+			<signal id="1" name="faceexp=greet" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp35">
+		<signals>
+			<signal id="1" name="faceexp=hate" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp36">
+		<signals>
+			<signal id="1" name="faceexp=Hstar" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp37">
+		<signals>
+			<signal id="1" name="faceexp=incite" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp38">
+		<signals>
+			<signal id="1" name="faceexp=joy" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp39">
+		<signals>
+			<signal id="1" name="faceexp=joy_signal_1" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp40">
+		<signals>
+			<signal id="1" name="faceexp=joy_signal_14" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp41">
+		<signals>
+			<signal id="1" name="faceexp=joy_signal_15" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp42">
+		<signals>
+			<signal id="1" name="faceexp=joy_signal_3" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp43">
+		<signals>
+			<signal id="1" name="faceexp=joy_signal_4" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp44">
+		<signals>
+			<signal id="1" name="faceexp=joy_signal_6" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp45">
+		<signals>
+			<signal id="1" name="faceexp=joy_signal_9" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp46">
+		<signals>
+			<signal id="1" name="faceexp=joyStrong" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp47">
+		<signals>
+			<signal id="1" name="faceexp=Liking" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp48">
+		<signals>
+			<signal id="1" name="faceexp=lower_brows" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp49">
+		<signals>
+			<signal id="1" name="faceexp=lower_left_brow" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp50">
+		<signals>
+			<signal id="1" name="faceexp=lower_left_mouth_corner" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp51">
+		<signals>
+			<signal id="1" name="faceexp=lower_mouth_corners" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp52">
+		<signals>
+			<signal id="1" name="faceexp=lower_right_brow" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp53">
+		<signals>
+			<signal id="1" name="faceexp=lower_right_mouth_corner" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp54">
+		<signals>
+			<signal id="1" name="faceexp=oblique_brows" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp55">
+		<signals>
+			<signal id="1" name="faceexp=open_lips" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp56">
+		<signals>
+			<signal id="1" name="faceexp=open_mouth" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp57">
+		<signals>
+			<signal id="1" name="faceexp=panic" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp58">
+		<signals>
+			<signal id="1" name="faceexp=panic_fear_signal_1" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp59">
+		<signals>
+			<signal id="1" name="faceexp=panic_fear_signal_10" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp60">
+		<signals>
+			<signal id="1" name="faceexp=panic_fear_signal_11" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp61">
+		<signals>
+			<signal id="1" name="faceexp=panic_fear_signal_5" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp62">
+		<signals>
+			<signal id="1" name="faceexp=panic_fear_signal_9" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp63">
+		<signals>
+			<signal id="1" name="faceexp=politeness" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp64">
+		<signals>
+			<signal id="1" name="faceexp=pout" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp65">
+		<signals>
+			<signal id="1" name="faceexp=Pout_Eyes_HalfClosed" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp66">
+		<signals>
+			<signal id="1" name="faceexp=Pout_Eyes_Open" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp67">
+		<signals>
+			<signal id="1" name="faceexp=praise" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp68">
+		<signals>
+			<signal id="1" name="faceexp=Pride" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp69">
+		<signals>
+			<signal id="1" name="faceexp=pride_signal_10" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp70">
+		<signals>
+			<signal id="1" name="faceexp=Pride_Small" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp71">
+		<signals>
+			<signal id="1" name="faceexp=propose" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp72">
+		<signals>
+			<signal id="1" name="faceexp=raise_brows" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp73">
+		<signals>
+			<signal id="1" name="faceexp=raise_left_brow" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp74">
+		<signals>
+			<signal id="1" name="faceexp=raise_left_mouth_corner" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp75">
+		<signals>
+			<signal id="1" name="faceexp=raise_mouth_corner" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp76">
+		<signals>
+			<signal id="1" name="faceexp=raise_right_brow" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp77">
+		<signals>
+			<signal id="1" name="faceexp=raise_right_mouth_corner" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp78">
+		<signals>
+			<signal id="1" name="faceexp=relief" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp79">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_1" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp80">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_12" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp81">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_18" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp82">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_19" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp83">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_2" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp84">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_21" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp85">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_22" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp86">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_25" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp87">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_3" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp88">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_4" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp89">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_5" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp90">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_6" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp91">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_7" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp92">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_8" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp93">
+		<signals>
+			<signal id="1" name="faceexp=relief_signal_9" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp94">
+		<signals>
+			<signal id="1" name="faceexp=sadness" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp95">
+		<signals>
+			<signal id="1" name="faceexp=small_anger" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp96">
+		<signals>
+			<signal id="1" name="faceexp=small_joy" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp97">
+		<signals>
+			<signal id="1" name="faceexp=small_open_joy" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp98">
+		<signals>
+			<signal id="1" name="faceexp=small_sadness" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp99">
+		<signals>
+			<signal id="1" name="faceexp=Smile_Big_Open" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp100">
+		<signals>
+			<signal id="1" name="faceexp=Smile_Small_Closed" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp101">
+		<signals>
+			<signal id="1" name="faceexp=Smile_Small_Open" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp102">
+		<signals>
+			<signal id="1" name="faceexp=suggest" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp103">
+		<signals>
+			<signal id="1" name="faceexp=suggest1" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp104">
+		<signals>
+			<signal id="1" name="faceexp=suggest2" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp105">
+		<signals>
+			<signal id="1" name="faceexp=surprise" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp106">
+		<signals>
+			<signal id="1" name="faceexp=tension" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp107">
+		<signals>
+			<signal id="1" name="faceexp=tension_signal_1" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp108">
+		<signals>
+			<signal id="1" name="faceexp=tension_signal_2" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp109">
+		<signals>
+			<signal id="1" name="faceexp=tension_signal_3" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp110">
+		<signals>
+			<signal id="1" name="faceexp=tension_signal_4" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp111">
+		<signals>
+			<signal id="1" name="faceexp=tension_signal_5" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp112">
+		<signals>
+			<signal id="1" name="faceexp=tension_signal_6" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp113">
+		<signals>
+			<signal id="1" name="faceexp=tension_signal_7" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp114">
+		<signals>
+			<signal id="1" name="faceexp=uncertain" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp115">
+		<signals>
+			<signal id="1" name="faceexp=understand" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp116">
+		<signals>
+			<signal id="1" name="faceexp=widen_eyes" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp117">
+		<signals>
+			<signal id="1" name="faceexp=worry" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-faceexp118">
+		<signals>
+			<signal id="1" name="faceexp=negative_pout" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- GAZE -->
+	<behaviorset name="catalog-gaze1">
+		<signals>
+			<signal id="1" name="gaze=eyes_closed" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-gaze2">
+		<signals>
+			<signal id="1" name="gaze=look_down" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-gaze3">
+		<signals>
+			<signal id="1" name="gaze=look_down_left" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-gaze4">
+		<signals>
+			<signal id="1" name="gaze=look_down_right" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-gaze5">
+		<signals>
+			<signal id="1" name="gaze=look_left" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-gaze6">
+		<signals>
+			<signal id="1" name="gaze=look_right" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-gaze7">
+		<signals>
+			<signal id="1" name="gaze=look_up" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-gaze8">
+		<signals>
+			<signal id="1" name="gaze=look_up_left" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-gaze9">
+		<signals>
+			<signal id="1" name="gaze=look_up_right" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- PERFORMATIVE -->
+	<behaviorset name="catalog-performative1">
+		<signals>
+			<signal id="1" name="performative=warn" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!---------------------- END CATALOGS ----------------------->
+
+</behaviorsets>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm1"/>Le comportement que je mime est le numéro 1.<tm id="tm11"/>
+			<tm id="tm2"/>Le comportement que je mime est le numéro 2.<tm id="tm12"/>
+			<tm id="tm3"/>Le comportement que je mime est le numéro 3.<tm id="tm13"/>
+			<tm id="tm4"/>Le comportement que je mime est le numéro 4.<tm id="tm14"/>
+			<tm id="tm5"/>Le comportement que je mime est le numéro 5.<tm id="tm15"/>
+			<tm id="tm6"/>Le comportement que je mime est le numéro 6.<tm id="tm16"/>
+			<tm id="tm7"/>Le comportement que je mime est le numéro 7.<tm id="tm17"/>
+			<tm id="tm8"/>Le comportement que je mime est le numéro 8.<tm id="tm18"/>
+			<tm id="tm9"/>Le comportement que je mime est le numéro 9.<tm id="tm19"/>
+			<tm id="tm10"/>Le comportement que je mime est le numéro 10.<tm id="tm20"/>
+		</speech>
+	</bml>
+	<fml>
+		<deictic id="dei1" type="down" start="s1:tm1" end="s1:tm11" importance="1.0"/>
+		<deictic id="dei2" type="slide" start="s1:tm2" end="s1:tm12" importance="1.0"/>
+		<deictic id="dei3" type="move" start="s1:tm3" end="s1:tm13" importance="1.0"/>
+		<deictic id="dei4" type="index" start="s1:tm4" end="s1:tm14" importance="1.0"/>
+		<deictic id="dei5" type="onmyleft" start="s1:tm5" end="s1:tm15" importance="1.0"/>
+		<deictic id="dei6" type="suggestt" start="s1:tm6" end="s1:tm16" importance="1.0"/>
+		<deictic id="dei7" type="us1" start="s1:tm7" end="s1:tm17" importance="1.0"/>
+		<deictic id="dei8" type="us2" start="s1:tm8" end="s1:tm18" importance="1.0"/>
+		<deictic id="dei9" type="you" start="s1:tm9" end="s1:tm19" importance="1.0"/>
+		<deictic id="dei10" type="selftouch" start="s1:tm10" end="s1:tm20" importance="1.0"/>
+	</fml>
+</fml-apml>

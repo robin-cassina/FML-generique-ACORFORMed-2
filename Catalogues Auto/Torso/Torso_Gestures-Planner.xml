@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behaviorsets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="../../Common/Data/xml/behaviorsets.xsd">
+
+<!----------------------   CATALOGS   ----------------------->
+
+<!------ TORSO ------>
+<!-- BODYRECLINE -->
+	<behaviorset name="catalog-BodyRecline1">
+		<signals>
+			<signal id="1" name="BodyRecline" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- BODYLEAN -->
+	<behaviorset name="catalog-BodyLean1">
+		<signals>
+			<signal id="1" name="BodyLean" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- FRONTALSWING -->
+	<behaviorset name="catalog-FrontalSwing1">
+		<signals>
+			<signal id="1" name="LinearNeutralFrontalSwing" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- FORWARDBACKWARDSWING -->
+	<behaviorset name="catalog-ForwardBackwardSwing1">
+		<signals>
+			<signal id="1" name="LinearForwardBackwardSwing" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- CURVEDFRONTALSWING -->
+	<behaviorset name="catalog-CurvedFrontalSwing1">
+		<signals>
+			<signal id="1" name="CurvedNeutralFrontalSwing" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- LATERALSWING -->
+	<behaviorset name="catalog-LateralSwing1">
+		<signals>
+			<signal id="1" name="LinearRLLateralSwing" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- CURVEDLATERALSWING -->
+	<behaviorset name="catalog-CurvedLateralSwing1">
+		<signals>
+			<signal id="1" name="CurvedRLLateralSwing" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- VERTICALSWING -->
+	<behaviorset name="catalog-VerticalSwing1">
+		<signals>
+			<signal id="1" name="LinearRLVerticalSwing" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- JINGTRY -->
+	<behaviorset name="catalog-jingtry1">
+		<signals>
+			<signal id="1" name="jingtry" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- TRUNKROCKINGFORWARDSANDBACKWARDS -->
+	<behaviorset name="catalog-TrunkRockingForwardsAndBackwards1">
+		<signals>
+			<signal id="1" name="TrunkRockingForwardsAndBackwards" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- TRUNKSTRAIGHTENINGBACKWARDS -->
+	<behaviorset name="catalog-TrunkStraighteningBackwards1">
+		<signals>
+			<signal id="1" name="TrunkStraighteningBackwards" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- TRUNKTHROWINGBACKWARDSANDFORWARDS -->
+	<behaviorset name="catalog-TrunkThrowingBackwardsAndForwards1">
+		<signals>
+			<signal id="1" name="TrunkThrowingBackwardsAndForwards" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-TrunkThrowingBackwardsAndForwards2">
+		<signals>
+			<signal id="1" name="TrunkThrowingBackwards" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- TRUNKTILTINGFORWARDS -->
+	<behaviorset name="catalog-TrunkTiltingForwards1">
+		<signals>
+			<signal id="1" name="TrunkTiltingForwards" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- WEIGHTSHIFTLEFTTORIGHT -->
+	<behaviorset name="catalog-WeightShiftLeftToRight1">
+		<signals>
+			<signal id="1" name="WeightShiftLeftToRight" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- LEANLEFTANDBACK -->
+	<behaviorset name="catalog-LeanLeftAndBack1">
+		<signals>
+			<signal id="1" name="LeanLeftAndBack" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-LeanLeftAndBack2">
+		<signals>
+			<signal id="1" name="TurnLeftAndBack" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- MIXTUREOFSOMEPOSSIBLEMOVEMENTS -->
+	<behaviorset name="catalog-MixtureOfSomePossibleMovements1">
+		<signals>
+			<signal id="1" name="MixtureOfSomePossibleMovements" modality="torso"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!---------------------- END CATALOGS ----------------------->
+
+</behaviorsets>

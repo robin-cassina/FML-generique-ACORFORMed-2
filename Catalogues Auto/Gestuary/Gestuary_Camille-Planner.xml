@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<behaviorsets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="../../Common/Data/xml/behaviorsets.xsd">
+
+<!----------------------   CATALOGS   ----------------------->
+
+<!------ GESTUARY ------>
+<!-- ADJECTIVAL -->
+	<behaviorset name="catalog-adjectival1">
+		<signals>
+			<signal id="1" name="adjectival=Continue_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-adjectival2">
+		<signals>
+			<signal id="1" name="adjectival=High_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-adjectival3">
+		<signals>
+			<signal id="1" name="adjectival=Large_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-adjectival4">
+		<signals>
+			<signal id="1" name="adjectival=Question_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-adjectival5">
+		<signals>
+			<signal id="1" name="adjectival=Small_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-adjectival6">
+		<signals>
+			<signal id="1" name="adjectival=Three_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-adjectival7">
+		<signals>
+			<signal id="1" name="adjectival=Two_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-adjectival8">
+		<signals>
+			<signal id="1" name="adjectival=Warning_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-adjectival9">
+		<signals>
+			<signal id="1" name="adjectival=Wipe_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- BEAT -->
+	<behaviorset name="catalog-beat1">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat2">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_B_Social" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat3">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_B_SocialHold" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat4">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat5">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_L_Hand" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat6">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_L_Hand_Front" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat7">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_R_Hand" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat8">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_R_Hand_Front" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat9">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_R_Open" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat10">
+		<signals>
+			<signal id="1" name="beat=Beat_Ges_R_Pointing" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat11">
+		<signals>
+			<signal id="1" name="beat=Beat_Pos_B_Social" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat12">
+		<signals>
+			<signal id="1" name="beat=Beat_Pos_L_Low" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-beat13">
+		<signals>
+			<signal id="1" name="beat=Beat_Pos_R_Low" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- CERTAINTY -->
+	<behaviorset name="catalog-certainty1">
+		<signals>
+			<signal id="1" name="certainty=Certain_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-certainty2">
+		<signals>
+			<signal id="1" name="certainty=Uncertain_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- DEICTIC -->
+	<behaviorset name="catalog-deictic1">
+		<signals>
+			<signal id="1" name="deictic=Down_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic2">
+		<signals>
+			<signal id="1" name="deictic=Here_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic3">
+		<signals>
+			<signal id="1" name="deictic=Here_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic4">
+		<signals>
+			<signal id="1" name="deictic=Index_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic5">
+		<signals>
+			<signal id="1" name="deictic=Index_Ges_R_old" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic6">
+		<signals>
+			<signal id="1" name="deictic=indicateAt" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic7">
+		<signals>
+			<signal id="1" name="deictic=indicateAt_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic8">
+		<signals>
+			<signal id="1" name="deictic=Me_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic9">
+		<signals>
+			<signal id="1" name="deictic=MeThumb_Pos_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic10">
+		<signals>
+			<signal id="1" name="deictic=Move_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic11">
+		<signals>
+			<signal id="1" name="deictic=OnMyLeft_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic12">
+		<signals>
+			<signal id="1" name="deictic=Self_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic13">
+		<signals>
+			<signal id="1" name="deictic=Self_Pos_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic14">
+		<signals>
+			<signal id="1" name="deictic=Self_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic15">
+		<signals>
+			<signal id="1" name="deictic=Slide_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic16">
+		<signals>
+			<signal id="1" name="deictic=You_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic17">
+		<signals>
+			<signal id="1" name="deictic=You_Ges_R_Center" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic18">
+		<signals>
+			<signal id="1" name="deictic=You_Ges_R_Drop" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic19">
+		<signals>
+			<signal id="1" name="deictic=You_Ges_R_High" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-deictic20">
+		<signals>
+			<signal id="1" name="deictic=You_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- EMOTION -->
+	<behaviorset name="catalog-emotion1">
+		<signals>
+			<signal id="1" name="emotion=Anger_Signal_10" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-emotion2">
+		<signals>
+			<signal id="1" name="emotion=Anger_Signal_4" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-emotion3">
+		<signals>
+			<signal id="1" name="emotion=Anger_Signal_6" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-emotion4">
+		<signals>
+			<signal id="1" name="emotion=Joy_Signal_12" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-emotion5">
+		<signals>
+			<signal id="1" name="emotion=Joy_Signal_13" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-emotion6">
+		<signals>
+			<signal id="1" name="emotion=Pride_Signal_5" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-emotion7">
+		<signals>
+			<signal id="1" name="emotion=Pride_Signal_7" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-emotion8">
+		<signals>
+			<signal id="1" name="emotion=Relief_Signal_13" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-emotion9">
+		<signals>
+			<signal id="1" name="emotion=Tension_Signal_10" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- ICONIC -->
+	<behaviorset name="catalog-iconic1">
+		<signals>
+			<signal id="1" name="iconic=After_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic2">
+		<signals>
+			<signal id="1" name="iconic=Baby_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic3">
+		<signals>
+			<signal id="1" name="iconic=Before_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic4">
+		<signals>
+			<signal id="1" name="iconic=Call_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic5">
+		<signals>
+			<signal id="1" name="iconic=Capture_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic6">
+		<signals>
+			<signal id="1" name="iconic=Chop_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic7">
+		<signals>
+			<signal id="1" name="iconic=Count_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic8">
+		<signals>
+			<signal id="1" name="iconic=Disperse_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic9">
+		<signals>
+			<signal id="1" name="iconic=DontKnow_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic10">
+		<signals>
+			<signal id="1" name="iconic=During_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic11">
+		<signals>
+			<signal id="1" name="iconic=End_Pos_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic12">
+		<signals>
+			<signal id="1" name="iconic=Face_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic13">
+		<signals>
+			<signal id="1" name="iconic=Gorilla_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic14">
+		<signals>
+			<signal id="1" name="iconic=Greet_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic15">
+		<signals>
+			<signal id="1" name="iconic=HandRoll_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic16">
+		<signals>
+			<signal id="1" name="iconic=HandWave_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic17">
+		<signals>
+			<signal id="1" name="iconic=Hearing_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic18">
+		<signals>
+			<signal id="1" name="iconic=Maybe_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic19">
+		<signals>
+			<signal id="1" name="iconic=Maybe_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic20">
+		<signals>
+			<signal id="1" name="iconic=Maybe_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic21">
+		<signals>
+			<signal id="1" name="iconic=Maybe_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic22">
+		<signals>
+			<signal id="1" name="iconic=Maybe_Pos_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic23">
+		<signals>
+			<signal id="1" name="iconic=Maybe_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic24">
+		<signals>
+			<signal id="1" name="iconic=Painting_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic25">
+		<signals>
+			<signal id="1" name="iconic=Separating_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic26">
+		<signals>
+			<signal id="1" name="iconic=Square_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic27">
+		<signals>
+			<signal id="1" name="iconic=SShape_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic28">
+		<signals>
+			<signal id="1" name="iconic=Stop_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic29">
+		<signals>
+			<signal id="1" name="iconic=Transmit_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic30">
+		<signals>
+			<signal id="1" name="iconic=Unknown_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-iconic31">
+		<signals>
+			<signal id="1" name="iconic=WristRole_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- PERFORMATIVE -->
+	<behaviorset name="catalog-performative1">
+		<signals>
+			<signal id="1" name="performative=Accept_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative2">
+		<signals>
+			<signal id="1" name="performative=Accept_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative3">
+		<signals>
+			<signal id="1" name="performative=Accept_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative4">
+		<signals>
+			<signal id="1" name="performative=Agree_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative5">
+		<signals>
+			<signal id="1" name="performative=Agree_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative6">
+		<signals>
+			<signal id="1" name="performative=Agree_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative7">
+		<signals>
+			<signal id="1" name="performative=Alright_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative8">
+		<signals>
+			<signal id="1" name="performative=Ask_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative9">
+		<signals>
+			<signal id="1" name="performative=Ask_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative10">
+		<signals>
+			<signal id="1" name="performative=Ask_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative11">
+		<signals>
+			<signal id="1" name="performative=Ask_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative12">
+		<signals>
+			<signal id="1" name="performative=Ask_Pos_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative13">
+		<signals>
+			<signal id="1" name="performative=Ask_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative14">
+		<signals>
+			<signal id="1" name="performative=Check_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative15">
+		<signals>
+			<signal id="1" name="performative=Deny_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative16">
+		<signals>
+			<signal id="1" name="performative=Deny_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative17">
+		<signals>
+			<signal id="1" name="performative=Deny_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative18">
+		<signals>
+			<signal id="1" name="performative=Disagree_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative19">
+		<signals>
+			<signal id="1" name="performative=Disagree_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative20">
+		<signals>
+			<signal id="1" name="performative=Disagree_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative21">
+		<signals>
+			<signal id="1" name="performative=Give_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative22">
+		<signals>
+			<signal id="1" name="performative=Go_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative23">
+		<signals>
+			<signal id="1" name="performative=good" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative24">
+		<signals>
+			<signal id="1" name="performative=Great_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative25">
+		<signals>
+			<signal id="1" name="performative=Greet_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative26">
+		<signals>
+			<signal id="1" name="performative=Greet_Ges_R_Low" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative27">
+		<signals>
+			<signal id="1" name="performative=Greet_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative28">
+		<signals>
+			<signal id="1" name="performative=GreetNew_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative29">
+		<signals>
+			<signal id="1" name="performative=Homework" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative30">
+		<signals>
+			<signal id="1" name="performative=IdeaPoint_Pos_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative31">
+		<signals>
+			<signal id="1" name="performative=Inform_Ges_B_Drop" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative32">
+		<signals>
+			<signal id="1" name="performative=Inform_Ges_B_Spread" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative33">
+		<signals>
+			<signal id="1" name="performative=Inform_Ges_B_Up" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative34">
+		<signals>
+			<signal id="1" name="performative=NoMore_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative35">
+		<signals>
+			<signal id="1" name="performative=Refuse_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative36">
+		<signals>
+			<signal id="1" name="performative=Refuse_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative37">
+		<signals>
+			<signal id="1" name="performative=Refuse_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative38">
+		<signals>
+			<signal id="1" name="performative=Suggest_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative39">
+		<signals>
+			<signal id="1" name="performative=Suggest_Ges_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative40">
+		<signals>
+			<signal id="1" name="performative=Suggest_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative41">
+		<signals>
+			<signal id="1" name="performative=SwitchOff_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative42">
+		<signals>
+			<signal id="1" name="performative=TimeWrist_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-performative43">
+		<signals>
+			<signal id="1" name="performative=Warn_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- REST -->
+	<behaviorset name="catalog-rest1">
+		<signals>
+			<signal id="1" name="rest=Akimbo" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest2">
+		<signals>
+			<signal id="1" name="rest=Along" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest3">
+		<signals>
+			<signal id="1" name="rest=along_big" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest4">
+		<signals>
+			<signal id="1" name="rest=ArmsCrossed" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest5">
+		<signals>
+			<signal id="1" name="rest=Belly_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest6">
+		<signals>
+			<signal id="1" name="rest=HandsMiddleDown_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest7">
+		<signals>
+			<signal id="1" name="rest=HandsMiddleUp_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest8">
+		<signals>
+			<signal id="1" name="rest=HandsTogether_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest9">
+		<signals>
+			<signal id="1" name="rest=HandsTogetherL_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest10">
+		<signals>
+			<signal id="1" name="rest=HandsTogetherR_Pos_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest11">
+		<signals>
+			<signal id="1" name="rest=hold_Ges_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest12">
+		<signals>
+			<signal id="1" name="rest=LapToUnderTable" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest13">
+		<signals>
+			<signal id="1" name="rest=OverTable" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-rest14">
+		<signals>
+			<signal id="1" name="rest=UnderTable" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- ZZDEICTIC -->
+	<behaviorset name="catalog-zzdeictic1">
+		<signals>
+			<signal id="1" name="zzdeictic=Baby" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-zzdeictic2">
+		<signals>
+			<signal id="1" name="zzdeictic=Deictic_Left_Stacy_Hold" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-zzdeictic3">
+		<signals>
+			<signal id="1" name="zzdeictic=Deictic_Right_Stacy" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!-- ZZICONIC -->
+	<behaviorset name="catalog-zziconic1">
+		<signals>
+			<signal id="1" name="zziconic=Nothing" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-zziconic2">
+		<signals>
+			<signal id="1" name="zziconic=Relax" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-zziconic3">
+		<signals>
+			<signal id="1" name="zziconic=Request" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-zziconic4">
+		<signals>
+			<signal id="1" name="zziconic=Where" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<behaviorset name="catalog-zziconic5">
+		<signals>
+			<signal id="1" name="zziconic=Wing" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+<!---------------------- END CATALOGS ----------------------->
+
+</behaviorsets>
