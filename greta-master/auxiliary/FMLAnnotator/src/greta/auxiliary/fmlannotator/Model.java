@@ -676,11 +676,11 @@ public class Model implements IntentionEmitter {
         temp.setAttributeNode(attr2);
 
         Attr attrStart = doc.createAttribute("start");
-        attrStart.setValue("s1:tm" + (Compteurs.get("tm").getValue() - 1));
+        attrStart.setValue("s1:tm" + (Compteurs.get("tm").getValue()));
         temp.setAttributeNode(attrStart);
 
         Attr attrEnd = doc.createAttribute("end");
-        attrEnd.setValue("s1:tm" + Compteurs.get("tm").getValue());
+        attrEnd.setValue("s1:tm" + (Compteurs.get("tm").getValue() + 1 ));
         temp.setAttributeNode(attrEnd);
 
         speechElement.appendChild(temp);
