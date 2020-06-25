@@ -172,12 +172,11 @@ public class View extends JFrame implements IntentionEmitter {
         openFileChooser .setCurrentDirectory(new File("./"));
 
         saveFileChooser = new JFileChooser();
-        saveFileChooser .setDialogTitle("Choose where you want to save the file");
-        saveFileChooser .setCurrentDirectory(new File("./"));
+        saveFileChooser .setDialogTitle("Choose the name and location of the file");
+        saveFileChooser .setCurrentDirectory(new File("./Examples/"));
         saveFileChooser .addActionListener(e -> save());
-        saveFileChooser .setAcceptAllFileFilterUsed(false);
-
-        FileNameExtensionFilter xmlfilter = new FileNameExtensionFilter("xml files (*.xml)", "xml");
+        FileNameExtensionFilter xmlfilter = new FileNameExtensionFilter("XML files (*.xml)", "xml");
+        saveFileChooser .setAcceptAllFileFilterUsed(true);
         saveFileChooser .addChoosableFileFilter(xmlfilter);
 
         sendButton = new JButton(SEND_BUTTON);
@@ -250,7 +249,8 @@ public class View extends JFrame implements IntentionEmitter {
                         .addGroup(layout.createSequentialGroup()
                                 .addComponent(LanguageLab)
                                 .addComponent(languageComboBox, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGroup(layout.createSequentialGroup()
+                        //TODO TM,PAUSE,BOUNDARIES,DA
+                        /*.addGroup(layout.createSequentialGroup()
                                 .addComponent(TMLab)
                                 .addComponent(showTMButton))
                         .addGroup(layout.createSequentialGroup()
@@ -261,7 +261,7 @@ public class View extends JFrame implements IntentionEmitter {
                                 .addComponent(showBoundaries))
                         .addGroup(layout.createSequentialGroup()
                                 .addComponent(DALab)
-                                .addComponent(showDA))
+                                .addComponent(showDA))*/
                 )
                 .addComponent(scPan2)
                 .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
@@ -280,6 +280,8 @@ public class View extends JFrame implements IntentionEmitter {
                                 .addGroup(layout.createParallelGroup()
                                         .addComponent(LanguageLab)
                                         .addComponent(languageComboBox))
+                                //TODO TM,PAUSE,BOUNDARIES,DA
+/*
                                 .addGroup(layout.createParallelGroup()
                                         .addComponent(TMLab)
                                         .addComponent(showTMButton))
@@ -292,6 +294,7 @@ public class View extends JFrame implements IntentionEmitter {
                                 .addGroup(layout.createParallelGroup()
                                         .addComponent(DALab)
                                         .addComponent(showDA))
+*/
                         )
                         .addGroup(layout.createSequentialGroup()
                                 .addComponent(sendButton)
