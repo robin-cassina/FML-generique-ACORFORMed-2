@@ -58,6 +58,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import static java.nio.file.Files.copy;
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 
 /**
@@ -348,7 +349,7 @@ public class Model implements IntentionEmitter {
     public static void copyOutputFile(Path OutputPath) {
         Path source = Paths.get(OUTPUT_DIR , "./output.xml");
         try{
-            copy(source, OutputPath);
+            copy(source, OutputPath,REPLACE_EXISTING);
         }catch(IOException e){
             e.printStackTrace();
         }
