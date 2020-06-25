@@ -200,7 +200,7 @@ public class Model implements IntentionEmitter {
 
     public Model(Language aModelLanguage) {
         this.modelLanguage = aModelLanguage;
-        initDocument();
+        initDocument(this.modelLanguage);
     }
 
     public void initLex() {
@@ -406,7 +406,7 @@ public class Model implements IntentionEmitter {
         }
     }
 
-    public void initDocument() {
+    public void initDocument(Language aModelLanguage) {
         DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder;
         try {
@@ -429,7 +429,13 @@ public class Model implements IntentionEmitter {
             speechElement.setAttributeNode(attr);
 
             Attr lang = doc.createAttribute("language");
-            lang.setValue("english");
+            if (aModelLanguage.toString() == "fr_FR"){
+                lang.setValue("french");
+            }
+            else if (aModelLanguage.toString() == "en_UK"){
+                    lang.setValue("english");
+            }
+
             speechElement.setAttributeNode(lang);
 
             Attr voice = doc.createAttribute("voice");
