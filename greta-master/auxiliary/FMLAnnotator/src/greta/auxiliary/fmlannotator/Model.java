@@ -573,7 +573,6 @@ public class Model implements IntentionEmitter {
                     for (String s : tab) {
                         //System.out.println(s);
                         if (!s.equals("-")) {
-                            compteur++;
                             if (compteur == 1) {
                                 insereBaliseFML("social", "s", Compteurs.get("social"), s);
                             } else if (compteur == 2) {
@@ -595,6 +594,7 @@ public class Model implements IntentionEmitter {
                                 insereBaliseFML("other", "o", Compteurs.get("other"), s);
                             }
                         }
+                        compteur++;
                     }
                 }
             }
