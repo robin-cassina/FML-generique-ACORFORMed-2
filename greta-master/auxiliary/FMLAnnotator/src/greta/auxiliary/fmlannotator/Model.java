@@ -675,6 +675,7 @@ public class Model implements IntentionEmitter {
         temp.setAttributeNode(attrEnd);
 
         speechElement.appendChild(temp);
+        speechElement.appendChild(doc.createTextNode("\n\t\t"));
         //StreamResult result = new StreamResult(System.out);
         Compteurs.get("boundaries").increase();
     }
@@ -721,6 +722,8 @@ public class Model implements IntentionEmitter {
         temp.setAttributeNode(attr2);
         // On lui affecte des attributs
         descriptionElement.appendChild(temp);
+        speechElement.appendChild(doc.createTextNode("\n\t\t"));
+
         StreamResult result = new StreamResult(System.out);
         Compteurs.get("tm").increase();
     }
