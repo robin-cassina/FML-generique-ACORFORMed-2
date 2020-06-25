@@ -266,7 +266,7 @@ public class Model implements IntentionEmitter {
         CounterFactory C1 = new CounterFactory(test);
 
         String[] compteurs = {"tm", "pause", "boundaries", "speech", "social", "turntaking", "backchannel", "performative", "functionalRelation", "emotion", "emphasis", "certainty", "other", "compteCar", "world"};
-        Compteurs = C1.createCompteur(compteurs, 0);
+        Compteurs = C1.createCompteur(compteurs, 1);
 
         initLex();
         idLex = 5;
