@@ -274,6 +274,8 @@ public class Model implements IntentionEmitter {
         // Text file processing
         int r;
         int temp = 0;
+        // First TM before text
+        insereTM(temp, speechElement);
         StringReader sr = new StringReader(entryFile);
         while ((r = sr.read()) != -1) {
             Compteurs.get("compteCar").increase();
