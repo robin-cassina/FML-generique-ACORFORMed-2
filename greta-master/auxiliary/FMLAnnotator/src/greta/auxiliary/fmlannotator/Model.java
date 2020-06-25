@@ -578,7 +578,8 @@ public class Model implements IntentionEmitter {
                             if (compteur == 1) {
                                 insereBaliseFML("social", "s", Compteurs.get("social"), s);
                             } else if (compteur == 2) {
-                                insereBaliseFML("turntaking", "tt", Compteurs.get("turntaking"), s);
+//                                FAIT CRASH VOXYGEN
+//                                insereBaliseFML("turntaking", "tt", Compteurs.get("turntaking"), s);
                             } else if (compteur == 3) {
                                 insereBaliseFML("backchannel", "bk", Compteurs.get("backchannel"), s);
                             } else if (compteur == 4) {
