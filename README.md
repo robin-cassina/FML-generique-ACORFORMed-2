@@ -22,9 +22,11 @@ Explications trouvées sur le [Wiki](https://github.com/isir/greta/wiki) de Gret
 ## Build via script
 ### ANT Installation and Setup (in Windows)
 Vous pouvez téléchargez ANT depuis https://ant.apache.org/. J'ai personnellement utilisé la version 1.10.6 ([Lien direct](https://archive.apache.org/dist/ant/binaries/apache-ant-1.10.6-bin.zip)). 
+
 Télécharger la distribution binaire, décompresser la, et mettez la à l'emplacement de votre choix. Après cela, créer ces variables d'environnement, toutes trois dans la section 'Variables utilisateur' (si vous ne savez pas le faire, voici une vidéo d'exemple : https://www.youtube.com/watch?v=83SccoBYSfA ).
 
 Voici comment changer les variables d’environnement :
+
 Ouvrir le panneau de configuration (touche Windows +R puis tapez “control” et cliquer sur Ok)
 
 Une fois dans le panneau de configuration, allez dans “Système et sécurité”, puis “Système”, puis sur la gauche “Paramètres systèmes avancés”, tout en bas de la fenêtre qui vient de s’ouvrir cliquez sur le bouton “Variables d’environnement”.
@@ -64,9 +66,13 @@ Lancer <Greta_DIR>\Modular.jar
 Puis fichier -> Ouvrir -> choisir <Greta_DIR>\Configurations\GretaUnity\Projects\ACORFORMed\ACORFORMed – Voxygen.xml
 
 Vous pouvez aussi choisir une autre configuration ( « Basic configuration » par exemple) et remplacer le TTS (CereProc ou MaryTTS) par Voxygen, pour cela il faut d’abord ajouter un accès au module Voxygen.
+
 Dans le Modular, choississez l’onglet Edition → Menu Naviguez jusqu’à « TTS » puis Nouvel Item, Nom : Voxygen et choisir le module Voxygen.
-Enregistrer
+
+Enregistrer.
+
 Puis dans le menu, Fichier -> Quitter pour fermer Greta.
+
 Relancer le.
 
 Maintenant pour choisir Voxygen plutôt que celui présent dans votre configuration actuelle :
@@ -76,8 +82,11 @@ Maintenant pour choisir Voxygen plutôt que celui présent dans votre configurat
 
 
 Pour ajouter le module de Text to FML (FML Annotator)
+
 Dans le Modular, cliquer sur le Character Manager, puis Ajouter -> Inputs -> FML Annotator
+
 Relier celui-ci au Behavior Planner
+
 Pour l'utiliser, cliquer dessus puis il va s'ouvrir dans le bas de votre fenêtre Modular
 
 
@@ -91,6 +100,7 @@ Pour que ces modifications soient effectives sur une nouvelle intallation de Gre
 
 ## Dictionnaires/DialogActs
 Les dictionnaires utilisés par le FMLAnnotator se trouvent dans <Greta_DIR>\Common\Data\FMLAnnotator\Configs\
+
 Les informations concernant les balises \<social>, \<turntaking>, \<backchannel>, \<performative>, \<functional-relation>, \<emotion>, \<emphasis>, \<certainty> et \<other> se trouvent dans la [documentation](https://github.com/robin-cassina/FML-generique-ACORFORMed-2/blob/master/Docs%20FML/fml-aamas.pdf) du langage FML-APML.
 
 ## Documentations FML-APML et SSML
