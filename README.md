@@ -1,8 +1,5 @@
 # FML-generique-ACORFORMed-2
 
-## Sommaire 
-### [Installation de Greta](#installation-de-greta)
-
 ## Installation de Greta
 Vous pouvez récupérer ma version qui sera directement fonctionnelle (une fois la [licence voxygen](#licence-voxygen) ajoutée). Mes modifications sur le FMLAnnotaor y seront directement intégrées.
 
