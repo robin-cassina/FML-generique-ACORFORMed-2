@@ -1,7 +1,13 @@
 # FML-generique-ACORFORMed-2
 
 ## Mon installation de Greta
-Vous pouvez récupérer **ma version** en téléchargeant ou clonant greta-master depuis ce git. Elle sera directement fonctionnelle (une fois la [licence voxygen](#licence-voxygen) ajoutée) et mes modifications sur le FMLAnnotator y seront directement intégrées.
+Vous pouvez récupérer **ma version** en téléchargeant ou clonant greta-master depuis ce git. Elle est déjà compilée et sera directement fonctionnelle (une fois la [licence voxygen](#licence-voxygen) ajoutée) et mes modifications sur le FMLAnnotator y seront directement intégrées.
+
+## Licence Voxygen
+Le projet utilise le TTS Voxygen.
+Il faut exécuter lic_id.exe sur votre machine (voxygen_tts_sdk_c_windows-master\bin\<plateforme>). Cela va vous générer le fichier baratinoo.uid qu'il faut ensuite envoyer à support@voxygen.fr pour qu'ils puissent vous renvoyer la licence destinée à votre PC.  Référence du projet Acorformed : (ref 16D348)
+ 
+Une fois le fichier de licence reçu, il faut le placer dans le même répertoire que le fichier baratinoo.cfg (<Greta_DIR>\Common\Data\Voxygen)
 
 ## Nouvelle installation de Greta
 Vous pouvez également repartir de la version actuelle de Greta (fonctionne au 26 juin 2020), pour cela il vous faudra :
@@ -19,9 +25,9 @@ Ces éléments sont ceux nécessaires au bon fonctionnement de Voxygen :
 Compiler à l'aide de NetBeans ou avec Apache ANT 
 
 J'ai personnellement utilisé ANT.
-Explications trouvées sur le [Wiki](https://github.com/isir/greta/wiki) de Greta puis traduites de l'anglais:
-## Build via script
-### ANT Installation and Setup (in Windows)
+Exp#lications trouvées sur le [Wiki](https://github.com/isir/greta/wiki) de Greta puis traduites de l'anglais:
+### Build via script
+#### ANT Installation and Setup (in Windows)
 Vous pouvez téléchargez ANT depuis https://ant.apache.org/. J'ai personnellement utilisé la version 1.10.6 ([Lien direct](https://archive.apache.org/dist/ant/binaries/apache-ant-1.10.6-bin.zip)). 
 
 Télécharger la distribution binaire, décompresser la, et mettez la à l'emplacement de votre choix. Après cela, créer ces variables d'environnement, toutes trois dans la section 'Variables utilisateur' (si vous ne savez pas le faire, voici une vidéo d'exemple : https://www.youtube.com/watch?v=83SccoBYSfA ).
@@ -40,28 +46,20 @@ Dans la nouvelle fenêtre créer les nouvelles variables utilisateur suivantes :
 3.	JAVA_HOME: <emplacemet-de-votre-JDK-par-défaut> (vous pourriez l'avoir déjà ajoutée)
 
 Vous êtes prêt à utiliser ANT! (n'oubliez pas de fermer les invites de commande windows en cours d'execution au passage)
-#### Exécuter les scripts ANT Build
+##### Exécuter les scripts ANT Build
 Pour build depuis un état propre, ouvrez l'invite de commande, rendez-vous à l'emplacement de votre dossier <GRETA_DIR>/ et exécutez la commande : 
 ```
 ant build
 ```
 
 Note : Vous pouvez modifier quels fichiers vont être compilés en modifiant le fichier build.xml qui se trouve à la racine de greta-master.
-#### Exécuter les scripts ANT Clean 
+##### Exécuter les scripts ANT Clean 
 Pour clean depuis un état compilé, ouvrez l'invite de commande, rendez-vous à l'emplacement de votre dossier <GRETA_DIR>/ et exécutez la commande :  
 ```
 ant clean
 ```
 
-
- 
-## Licence Voxygen
-Le projet utilise le TTS Voxygen.
-Il faut exécuter lic_id.exe sur votre machine (voxygen_tts_sdk_c_windows-master\bin\<plateforme>). Cela va vous générer le fichier baratinoo.uid qu'il faut ensuite envoyer à support@voxygen.fr pour qu'ils puissent vous renvoyer la licence destinée à votre PC.  Référence du projet Acorformed : (ref 16D348)
- 
-Une fois le fichier de licence reçu, il faut le placer dans le même répertoire que le fichier baratinoo.cfg (<Greta_DIR>\Common\Data\Voxygen)
-
-## Premier lancement
+### Premier lancement
 Le dossier bin contient l’application exécutable et entièrement fonctionnel, je le nommerai <Greta_DIR> dorénavant.
 Lancer <Greta_DIR>\Modular.jar
 Puis fichier -> Ouvrir -> choisir <Greta_DIR>\Configurations\GretaUnity\Projects\ACORFORMed\ACORFORMed – Voxygen.xml
@@ -91,7 +89,7 @@ Relier celui-ci au Behavior Planner
 Pour l'utiliser, cliquer dessus puis il va s'ouvrir dans le bas de votre fenêtre Modular
 
 
-## FML Annotator
+### FML Annotator
 
 J'ai effectué quelques modifications du FML annotator. 
 
