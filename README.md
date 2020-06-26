@@ -201,5 +201,5 @@ non : Ne fontionne pas.
 bug : Fais crash Voxygen.
 
 ## Catalogues Auto
-Des informations sur les catalogues automatiques sont présentes dans le rapport de stage (html) de Victoria ROSA qui se trouve sur le Git dans le dossier FML-generique-ACORFORMed-2/Catalogues Auto/rapport-stage_PEPS-2018_Victoria_ROSA.html
+Des informations sur les catalogues automatiques sont présentes dans le rapport de stage (html) de Victoria ROSA qui en est l'auteur et qui se trouve sur le Git dans le dossier [FML-generique-ACORFORMed-2/Catalogues Auto/rapport-stage_PEPS-2018_Victoria_ROSA.html](https://github.com/robin-cassina/FML-generique-ACORFORMed-2/blob/master/Catalogues%20Auto/rapport-stage_PEPS-2018_Victoria_ROSA.html)
 
