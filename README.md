@@ -1,6 +1,6 @@
 # FML-generique-ACORFORMed-2
 
-##Installation de Greta
+## Installation de Greta
 Télécharger ou cloner greta depuis Github : https://github.com/isir/greta
 
 Copier dans <greta-master>\ le contenu de « Fichiers annexes pour Greta», remplacer les fichiers.
@@ -15,8 +15,8 @@ Compiler à l'aide de NetBeans ou avec Apache ANT
 
 J'ai personnellement utilisé ANT.
 Explications trouvées sur le [Wiki](https://github.com/isir/greta/wiki) de Greta :
-##Build via script
-###ANT Installation and Setup (in Windows)
+## Build via script
+### ANT Installation and Setup (in Windows)
 You can download ANT from https://ant.apache.org/. Download the binary distribution, unzip it, and move it to a directory of your choice. After that, set these environment variables (if don't know how to do it, you can try to see this example video: https://www.youtube.com/watch?v=83SccoBYSfA ) all in the user variables section:
 Voici comment changer les variables d’environnement :
 Ouvrir le panneau de configuration (touche Windows +R puis tapez “control” et cliquer sur Ok)
@@ -27,23 +27,23 @@ Dans la nouvelle fenêtre créer les nouvelles variables utilisateur suivantes :
 (Cliquer sur Path, puis “Modifier..”, et dans la nouvelle fenêtre “Nouveau”
 3.	JAVA_HOME: <your-default-JDK-directory> (you might already have this set)
 You are ready to use ANT! (don't forget to close the existing command line windows, though)
-####Running the ANT Build Scripts
+#### Running the ANT Build Scripts
 To build from a clean state, open the command prompt, go to the <GRETA_DIR>/ directory on your pc and run this command: ant build
 
 Note : Vous pouvez modifier quels fichiers vont être compilés en modifiant 
-####Running the ANT Clean Scripts
+#### Running the ANT Clean Scripts
 To clean from a compiled state, open the command prompt, go to the <GRETA_DIR>/ directory on your pc and run this command: ant clean
 
 
  
-##Licence Voxygen
+## Licence Voxygen
 Le projet utilise le TTS Voxygen.
 Il faut exécuter lic_id.exe sur votre machine (voxygen_tts_sdk_c_windows-master\bin\<plateforme>). Cela va vous générer le fichier baratinoo.uid qu'il faut ensuite envoyer à support@voxygen.fr pour qu'ils puissent vous renvoyer la licence destinée à votre PC. 
 
  
 Une fois le fichier de licence reçu, il faut le placer dans le même répertoire que le fichier baratinoo.cfg (<Greta_DIR>\Common\Data\Voxygen)
 
-##Premier lancement
+## Premier lancement
 Le dossier bin contient l’application exécutable et entièrement fonctionnel, je le nommerai <Greta_DIR> dorénavant.
 Lancer <Greta_DIR>\Modular.jar
 Puis fichier -> Ouvrir -> choisir <Greta_DIR>\Configurations\GretaUnity\Projects\ACORFORMed\ACORFORMed – Voxygen.xml
@@ -65,7 +65,7 @@ Dans le Modular, cliquer sur le Character Manager, puis Ajouter -> Inputs -> FML
 Relier celui-ci au Behavior Planner
 
 
-##FML Annotator
+## FML Annotator
 
 J'ai effectué quelques modifications du FML annotator. 
 
@@ -73,7 +73,7 @@ Pour que ces modifications soient effectives sur une nouvelle intallation de Gre
 
 
 
-##Emotions qui fonctionnent avec Greta/Voxygen
+## Emotions qui fonctionnent avec Greta/Voxygen
 <table>
     <tr>
         <td>1</td>
@@ -192,5 +192,5 @@ non : Ne fontionne pas.
 
 bug : Fais crash Voxygen.
 
-##Catalogues Auto
+## Catalogues Auto
 Des informations sur les catalogues automatiques sont présentes dans le rapport de stage de  
