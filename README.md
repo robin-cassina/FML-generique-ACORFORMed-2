@@ -1,7 +1,7 @@
 # FML-generique-ACORFORMed-2
 
 ## Installation de Greta
-Vous pouvez récupérer ma version qui sera directement fonctionnelle (une fois la [licence voxygen](#licence-voxygen) ajoutée). Mes modifications sur le FMLAnnotaor y seront directement intégrées.
+Vous pouvez récupérer ma version qui sera directement fonctionnelle (une fois la [licence voxygen](#licence-voxygen) ajoutée). Mes modifications sur le FMLAnnotator y seront directement intégrées.
 
 Vous pouvez également repartir de la version actuelle de Greta (fonctionne au 26 juin 2020), pour cela il vous faudra :
 
