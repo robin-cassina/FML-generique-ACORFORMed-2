@@ -1,7 +1,7 @@
 # FML-generique-ACORFORMed-2
 
 ## Mon installation de Greta
-Vous pouvez récupérer **ma version** en téléchargeant ou clonant greta-master depuis ce git. Elle est déjà compilée et sera directement fonctionnelle (une fois la [licence voxygen](#licence-voxygen) ajoutée) et mes modifications sur le FMLAnnotator y seront directement intégrées.
+Vous pouvez récupérer **ma version** en téléchargeant ou clonant greta-master depuis ce git. Elle est déjà compilée et sera directement fonctionnelle (une fois la [licence voxygen](#licence-voxygen) ajoutée) et mes modifications sur le FMLAnnotator y seront directement intégrées. Version du 26 juin 2020.
 
 ## Licence Voxygen
 Le projet utilise le TTS Voxygen.
@@ -10,7 +10,7 @@ Il faut exécuter lic_id.exe sur votre machine (voxygen_tts_sdk_c_windows-master
 Une fois le fichier de licence reçu, il faut le placer dans le même répertoire que le fichier baratinoo.cfg (<Greta_DIR>\Common\Data\Voxygen)
 
 ## Nouvelle installation de Greta
-Vous pouvez également repartir de la version actuelle de Greta (fonctionne au 26 juin 2020), pour cela il vous faudra :
+Vous pouvez également repartir de la version actuelle de Greta , pour cela il vous faudra :
 
 Télécharger ou cloner greta depuis Github : https://github.com/isir/greta
 
