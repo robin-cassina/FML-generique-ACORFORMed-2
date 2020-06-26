@@ -75,7 +75,7 @@ Pour que ces modifications soient effectives sur une nouvelle intallation de Gre
 
 ## Dictionnaires/DialogActs
 Les dictionnaires utilisés par le FMLAnnotator se trouvent dans <Greta_DIR>\Common\Data\FMLAnnotator\Configs\
-Les informations concernant les balises <social>, <turntaking>, <backchannel>, <performative>, <functional-relation>, <emotion>, <emphasis>, <certainty> et <other> se trouvent dans la [documentation](https://github.com/robin-cassina/FML-generique-ACORFORMed-2/blob/master/Docs%20FML/fml-aamas.pdf) du langage FML-APML.
+Les informations concernant les balises '<social>', '<turntaking>', '<backchannel>', \<performative>, <functional-relation>, <emotion>, <emphasis>, <certainty> et <other> se trouvent dans la [documentation](https://github.com/robin-cassina/FML-generique-ACORFORMed-2/blob/master/Docs%20FML/fml-aamas.pdf) du langage FML-APML.
 
 Les informations concernant la porsodie se trouve dans la [documentation](https://www.w3.org/TR/speech-synthesis11/#S3.2) du langage SSML sur le site W3C (ou dans le dépot git à l'emplacement suivant : [FML-generique-ACORFORMed-2/Docs FML/Speech Synthesis Markup Language (SSML) Version 1.1 W3C.html](https://github.com/robin-cassina/FML-generique-ACORFORMed-2/blob/master/Docs%20FML/Speech%20Synthesis%20Markup%20Language%20(SSML)%20Version%201.1%20W3C.html))
   
