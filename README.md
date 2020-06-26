@@ -1,6 +1,10 @@
 # FML-generique-ACORFORMed-2
 
 ## Installation de Greta
+Vous pouvez récupérer ma version qui sera directement fonctionnelle (une fois la [licence voxygen](https://github.com/robin-cassina/FML-generique-ACORFORMed-2#licence-voxygen) ajoutée). Mes modifications sur le FMLAnnotaor y seront directement intégrées.
+
+Vous pouvez également repartir de la version actuelle de Greta (fonctionne au 26 juin 2020), pour cela il vous faudra :
+
 Télécharger ou cloner greta depuis Github : https://github.com/isir/greta
 
 Copier dans <greta-master>\ le contenu de « Fichiers annexes pour Greta», remplacer les fichiers.
@@ -14,25 +18,37 @@ Ces éléments sont ceux nécessaires au bon fonctionnement de Voxygen :
 Compiler à l'aide de NetBeans ou avec Apache ANT 
 
 J'ai personnellement utilisé ANT.
-Explications trouvées sur le [Wiki](https://github.com/isir/greta/wiki) de Greta :
+Explications trouvées sur le [Wiki](https://github.com/isir/greta/wiki) de Greta puis traduites de l'anglais:
 ## Build via script
 ### ANT Installation and Setup (in Windows)
-You can download ANT from https://ant.apache.org/. Download the binary distribution, unzip it, and move it to a directory of your choice. After that, set these environment variables (if don't know how to do it, you can try to see this example video: https://www.youtube.com/watch?v=83SccoBYSfA ) all in the user variables section:
+Vous pouvez téléchargez ANT depuis https://ant.apache.org/. J'ai personnellement utilisé la version 1.10.6 ([Lien direct](https://archive.apache.org/dist/ant/binaries/apache-ant-1.10.6-bin.zip)). 
+Télécharger la distribution binaire, décompresser la, et mettez la à l'emplacement de votre choix. Après cela, créer ces variables d'environnement, toutes trois dans la section 'Variables utilisateur' (si vous ne savez pas le faire, voici une vidéo d'exemple : https://www.youtube.com/watch?v=83SccoBYSfA ).
+
 Voici comment changer les variables d’environnement :
 Ouvrir le panneau de configuration (touche Windows +R puis tapez “control” et cliquer sur Ok)
-Une fois dans le panneau de configuration, allez dans “Système et sécurité”, puis “Système”, puis sur la gauche “Paramètres systèmes avancés”, tout en bas de la fenêtre qui vient de s’ouvrir cliquez sur le bouton “Variables d’environnement”.
-Dans la nouvelle fenêtre créer les nouvelles variables utilisateur suivantes :
-1.	ANT_HOME: <the-unzipped-ANT-directory>
-2.	Path: add the <the-unzipped-ANT-directory\bin> 
-(Cliquer sur Path, puis “Modifier..”, et dans la nouvelle fenêtre “Nouveau”
-3.	JAVA_HOME: <your-default-JDK-directory> (you might already have this set)
-You are ready to use ANT! (don't forget to close the existing command line windows, though)
-#### Running the ANT Build Scripts
-To build from a clean state, open the command prompt, go to the <GRETA_DIR>/ directory on your pc and run this command: ant build
 
-Note : Vous pouvez modifier quels fichiers vont être compilés en modifiant 
-#### Running the ANT Clean Scripts
-To clean from a compiled state, open the command prompt, go to the <GRETA_DIR>/ directory on your pc and run this command: ant clean
+Une fois dans le panneau de configuration, allez dans “Système et sécurité”, puis “Système”, puis sur la gauche “Paramètres systèmes avancés”, tout en bas de la fenêtre qui vient de s’ouvrir cliquez sur le bouton “Variables d’environnement”.
+
+Dans la nouvelle fenêtre créer les nouvelles variables utilisateur suivantes :
+1.	ANT_HOME: <emplacement-du-dossier-ANT-dézippé>
+2.	Path: ajouter <emplacement-du-dossier-ANT-dézippé\bin> 
+
+(Cliquer sur Path, puis “Modifier..”, et dans la nouvelle fenêtre “Nouveau”
+3.	JAVA_HOME: <emplacemet-de-votre-JDK-par-défaut> (vous pourriez l'avoir déjà ajoutée)
+
+Vous êtes prêt à utiliser ANT! (n'oubliez pas de fermer les invites de commande windows en cours d'execution au passage)
+#### Exécuter les scripts ANT Build
+Pour build depuis un état propre, ouvrez l'invite de commande, rendez-vous à l'emplacement de votre dossier <GRETA_DIR>/ et exécutez la commande : 
+```
+ant build
+```
+
+Note : Vous pouvez modifier quels fichiers vont être compilés en modifiant le fichier build.xml qui se trouve à la racine de greta-master.
+#### Exécuter les scripts ANT Clean 
+Pour clean depuis un état compilé, ouvrez l'invite de commande, rendez-vous à l'emplacement de votre dossier <GRETA_DIR>/ et exécutez la commande :  
+```
+ant clean
+```
 
 
  
@@ -62,6 +78,7 @@ Maintenant pour choisir Voxygen plutôt que celui présent dans votre configurat
 Pour ajouter le module de Text to FML (FML Annotator)
 Dans le Modular, cliquer sur le Character Manager, puis Ajouter -> Inputs -> FML Annotator
 Relier celui-ci au Behavior Planner
+Pour l'utiliser, cliquer dessus puis il va s'ouvrir dans le bas de votre fenêtre Modular
 
 
 ## FML Annotator
