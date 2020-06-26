@@ -73,6 +73,9 @@ Pour que ces modifications soient effectives sur une nouvelle intallation de Gre
 
 
 
+## Dictionnaires/DialogActs
+Les dictionnaires utilisés par le FMLAnotator se trouvent dans <Greta_DIR>\Common\Data\FMLAnnotator\Configs\
+
 ## Emotions qui fonctionnent avec Greta/Voxygen
 <table>
     <tr>
