@@ -78,6 +78,44 @@ Les dictionnaires utilisés par le FMLAnnotator se trouvent dans <Greta_DIR>\Com
 Les informations concernant les balises <social>, <turntaking>, <backchannel>, <performative>, <functional-relation>, <emotion>, <emphasis>, <certainty> et <other> se trouvent dans la [documentation](https://github.com/robin-cassina/FML-generique-ACORFORMed-2/blob/master/Docs%20FML/fml-aamas.pdf) du langage FML-APML.
 
 Les informations concernant la porsodie se trouve dans la [documentation](https://www.w3.org/TR/speech-synthesis11/#S3.2) du langage SSML sur le site W3C (ou dans le dépot git à l'emplacement suivant : [FML-generique-ACORFORMed-2/Docs FML/Speech Synthesis Markup Language (SSML) Version 1.1 W3C.html](https://github.com/robin-cassina/FML-generique-ACORFORMed-2/blob/master/Docs%20FML/Speech%20Synthesis%20Markup%20Language%20(SSML)%20Version%201.1%20W3C.html))
+  
+
+
+## Emotions qui fonctionnent avec Greta/Voxygen
+<table>
+    <tr>
+        <td>1</td>
+        <td>panic_fear</td>
+        <td>bug</td>
+    </tr>    
+    <tr>
+        <td>2</td>
+        <td>anxiety</td>
+        <td>non</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>sadness</td>
+        <td>oui?</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>envy</td>
+        <td>oui</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>anger</td>
+        <td>oui</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>joyStrong</td>
+        <td>oui</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>joy</td>
         <td>oui</td>
     </tr>
     <tr>
