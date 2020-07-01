@@ -229,3 +229,9 @@ bug : Fais crash Voxygen.
 ## Catalogues Auto
 Des informations sur les catalogues automatiques sont présentes dans le rapport de stage (html) de Victoria ROSA qui en est l'auteur et qui se trouve sur le Git dans le dossier [FML-generique-ACORFORMed-2/Catalogues Auto/rapport-stage_PEPS-2018_Victoria_ROSA.html](https://github.com/robin-cassina/FML-generique-ACORFORMed-2/blob/master/Catalogues%20Auto/rapport-stage_PEPS-2018_Victoria_ROSA.html)
 
+## Module Command Receiver
+Personnelement je n'ai pas eu le temps de l'utiliser mais il existe une possibilité d'utiliser Greta via des commandes.
+Pour ajouter le Command Receiver :
+- Séléctionner le 'Character Manager' dans Modular
+- Cliquer sur le menu Ajouter -> Network Connections -> Thrift -> Receivers -> Command Receiver
+- Relier le module au 'Behavior Planner' ainsi qu'au 'Behavior Realizer'
