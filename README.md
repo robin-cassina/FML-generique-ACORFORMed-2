@@ -5,7 +5,7 @@ Vous pouvez récupérer **ma version** en téléchargeant ou clonant greta-maste
 
 ## Licence Voxygen
 Le projet utilise le TTS Voxygen.
-Il faut exécuter lic_id.exe sur votre machine (voxygen_tts_sdk_c_windows-master\bin\<plateforme>). Cela va vous générer le fichier baratinoo.uid qu'il faut ensuite envoyer à support@voxygen.fr pour qu'ils puissent vous renvoyer la licence destinée à votre PC.  Référence du projet Acorformed : (ref 16D348)
+Il faut exécuter lic_id.exe sur votre machine (voxygen_tts_sdk_c_windows-master\bin\<plateforme>). Cela va vous générer le fichier baratinoo.uid qu'il faut ensuite envoyer à support@voxygen.fr pour qu'ils puissent vous renvoyer la licence destinée à votre PC.
  
 Une fois le fichier de licence reçu, il faut le placer dans le même répertoire que le fichier baratinoo.cfg (<Greta_DIR>\Common\Data\Voxygen)
 
